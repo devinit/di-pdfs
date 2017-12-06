@@ -6,7 +6,7 @@ For creating DI (ITEP) pdfs
 
 This project structure is based on [lerna](https://github.com/lerna/lerna). The API & frontend are different packages with in the same repo.
 
-I chose this structure coz i dont expect this to blow up into a very large code base. Keep things together maybe an advantage. In case the codebase gets too large, It will relatively easy to split the packages into independet repos.
+I chose this structure coz i dont expect this to blow up into a very large code base. Keep things together maybe an advantage. In case the codebase gets too large, It will be relatively easy to split the packages into independet repos.
 
 Goals
 
@@ -23,7 +23,7 @@ _________
 
 Installations & setup
 
-see lerna repo readme
+see [lerna repo readme](https://github.com/lerna/lerna) for more.
 
 ______________
 

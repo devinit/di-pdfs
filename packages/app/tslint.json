@@ -4,6 +4,7 @@
       "no-console": [false],
       "quotemark": [true, "single", "jsx-double"],
       "trailing-comma": [false],
+      "no-var-requires": false,
       "curly": false,
       "object-literal-sort-keys": false,
       "arrow-parens":false,

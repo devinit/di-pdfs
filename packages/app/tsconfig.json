@@ -7,9 +7,16 @@
       "strict": true,
       "lib": ["es2017", "dom"],
       "experimentalDecorators": true,
-      "typeRoots": ["node_modules/@types", "src/@types"],
-      "noImplicitUseStrict": true,
-      "removeComments": true
+      "typeRoots": ["node_modules/@types", "types"],
+      "noImplicitAny": false,
+      "removeComments": true,
+      "paths": {
+        "atoms/*": ["components/atoms/*"],
+        "molecules/*": ["components/molecules/*"],
+        "organisms/*": ["components/organisms/*"],
+        "templates/*": ["components/organisms/*"],
+        "static/*": ["static/*"]
+      }
     },
     "exclude": [
       "node_modules",
