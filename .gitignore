@@ -2,7 +2,7 @@
 .idea
 .vscode
 out
-
+dist
 # Created by .ignore support plugin (hsz.mobi)
 ### Node template
 # Logs
