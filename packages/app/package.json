@@ -6,9 +6,9 @@
   "scripts": {
     "dev": "concurrently \"tsc --pretty --watch\" \"next\"",
     "prebuild": "tsc",
-    "lint": "tslint -c tslint.json 'src/**/*.ts'",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "tslint -c tslint.json 'pages/**/*.tsx' 'src/**/*.tsx' 'src/**/*.ts'"
   },
   "keywords": [
     "pdfs"
@@ -24,7 +24,7 @@
     "@types/next": "^2.4.5",
     "@types/react": "^16.0.22",
     "concurrently": "^3.5.0",
-    "tslint": "^5.8.0",
-    "typescript": "^2.6.1"
+    "typescript": "^2.6.1",
+    "tslint": "^5.8.0"
   }
 }
