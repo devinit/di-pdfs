@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "es6",
+      "jsx": "react",
+      "sourceMap": false,
+      "strict": true,
+      "lib": ["es2017", "dom"],
+      "experimentalDecorators": true,
+      "typeRoots": ["node_modules/@types", "src/@types"],
+      "noImplicitUseStrict": true,
+      "removeComments": true
+    },
+    "exclude": [
+      "node_modules",
+      "out",
+      ".next"
+    ]
+  }
