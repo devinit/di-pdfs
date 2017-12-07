@@ -4,7 +4,7 @@
   "description": "for creating DI print pdfs",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": " cp -R static dist/ && tsc",
     "build-theme": "gulp  --gulpfile semantic/gulpfile.js",
     "build-theme-w": "gulp watch --gulpfile semantic/gulpfile.js",
     "lint": "tslint -c tslint.json 'pages/**/*.tsx' 'src/**/*.tsx' 'src/**/*.ts'",

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "concurrently \"tsc --pretty --watch\" \"next dist\"",
-    "prebuild": "tsc &&  cp -R static dist/ && cp package.json dist/",
+    "prebuild": " cp package.json dist/ && tsc",
     "build": "next build dist",
     "start": "next start dist",
     "lint": "tslint -c tslint.json 'pages/**/*.tsx' 'src/**/*.tsx' 'src/**/*.ts'"

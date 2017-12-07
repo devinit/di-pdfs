@@ -1,7 +1,8 @@
 import * as React from 'react';
 import Document, { Head, Main, NextScript } from 'next/document';
 import { renderStatic } from 'glamor/server';
-// const {version} = require('../../package.json');
+
+const stylesheet = require<any>('@di-pdfs/pdf-base/dist/static/semantic.min.css');
 
 export default class MyDocument extends Document {
   public static async getInitialProps({ renderPage }) {
@@ -23,7 +24,7 @@ export default class MyDocument extends Document {
       <html>
         <Head>
           <title>South South coperation PDFs</title>
-          <link rel="stylesheet" href={`/semantic/semantic.min.css`} />
+          <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
           <style dangerouslySetInnerHTML={{ __html: this.props.css }} />
         </Head>
         <body>

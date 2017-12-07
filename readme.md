@@ -31,6 +31,7 @@ see [lerna repo readme](https://github.com/lerna/lerna) for more.
 ______________
 
 ```
+npm i -g lerna
 lerna bootstrap --hoist # installs all package dependencies
 lerna run lint # lints all packages
 lerna run build && lerna run start # starts api & pdf front end
