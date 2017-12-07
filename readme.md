@@ -6,7 +6,9 @@ For creating DI (ITEP) pdfs
 
 This project structure is based on [lerna](https://github.com/lerna/lerna). The API & frontend are different packages with in the same repo.
 
-I chose this structure coz i dont expect this to blow up into a very large code base. Keep things together maybe an advantage. In case the codebase gets too large, It will be relatively easy to split the packages into independet repos.
+The pdf-base package contains components that will get re-used by current & future pdf package. Same applies to the api-base package
+
+The thought process behind this project structure is to have re-usable atomic packages / components to re-use for all future and current pdf jobs
 
 Goals
 
@@ -15,6 +17,7 @@ ___________________
 - To have ready to go pdf / web templates i.e have re-usable components
 - Auto generate pdfs from web page equivalents using chromeless
 - Create static html versions of pdf / web pages for easy insertion into other webapps
+- Have a modular extensible platform for future re-use
 
 Tools
 

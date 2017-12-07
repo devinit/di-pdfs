@@ -9,7 +9,7 @@
 const path = require('path');
 
 const SRC_PATH = path.join(__dirname, '../src');
-const STATIC_PATH = path.join(__dirname, '../src/static');
+const STATIC_PATH = path.join(__dirname, '../static');
 
 module.exports = {
     module: {

@@ -11,7 +11,7 @@
     "build-theme": "gulp  --gulpfile semantic/gulpfile.js",
     "build-theme-w": "gulp watch --gulpfile semantic/gulpfile.js",
     "lint": "tslint -c tslint.json 'pages/**/*.tsx' 'src/**/*.tsx' 'src/**/*.ts'",
-    "storybook": "start-storybook -p 6006",
+    "storybook": "start-storybook -s src/static -p 6006",
     "build-storybook": "build-storybook"
   },
   "keywords": [
@@ -36,7 +36,11 @@
     "@types/react": "^16.0.22",
     "@types/storybook__react": "^3.0.5",
     "concurrently": "^3.5.0",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.5",
     "semantic-ui": "^2.2.13",
+    "style-loader": "^0.19.0",
+    "ts-loader": "^3.2.0",
     "tslint": "^5.8.0",
     "typescript": "^2.6.1"
   }
