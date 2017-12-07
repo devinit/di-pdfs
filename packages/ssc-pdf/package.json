@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "concurrently \"tsc --pretty --watch\" \"next dist\"",
-    "prebuild": " cp package.json dist/ && tsc",
+    "prebuild": "cp package.json dist/ && cp -R node_modules/@di-pdfs/pdf-base/dist/static/ dist/ && tsc",
     "build": "next build dist",
     "start": "next start dist",
     "lint": "tslint -c tslint.json 'pages/**/*.tsx' 'src/**/*.tsx' 'src/**/*.ts'"
