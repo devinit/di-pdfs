@@ -2,6 +2,4 @@ Interfaces with postgres db and other data sources to provide data for the pdf w
 
 ______________________________________
 
-
-
-Each folder contains a separate API for a particular set of PDFs
+This will contain re-usable modules used in other api packages.
