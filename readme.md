@@ -32,7 +32,7 @@ ______________
 
 ```
 npm i -g lerna
-lerna bootstrap --hoist # installs all package dependencies
+lerna bootstrap # installs all package dependencies
 lerna run lint # lints all packages
 lerna run build && lerna run start # starts api & pdf front end
 lerna run dev # runs packages in dev mode
