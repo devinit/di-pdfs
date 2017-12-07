@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "concurrently \"tsc --pretty --watch\"",
     "addCss": "node dist/addCss.js",
-    "build": "tsc",
-    "lint": "tslint -c tslint.json  'src/**/*.ts'"
+    "build": "tsc"
   },
   "keywords": [
     "pdfs"
