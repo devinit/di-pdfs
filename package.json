@@ -1,5 +1,9 @@
 {
-	"scripts": {},
+	"scripts": {
+		"bootstrap": "lerna bootstrap --hoist",
+		"prepublish": "lerna run addCss",
+		"publish": "lerna publish --skip-npm"
+	},
 	"devDependencies": {
 		"git-pre-hooks": "^1.2.0",
 		"lerna": "^2.5.1"

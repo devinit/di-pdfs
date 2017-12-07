@@ -1,13 +1,14 @@
 {
     "compilerOptions": {
+      "module": "commonjs",
+      "target": "es6",
       "jsx": "react",
       "sourceMap": false,
       "strict": true,
       "lib": ["es2017", "dom"],
       "experimentalDecorators": true,
-      "typeRoots": ["node_modules/@types", "src/types"],
+      "typeRoots": ["node_modules/@types", "types"],
       "noImplicitAny": false,
-      "rootDir": "src",
       "outDir": "dist",
       "removeComments": true
     },

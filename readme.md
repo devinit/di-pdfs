@@ -6,7 +6,7 @@ For creating DI (ITEP) pdfs
 
 This project structure is based on [lerna](https://github.com/lerna/lerna). The APIs & frontends of different pdf projects are different packages with in the same repo.
 
-The pdf-base package contains components that will get re-used by current & future pdf package. Same applies to the api-base package.
+The pdf-base package contains components that will get re-used by current & future pdf packages. Same applies to the api-base package.
 
 The thought process behind this project structure is to have re-usable atomic packages / components to re-use for all future and current pdf jobs
 
@@ -31,9 +31,10 @@ see [lerna repo readme](https://github.com/lerna/lerna) for more.
 ______________
 
 ```
-lerna bootstrap # installs all package dependencies
+lerna bootstrap --hoist # installs all package dependencies
 lerna run lint # lints all packages
 lerna run build && lerna run start # starts api & pdf front end
 lerna run dev # runs packages in dev mode
+lerna run build --scope @di-pdfs/pdf-base # running a command in say one package
 
 ```

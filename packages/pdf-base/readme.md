@@ -1,1 +1,1 @@
-webapp & pdf generation front end.
+Contains re-usable components for pdf front-end work

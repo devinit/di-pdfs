@@ -1,41 +1,24 @@
-// you can use this file to add your custom webpack plugins, loaders and anything you like.
-// This is just the basic way to add additional webpack configurations.
-// For more information refer the docs: https://storybook.js.org/configurations/custom-webpack-config
-
-// IMPORTANT
-// When you add this file, we won't add the default configurations which is similar
-// to "React Create App". This only has babel loader to load JavaScript.
-
 const path = require('path');
-
+const genDefaultConfig = require('@storybook/react/dist/server/config/defaults/webpack.config.js');
 const SRC_PATH = path.join(__dirname, '../src');
 const STATIC_PATH = path.join(__dirname, '../static');
 
-module.exports = {
-    module: {
-        rules: [
-            {
-                test: /\.tsx?$/,
-                loader: 'ts-loader',
-                include: [
-                    SRC_PATH,
-                ]
-            },
-            {
-                test: /\.(jpg|png|svg)$/,
-                loader: 'file-loader',
-                include: STATIC_PATH
-            },
-            {
-                test: /\.css$/,
-                use: [{ loader: 'style-loader' }, { loader: 'css-loader' }],
-                include: STATIC_PATH
-            }
+const newRules = [
+    {
+        test: /\.tsx?$/,
+        loader: 'ts-loader',
+        include: [
+            SRC_PATH,
         ]
-    },
-
-    resolve: {
-        extensions: ['.ts', '.tsx', '.js', '.jsx'],
-        enforceExtension: false
     }
+]
+const newExtensions =  ['.ts', '.tsx', '.js', '.jsx'];
+
+module.exports = (config, env) => {
+    const webpack = genDefaultConfig(config, env);
+    const rules = webpack.module.rules.concat(newRules);
+    const module = Object.assign(webpack.module, {rules})
+    const extensions = webpack.resolve.extensions.concat(newExtensions);
+    const resolve = Object.assign(webpack.resolve, {extensions, enforceExtension: false})
+    return Object.assign(webpack, {resolve}, { module });
 };

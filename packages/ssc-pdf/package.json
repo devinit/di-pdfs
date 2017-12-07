@@ -1,0 +1,37 @@
+{
+  "name": "ssc-pdf",
+  "version": "1.0.0",
+  "description": "for creating DI print pdfs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"tsc --pretty --watch\" \"next dist\"",
+    "prebuild": "tsc &&  cp -R static dist/ && cp package.json dist/",
+    "build": "next build dist",
+    "start": "next start dist",
+    "lint": "tslint -c tslint.json 'pages/**/*.tsx' 'src/**/*.tsx' 'src/**/*.ts'"
+  },
+  "keywords": [
+    "pdfs"
+  ],
+  "author": "epicallan.al@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "glamor": "^2.20.40",
+    "glamorous": "^4.11.0",
+    "next": "latest",
+    "react": "^16.1.0",
+    "react-dom": "^16.1.0",
+    "@di-pdfs/pdf-base": "1.0.0",
+    "semantic-ui-react": "^0.77.0"
+  },
+  "devDependencies": {
+    "@types/next": "^2.4.5",
+    "@types/node": "^8.0.55",
+    "@types/react": "^16.0.22",
+    "@types/storybook__react": "^3.0.5",
+    "concurrently": "^3.5.0",
+    "tslint": "^5.8.0",
+    "tslint-react": "^3.2.0",
+    "typescript": "^2.6.1"
+  }
+}

@@ -1,17 +1,14 @@
 {
-  "name": "di-pdfs",
+  "name": "@di-pdfs/pdf-base",
   "version": "1.0.0",
   "description": "for creating DI print pdfs",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "dev": "concurrently \"tsc --pretty --watch\" \"next\"",
-    "prebuild": "tsc",
-    "build": "next build",
-    "start": "next start",
+    "build": "tsc",
     "build-theme": "gulp  --gulpfile semantic/gulpfile.js",
     "build-theme-w": "gulp watch --gulpfile semantic/gulpfile.js",
     "lint": "tslint -c tslint.json 'pages/**/*.tsx' 'src/**/*.tsx' 'src/**/*.ts'",
-    "storybook": "start-storybook -s src/static -p 6006",
+    "storybook": "start-storybook -s static -p 6006",
     "build-storybook": "build-storybook"
   },
   "keywords": [
@@ -22,7 +19,6 @@
   "dependencies": {
     "glamor": "^2.20.40",
     "glamorous": "^4.11.0",
-    "next": "latest",
     "react": "^16.1.0",
     "react-dom": "^16.1.0",
     "semantic-ui-react": "^0.77.0"
@@ -31,7 +27,6 @@
     "@storybook/addon-actions": "^3.2.17",
     "@storybook/addon-links": "^3.2.17",
     "@storybook/react": "^3.2.17",
-    "@types/next": "^2.4.5",
     "@types/node": "^8.0.55",
     "@types/react": "^16.0.22",
     "@types/storybook__react": "^3.0.5",
