@@ -16,6 +16,9 @@
   ],
   "author": "epicallan.al@gmail.com",
   "license": "ISC",
+  "peerDependencies": {
+    "glamor": "^2.20.40"
+  },
   "dependencies": {
     "glamor": "^2.20.40",
     "glamorous": "^4.11.0",

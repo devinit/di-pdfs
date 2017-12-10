@@ -6,6 +6,7 @@
       "trailing-comma": [false],
       "no-var-requires": false,
       "curly": false,
+      "interface-name":false,
       "jsx-no-multiline-js": false,
       "jsx-boolean-value": false,
       "jsx-wrap-multiline": false,
