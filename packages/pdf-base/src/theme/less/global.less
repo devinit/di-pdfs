@@ -1,7 +1,7 @@
 @import 'variables.less';
 
 @font-face {
-    font-family: @fontname;
+    font-family: @fontName;
     src: url('fonts/geomanist-regular-webfont.eot');
     src: url('fonts/geomanist-regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/geomanist-regular-webfont.woff2') format('woff2'), url('fonts/geomanist-regular-webfont.woff') format('woff'), url('fonts/geomanist-regular-webfont.ttf') format('truetype'), url('fonts/geomanist-regular-webfont.svg#geomanistregular') format('svg');
     font-weight: normal;
@@ -9,7 +9,7 @@
 }
   
 @font-face {
-    font-family: 'geomanist';
+    font-family: @fontName;
     src: url('fonts/geomanist-light-webfont.eot');
     src: url('fonts/geomanist-light-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/geomanist-light-webfont.woff2') format('woff2'), url('fonts/geomanist-light-webfont.woff') format('woff'), url('fonts/geomanist-light-webfont.ttf') format('truetype'), url('fonts/geomanist-light-webfont.svg#geomanistregular') format('svg');
     font-weight: 300;
@@ -17,7 +17,7 @@
 }
   
 @font-face {
-    font-family: 'geomanist';
+    font-family: @fontName;
     src: url('fonts/geomanist-bold-webfont.eot');
     src: url('fonts/geomanist-bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/geomanist-bold-webfont.woff2') format('woff2'), url('fonts/geomanist-bold-webfont.woff') format('woff'), url('fonts/geomanist-bold-webfont.ttf') format('truetype'), url('fonts/geomanist-bold-webfont.svg#geomanistregular') format('svg');
     font-weight: bold;
@@ -25,7 +25,7 @@
 }
   
 html, body {
-    font-family: @fontname;
+    font-family: @fontName;
     color: @black;
     font-size: @base-font-size;
     margin: 0;
@@ -33,10 +33,10 @@ html, body {
 }
 
 body {
-	padding-bottom: @page-padding-bottom;
-	padding-left: @page-padding-left;
-	padding-right: @page-padding-right;
-    padding-top: @page-padding-top;
+	// padding-bottom: @page-padding-bottom;
+	// padding-left: @page-padding-left;
+	// padding-right: @page-padding-right;
+    // padding-top: @page-padding-top;
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
 }
@@ -45,31 +45,19 @@ h1,
 h2,
 h3,
 h4,
-p,
 article {
 	page-break-before: always;
+}
+
+h1, 
+h2 {
+    color: @red
 }
 
 // Not supported by all browsers
 @page {
     size: 'A4';
-	margin-bottom: 2.5cm;
-	margin-top: 2.5cm;
-}
-
-@page :left {
-	margin-left: 4cm;
-	margin-right: 3cm;
-}
-
-@page :right {
-	margin-left: 3cm;
-	margin-right: 4cm;
-}
-
-@page {
-    @footnotes {
-        border-top: 0.6pt solid black;
-        padding-top: 8pt;
-    }
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
 }

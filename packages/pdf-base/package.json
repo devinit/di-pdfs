@@ -4,10 +4,8 @@
   "description": "for creating DI print pdfs",
   "main": "dist/index.js",
   "scripts": {
-    "build": " cp -R static dist/ && tsc",
-    "css": "lessc  --clean-css='--s1 --advanced --compatibility=ie8' theme/index.less static/styles.min.css",
-    "build-theme": "gulp  --gulpfile semantic/gulpfile.js",
-    "build-theme-w": "gulp watch --gulpfile semantic/gulpfile.js",
+    "build": "npm run build-css && cp -R static dist/ && tsc",
+    "build-css": "lessc  --clean-css='--s1 --advanced --compatibility=ie8' src/theme/less/index.less static/styles.min.css",
     "lint": "tslint -c tslint.json 'pages/**/*.tsx' 'src/**/*.tsx' 'src/**/*.ts'",
     "storybook": "start-storybook -s static -p 6006",
     "build-storybook": "build-storybook"

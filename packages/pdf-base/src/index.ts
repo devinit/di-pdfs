@@ -1,5 +1,5 @@
-import Button from './components/atoms/Buttons';
+import Document from './components/atoms/Document';
 
 export {
-    Button
+    Document
 };
