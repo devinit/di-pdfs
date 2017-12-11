@@ -4,7 +4,7 @@
   "description": "for creating DI print pdfs",
   "main": "index.js",
   "scripts": {
-    "dev": "concurrently \"tsc --pretty --watch\" \"next dist\"",
+    "dev": "npm run prebuild && concurrently \"tsc --pretty --watch\" \"next dist\"",
     "prebuild": "mkdir -p dist/static && cp -R node_modules/@di-pdfs/pdf-base/dist/static/ dist/static && tsc",
     "build": "next build dist",
     "start": "next start dist",
