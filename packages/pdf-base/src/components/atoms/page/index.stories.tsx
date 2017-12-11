@@ -7,13 +7,13 @@ import Page from '.';
 
 storiesOf('Page', module).add('Basic Page', () =>
   (<Document>
-      <Page>
+      <Page footNote="multilaterals">
         <Header title="World Bank Group"/>
-        <FootNote text="Multilateral Profiles" />
+        <p> hello page 1</p>
       </Page>
-      <Page>
+      <Page footNote="multilaterals">
         <Header title="World Bank Group"/>
-        <FootNote text="Multilateral Profiles" />
+        <p> hello page 2</p>
       </Page>
     </Document>
   ));

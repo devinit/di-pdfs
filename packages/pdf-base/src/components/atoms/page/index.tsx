@@ -1,8 +1,10 @@
 import * as React from 'react';
 import glamorous, {Div} from 'glamorous';
+import FootNote from '../FootNote';
 
 interface Props {
     children: React.ReactChild[];
+    footNote: string;
 }
 
 const PageContainer = glamorous.section({
@@ -24,5 +26,6 @@ export default (props: Props) =>
     (<PageContainer>
         <Div padding="10mm">
             {props.children}
+            <FootNote text={props.footNote} />
         </Div>
     </PageContainer>);
