@@ -7,20 +7,22 @@ interface Props {
 
 const PageContainer = glamorous.section({
     'display': 'flex',
-    'padding': '10mm',
     'flexDirection': 'column',
-    'height': '297mm',
+    'height': '295mm',
     'boxShadow': '0 0 3px 3px #ccc',
     'overflow': 'hidden',
     'position': 'relative',
-    'pageBreakAfter': 'always',
     'marginBottom': '10px',
-    ':last': {
-        pageBreakAfter: 'avoid'
+    'pageBreakInside': 'avoid',
+    '@media only print': {
+        marginBottom: '0px',
+        boxShadow: 'none',
     }
 });
 
 export default (props: Props) =>
     (<PageContainer>
-        {props.children}
+        <Div padding="10mm">
+            {props.children}
+        </Div>
     </PageContainer>);

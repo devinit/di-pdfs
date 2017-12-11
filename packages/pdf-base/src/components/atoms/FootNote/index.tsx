@@ -7,11 +7,15 @@ interface Props {
 }
 
 const FootNote = glamorous.div({
-    display: 'inline-block',
+    display: 'block',
+    width: '100%',
+    height: 'auto',
     position: 'absolute',
     paddingBottom: '3mm',
     bottom: '0',
-    fontSize: '9px'
+    fontSize: '9px',
+    pageBreakAfter: 'always',
+    pageBreakInside: 'avoid'
 });
 
 const getDate = () => {

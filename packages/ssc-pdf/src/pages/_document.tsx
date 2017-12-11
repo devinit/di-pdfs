@@ -22,7 +22,7 @@ export default class MyDocument extends Document {
       <html>
         <Head>
           <title>South South coperation PDFs</title>
-          <link rel="stylesheet" href={`/semantic.min.css`} />
+          <link rel="stylesheet" href={`/static/styles.min.css`} />
           <style dangerouslySetInnerHTML={{ __html: this.props.css }} />
         </Head>
         <body>

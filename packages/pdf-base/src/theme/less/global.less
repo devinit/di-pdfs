@@ -32,22 +32,14 @@ html, body {
 	padding: 0;
 }
 
-body {
-	// padding-bottom: @page-padding-bottom;
-	// padding-left: @page-padding-left;
-	// padding-right: @page-padding-right;
-    // padding-top: @page-padding-top;
-    -webkit-print-color-adjust: exact;
-    print-color-adjust: exact;
-}
 
-h1,
-h2,
-h3,
-h4,
-article {
-	page-break-before: always;
-}
+// h1,
+// h2,
+// h3,
+// h4,
+// article {
+// 	page-break-before: always;
+// }
 
 h1, 
 h2 {
@@ -56,8 +48,11 @@ h2 {
 
 // Not supported by all browsers
 @page {
-    size: 'A4';
+    size: 'A4 portrait';
+    margin: 0mm;
     box-shadow: none;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
 }

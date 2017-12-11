@@ -1,10 +1,11 @@
 {
   "name": "@di-pdfs/pdf-base",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "for creating DI print pdfs",
   "main": "dist/index.js",
   "scripts": {
     "build": "npm run build-css && cp -R static dist/ && tsc",
+    "css": "lessc src/theme/less/index.less static/styles.css",
     "build-css": "lessc  --clean-css='--s1 --advanced --compatibility=ie8' src/theme/less/index.less static/styles.min.css",
     "lint": "tslint -c tslint.json 'pages/**/*.tsx' 'src/**/*.tsx' 'src/**/*.ts'",
     "storybook": "start-storybook -s static -p 6006",
