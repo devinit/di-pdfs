@@ -2,8 +2,7 @@ import * as React from 'react';
 import glamorous, {Div} from 'glamorous';
 
 interface Props {
-    children: React.ReactChild[];
-    child?: React.ReactChild;
+    children: React.ReactChild[] | React.ReactChild;
 }
 
 const Document = glamorous.div({
@@ -12,4 +11,4 @@ const Document = glamorous.div({
     margin: '0 auto',
 });
 
-export default (props: Props) => (<Document>{props.children || props.child}</Document>);
+export default (props: Props) => (<Document>{props.children}</Document>);

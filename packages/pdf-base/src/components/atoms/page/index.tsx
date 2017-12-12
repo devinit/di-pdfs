@@ -3,7 +3,7 @@ import glamorous, {Div} from 'glamorous';
 import FootNote from '../FootNote';
 
 interface Props {
-    children: React.ReactChild[];
+    children: React.ReactChild[] | React.ReactChild;
     footNote: string;
 }
 
