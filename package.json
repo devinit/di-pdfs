@@ -1,7 +1,6 @@
 {
 	"scripts": {
 		"bootstrap": "lerna bootstrap --hoist",
-		"prepublish": "lerna run addCss",
 		"publish": "lerna publish --skip-npm"
 	},
 	"devDependencies": {
