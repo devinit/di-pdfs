@@ -1,8 +1,5 @@
 import * as React from 'react';
 import { storiesOf } from '@storybook/react';
-import base from './config';
-
-import * as R from 'ramda';
 import Histogram from '.';
 
 const config = {
@@ -16,15 +13,15 @@ const config = {
       },
 };
 const data = [
-    {value: 318.3, year: 'A'},
-    {value: 301.6, year: 'B'},
-    {value: 238.1, year: 'C'},
+    {value: 318.3, year: '2001'},
+    {value: 301.6, year: '2002'},
+    {value: 238.1, year: '2003'},
 ];
 
 const props = {config, data, height: '200px'};
 
 storiesOf('Histogram', module).add('Brazil config', () =>
-    (<div style={{width: '20%', padding: '100px'}}>
+    (<div style={{width: '30%', padding: '50px'}}>
         <Histogram {...props} />
     </div>
     ));

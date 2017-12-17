@@ -3,6 +3,10 @@ export default {
     type: 'bar',
     colors: [red],
     coloring: 'color',
+    labeling: {
+      showLabels: true,
+      showValues: true
+    },
     linearAxis: {
       showAxis: true,
       showGridlines: true,
