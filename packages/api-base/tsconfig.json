@@ -9,6 +9,7 @@
       "experimentalDecorators": true,
       "typeRoots": ["node_modules/@types", "types"],
       "noImplicitAny": false,
+      "noUnusedLocals": true,
       "outDir": "dist",
       "removeComments": true
     },

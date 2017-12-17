@@ -1,5 +1,4 @@
 import * as React from 'react';
-import * as colors from '../../../theme/colors';
 import glamorous, { Div } from 'glamorous';
 
 type  Orientation = 'horizontal' | 'vertical';

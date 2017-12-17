@@ -5,13 +5,12 @@ import {BaseConfig} from '../../atoms/Chart/types';
 import * as R from 'ramda';
 
 interface Props {
-    config: BaseConfig;
-    groupBy: string;
+    config: BaseConfig & {groupBy: string};
     data: any[];
-    height: string | number;
+    height: string;
 }
 
-export default (props) =>
+export default (props: Props) =>
     (
         <Chart
             height={props.height}

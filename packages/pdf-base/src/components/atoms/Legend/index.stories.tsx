@@ -2,7 +2,6 @@ import * as React from 'react';
 import { storiesOf } from '@storybook/react';
 import {red, green, blue} from '../../../theme/colors';
 import Legend from '.';
-import * as R from 'ramda';
 
 const data = [
     {value: 'Uga', color: red},

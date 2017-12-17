@@ -7,10 +7,10 @@ import * as R from 'ramda';
 interface Props {
     config: BaseConfig;
     data: any[];
-    height: string | number;
+    height: string;
 }
 
-export default (props) =>
+export default (props: Props) =>
     (
         <Chart
             height={props.height}

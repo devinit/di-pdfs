@@ -1,8 +1,6 @@
 import * as React from 'react';
 import glamorous, {Tbody, Th, Tr, Td} from 'glamorous';
 import {red, lightGrey} from '../../../theme/colors';
-import * as R from 'ramda';
-
 interface Props {
     headings: string[];
     data: object[];
