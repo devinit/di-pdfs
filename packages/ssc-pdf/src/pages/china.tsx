@@ -92,7 +92,7 @@ export default () =>
                 <p>
                 Data sourced from Aiddata Chinese Official Finance dataset shown in this profile only includes
                 records that have been recommended for research. Data shown are commitments for projects holding
-                a status of ‘completion’,
+                a status of ‘completion’,‘implementation’, or ‘pipeline: commitment’.
                 </p>
                 </TextBlock>
         </Page>
