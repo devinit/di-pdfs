@@ -64,12 +64,14 @@ export default () =>
                 </TextBlock>
         </Page>
         <Page footNote="China">
-        <Div width="50%" height="50px" display="flex" flexDirection="row" marginBottom="1em">
-            <Div border="1px solid grey"><h2>Regional distribution of ODA-like flows</h2>
-                <Note>2012-2014, commitments</Note></Div>
-                <Div border="1px solid grey"><h2>ODA-like flows broken down by sector</h2>
-                <Note>2012 – 2014, commitments</Note></Div>
-            </Div>
+            <TextBlock>
+            <h2>Regional distribution of ODA-like flows</h2>
+            <Note>2012-2014, commitments</Note>
+            </TextBlock>
+            <TextBlock>
+                <h2>ODA-like flows broken down by sector</h2>
+                <Note>2012 – 2014, commitments</Note>
+            </TextBlock>
             <Div width="100%" height="230px" backgroundColor={colors.lightGrey}>
                 <P color={colors.red}>Pie Chart Place holder </P>
             </Div>

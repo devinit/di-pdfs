@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { P, Div, Em } from 'glamorous';
+import { P, Div } from 'glamorous';
 import {Document, Page, Header, TextBlock, Note, colors} from '@di-pdfs/pdf-base';
 
 export default () => (
@@ -49,7 +49,7 @@ export default () => (
                     converted from fiscal year to calendar year and exchanged
                     from Indian Rupee to US$ using
                     IMF exchange rates and deflated to constant 2015 prices
-                    using IMF deflators. 
+                    using IMF deflators.
                     </Note>
             </TextBlock>
     </Page>
