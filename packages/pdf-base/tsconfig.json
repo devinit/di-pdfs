@@ -8,6 +8,7 @@
       "typeRoots": ["node_modules/@types", "src/types"],
       "noImplicitAny": false,
       "rootDir": "src",
+      "noUnusedLocals": true,
       "outDir": "dist",
       "removeComments": true
     },

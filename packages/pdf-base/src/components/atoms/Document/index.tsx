@@ -1,5 +1,5 @@
 import * as React from 'react';
-import glamorous, {Div} from 'glamorous';
+import glamorous from 'glamorous';
 
 interface Props {
     children: React.ReactChild[] | React.ReactChild;

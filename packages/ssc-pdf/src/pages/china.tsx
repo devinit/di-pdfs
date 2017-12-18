@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { P, Div, Em } from 'glamorous';
+import { P, Div } from 'glamorous';
 import {Document, Page, Header, TextBlock, Note, colors} from '@di-pdfs/pdf-base';
 
 export default () =>

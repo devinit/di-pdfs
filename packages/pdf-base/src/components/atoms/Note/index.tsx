@@ -1,5 +1,5 @@
 import * as React from 'react';
-import glamorous, {Span} from 'glamorous';
+import {Span} from 'glamorous';
 import {colorMap} from '../../../util';
 
 interface Props {

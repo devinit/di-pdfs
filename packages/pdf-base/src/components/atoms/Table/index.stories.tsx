@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { storiesOf } from '@storybook/react';
 import Table from '.';
-import * as R from 'ramda';
 
 const data = [
     {ctry: 'Uga', dev: 20},

@@ -9,7 +9,7 @@
 	},
 	"git-pre-hooks": {
 		"pre-push": [
-		  "lerna run lint"
+		  "lerna run lint && lerna run build"
 		]
 	}
 }

@@ -2,7 +2,6 @@ import * as React from 'react';
 import { storiesOf } from '@storybook/react';
 import Header from '../Header';
 import Document from '../Document';
-import FootNote from '../FootNote';
 import TextBlock from '../TextBlock';
 import Page from '.';
 

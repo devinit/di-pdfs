@@ -5,7 +5,7 @@ import {BaseConfig} from '../../atoms/Chart/types';
 import * as R from 'ramda';
 
 interface Props {
-    config: BaseConfig;
+    config: BaseConfig & {groupBy: string};
     data: any[];
     height: string;
 }
