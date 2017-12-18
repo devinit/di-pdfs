@@ -1,11 +1,20 @@
 import * as React from 'react';
 import config from './config';
+import {ILegend} from '../../atoms/Chart/types';
 import Chart from '../../atoms/Chart';
-import {IBaseConfig} from '../../atoms/Chart/types';
 import * as R from 'ramda';
 
 interface Props {
-    config: IBaseConfig & {groupBy: string};
+    config: {
+        circular: {
+            label: string;
+            value: string;
+            innerRadius?: number; // donut settings
+            strokeWidth?: number;
+            strokeColor?: string ;
+        }
+        legend?: ILegend // uses inbuilt legend, you may as well use the html based one in atoms
+    };
     data: any[];
     height: string;
 }

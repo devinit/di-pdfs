@@ -1,11 +1,15 @@
 /**
  * base configs
  */
-import {red, blue, purple} from '../../../theme/colors';
+import {red, blue, purple, orange} from '../../../theme/colors';
+
+export const color = {
+  colors: [red, purple, blue, orange],
+  coloring: 'color',
+};
 
 export const base = {
-  colors: [red, purple, blue],
-  coloring: 'color',
+  ...color,
   labeling: {
     showLabels: true
   },
