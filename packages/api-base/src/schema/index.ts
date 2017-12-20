@@ -7,24 +7,26 @@ import {precache} from '../lib/cache';
 import db from '../lib/db';
 import {githubGet} from '../lib/github';
 
-const resolverFiles = (require as any).context('./', true, /resolver\.ts/);
+const getResolvers = (baseDirectory) => {
+    const resolverFiles = (require as any).context(`./${baseDirectory}`, true, /resolver\.ts/);
+    // get graphql resolver objects
+    const resolversLoad: any[] = resolverFiles.keys()
+        .map(moduleName => resolverFiles(moduleName).default);
+    return resolversLoad.length > 1
+        ? mergeResolvers(resolversLoad) : resolversLoad[0];
+};
 
-// get graphql resolver objects
-const resolversLoad: any[] = resolverFiles.keys()
-    .map(moduleName => resolverFiles(moduleName).default);
-
-const resolvers = resolversLoad.length > 1
-    ? mergeResolvers(resolversLoad) : resolversLoad[0];
-
-// export interface IContext {
-//     dw: IExtensions;
-//     cms: ICms;
-// }
+interface Ischema {
+    apiModules: any[];
+    gqlTypesGlobPattern?: string;
+    resolverDir: string;
+}
 
 // TODO: use & to ceate the resulting returned type
-export const createSchema = async (apiModules: any[], gqlTypesGlobPattern?: string): Promise<any> => {
+export const createSchema = async ({apiModules, gqlTypesGlobPattern, resolverDir}: Ischema): Promise<any> => {
     const typeDefs = await getTypeDefs(gqlTypesGlobPattern);
     const modulesWithConnectors = apiModules.forEach((module)  => module(db, githubGet));
+    const resolvers = getResolvers(resolverDir);
     const schema: GraphQLSchema = makeExecutableSchema({ typeDefs, resolvers });
     return { schema, context: {modules: modulesWithConnectors} };
 };

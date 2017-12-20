@@ -1,3 +1,4 @@
+import 'require-context/register'; // require-context shim
 import * as bodyParser from 'body-parser';
 import * as compression from 'compression';
 import * as cors from 'cors';
@@ -6,6 +7,7 @@ import { graphqlExpress, graphiqlExpress } from 'apollo-server-express';
 import * as helmet from 'helmet';
 import * as morgan from 'morgan';
 import * as LRU from 'lru-cache';
+import * as cmsModule from './cms/modules/global';
 import {createSchema} from './schema';
 
 // Default port or given one.
@@ -16,6 +18,7 @@ export interface IMainOptions {
   enableCors: boolean;
   enableGraphiql: boolean;
   gqlTypesGlobPattern?: string;
+  resolverDir: string;
   apiModules: any[];
   env?: string;
   port?: number;
@@ -63,7 +66,11 @@ const appCacheMiddleWare = (req, res, next) => {
 
 const setupGraphql = async (options: IMainOptions, app) => {
     try {
-        const schema = await createSchema(options.apiModules);
+        const schema = await createSchema({
+          resolverDir: options.resolverDir,
+          gqlTypesGlobPattern: options.gqlTypesGlobPattern,
+          apiModules: options.apiModules
+        });
 
         app.use(GRAPHQL_ROUTE, appCacheMiddleWare);
 
@@ -119,3 +126,5 @@ export async function main(options: IMainOptions) {
 
   setupGraphql(options, app);
 }
+
+export const cms = cmsModule;
