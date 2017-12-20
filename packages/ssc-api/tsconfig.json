@@ -6,7 +6,7 @@
       "strict": true,
       "lib": ["es2017"],
       "experimentalDecorators": true,
-      "typeRoots": ["node_modules/@types", "types"],
+      "typeRoots": ["node_modules/@types", "src/types"],
       "noImplicitAny": false,
       "noUnusedLocals": true,
       "outDir": "dist",

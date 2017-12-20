@@ -55,3 +55,8 @@ export const generateTsFromGql: (options?: IgqlTsOpts) =>  Promise <string | any
         console.error(error);
     }
 };
+
+if (require.main === module) {
+    // shouldnt run in testing
+    generateTsFromGql({outFile: 'types.d.ts'});
+}

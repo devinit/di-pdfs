@@ -1,12 +1,10 @@
-// import {main, IMainOptions} from '@di-pdfs/api-base';
-// // import * as modules from '../modules';
+import {main} from '@di-pdfs/api-base';
+import brazil from './modules/brazil';
 
-//   main({
-//     enableCors: true,
-//     enableGraphiql: true,
-//     env: NODE_ENV,
-//     port: PORT,
-//     verbose: true,
-//   }).catch(console.error);
-//   if (NODE_ENV === 'production') preCacheAll();
-// }
+const apiModules = [brazil];
+
+// starts apps
+main({
+    resolverPattern: 'schema/**/resolver.js',
+    apiModules
+  });

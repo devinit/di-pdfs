@@ -1,7 +1,7 @@
 import 'require-context/register'; // require-context shim
 import * as bodyParser from 'body-parser';
 import * as compression from 'compression';
-import * as cors from 'cors';
+// import * as cors from 'cors';
 import * as express from 'express';
 import { graphqlExpress, graphiqlExpress } from 'apollo-server-express';
 import * as helmet from 'helmet';
@@ -14,17 +14,17 @@ export const GRAPHQL_ROUTE = '/graphql';
 export const GRAPHIQL_ROUTE = '/graphiql';
 
 export interface IMainOptions {
-  enableCors: boolean;
-  enableGraphiql: boolean;
+  enableCors?: boolean;
+  enableGraphiql?: boolean;
   gqlTypesGlobPattern?: string;
-  resolverDir: string;
+  resolverPattern: string;
   apiModules: any[];
   env?: string;
   port?: number;
   verbose ?: boolean;
 }
 
-/* istanbul ignore next: no need to test verbose print */
+// /* istanbul ignore next: no need to test verbose print */
 function verbosePrint(port, enableGraphiql) {
   console.log(`GraphQL Server is now running on http://localhost:${port}${GRAPHQL_ROUTE}`);
   if (true === enableGraphiql) {
@@ -66,7 +66,7 @@ const appCacheMiddleWare = (req, res, next) => {
 const setupGraphql = async (options: IMainOptions, app) => {
     try {
         const schema = await createSchema({
-          resolverDir: options.resolverDir,
+          resolverPattern: options.resolverPattern,
           gqlTypesGlobPattern: options.gqlTypesGlobPattern,
           apiModules: options.apiModules
         });
@@ -107,7 +107,14 @@ const setupGraphql = async (options: IMainOptions, app) => {
       }
 };
 
-export async function main(options: IMainOptions) {
+export async function main(opts: IMainOptions) {
+  const options = {
+    enableCors: true,
+    env: process.env.NODE_ENV,
+    port: 3000,
+    verbose: true,
+    ...opts
+  };
   const app = express();
 
   app.use(helmet());
@@ -117,7 +124,7 @@ export async function main(options: IMainOptions) {
   // TODO: log to file
   app.use(morgan(options.env === 'production' ? 'tiny' : 'combined'));
 
-  if (true === options.enableCors) app.use(GRAPHQL_ROUTE, cors());
+  // if (true === options.enableCors) app.use(GRAPHQL_ROUTE, cors());
 
   app.use(compression());
 

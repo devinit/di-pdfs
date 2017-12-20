@@ -32,10 +32,6 @@ export interface IRAWPopulationAgeBand {
     value_65_and_above: string;
     year: string;
 }
-interface ISqlSimple {
-    indicator: string;
-    indicatorRange: string;
-}
 export interface IRAW {
     di_id: string;
     value_ncu?: string;

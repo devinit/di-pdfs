@@ -8,7 +8,7 @@
        "**/.next": true,
        "**/dist": true,
        "**/.dist": true,
-       "lib": true,
+       "**/lib": true,
        "**/.out": true,
        "**/coverage": true,
        "**/node_modules": true

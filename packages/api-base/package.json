@@ -5,8 +5,8 @@
   "main": "lib/index.js",
   "scripts": {
     "lint": "tslint -c tslint.json 'src/**/*.ts'",
-    "test": "jest src/utils/utils.test.ts",
-    "build": "tsc"
+    "test": "jest src/schema/index.test.ts",
+    "build": "tsc && tsc -p src/makeTypeDefs"
   },
   "author": "epicallan.al@gmail.com",
   "license": "ISC",
@@ -30,8 +30,7 @@
     "morgan": "^1.8.1",
     "pg-promise": "7.3.2",
     "ramda": "^0.25.0",
-    "shortid": "^2.2.8",
-    "require-context": "^1.0.2"
+    "shortid": "^2.2.8"
   },
   "devDependencies": {
     "@gql2ts/from-schema": "^1.1.1",
