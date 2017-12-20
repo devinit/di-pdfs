@@ -2,7 +2,7 @@
   "name": "@di-pdfs/api-base",
   "version": "1.0.0",
   "description": "api for di-pdfs",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "lint": "tslint -c tslint.json 'src/**/*.ts'",
     "test": "jest src/utils/utils.test.ts",

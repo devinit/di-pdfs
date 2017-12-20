@@ -1,4 +1,4 @@
-import {githubGet} from '../../../lib/github';
+import {githubGet} from '../../../github';
 import * as R from 'ramda';
 
 export interface IEntityBasic {

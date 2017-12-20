@@ -1,0 +1,13 @@
+type MapUnit {
+  # country code Id in DW this is di_id
+  id: String
+  #country slug
+  slug: String
+  # countryName derived from entity.csv
+  name: String
+  year: Int
+  color: String
+  value: Float
+  detail: String
+  uid: String
+}

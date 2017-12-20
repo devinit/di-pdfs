@@ -2,7 +2,7 @@ import * as R from 'ramda';
 import {IEntity, getFinancingType, getCreditorType,
         getDestinationInstitutionType, getFlowType, ICurrency, getCurrency,
         getSectors, getBundles, getChannels, getEntities, getEntityBySlugAsync} from '../cms/modules/global';
-import {isError} from '../lib/isType';
+import {isError} from '../isType';
 
 import {IGetIndicatorArgsSimple, IhasDiId, Isummable} from './types';
 

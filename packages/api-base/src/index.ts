@@ -7,7 +7,6 @@ import { graphqlExpress, graphiqlExpress } from 'apollo-server-express';
 import * as helmet from 'helmet';
 import * as morgan from 'morgan';
 import * as LRU from 'lru-cache';
-import * as cmsModule from './cms/modules/global';
 import {createSchema} from './schema';
 
 // Default port or given one.
@@ -126,5 +125,3 @@ export async function main(options: IMainOptions) {
 
   setupGraphql(options, app);
 }
-
-export const cms = cmsModule;

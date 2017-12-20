@@ -1,5 +1,5 @@
 import {IDatabase} from 'pg-promise';
-import {IExtensions} from '../lib/db';
+import {IExtensions} from '../db';
 
 export interface IGetIndicatorArgs {
     id?: string;

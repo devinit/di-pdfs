@@ -2,10 +2,10 @@
 import { GraphQLSchema} from 'graphql';
 import { makeExecutableSchema } from 'graphql-tools';
 import { mergeResolvers } from 'merge-graphql-schemas';
-import { getTypeDefs } from '../lib/makeTypeDefs';
-import {precache} from '../lib/cache';
-import db from '../lib/db';
-import {githubGet} from '../lib/github';
+import { getTypeDefs } from '../makeTypeDefs';
+import {precache} from '../cache';
+import db from '../db';
+import {githubGet} from '../github';
 
 const getResolvers = (baseDirectory) => {
     const resolverFiles = (require as any).context(`./${baseDirectory}`, true, /resolver\.ts/);

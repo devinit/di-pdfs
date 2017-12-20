@@ -8,6 +8,7 @@
        "**/.next": true,
        "**/dist": true,
        "**/.dist": true,
+       "packages/api-base/lib": true,
        "**/.out": true,
        "**/coverage": true,
        "**/node_modules": true

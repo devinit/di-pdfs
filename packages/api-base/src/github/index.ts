@@ -1,7 +1,7 @@
 import * as https from 'https';
 import * as LRU from 'lru-cache';
 import * as converter from 'csvtojson';
-import {queue} from '../../lib/cache';
+import {queue} from '../cache';
 
 // connections over github connection options
 const options: https.RequestOptions = {
