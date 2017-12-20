@@ -5,6 +5,6 @@ const apiModules = [brazil];
 
 // starts apps
 main({
-    resolverPattern: 'schema/**/resolver.js',
+    resolverPattern: '**/dist/modules/**/resolver.js',
     apiModules
   });

@@ -1,4 +1,3 @@
-import 'require-context/register'; // require-context shim
 import * as bodyParser from 'body-parser';
 import * as compression from 'compression';
 // import * as cors from 'cors';
