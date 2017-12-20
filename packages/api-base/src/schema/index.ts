@@ -11,7 +11,6 @@ import {githubGet} from '../github';
 
 export const getResolvers = async (globPattern) => {
     const resolverFiles: string[]  = await glob(globPattern, {realpath: true});
-    console.log(resolverFiles);
     if (!resolverFiles.length) throw new Error('wrong resolver glob pattern');
     // get graphql resolver objects
     const resolversLoad: any[] = resolverFiles

@@ -1,6 +1,6 @@
 import * as bodyParser from 'body-parser';
 import * as compression from 'compression';
-// import * as cors from 'cors';
+import * as cors from 'cors';
 import * as express from 'express';
 import { graphqlExpress, graphiqlExpress } from 'apollo-server-express';
 import * as helmet from 'helmet';
@@ -109,6 +109,7 @@ const setupGraphql = async (options: IMainOptions, app) => {
 export async function main(opts: IMainOptions) {
   const options = {
     enableCors: true,
+    enableGraphiql: true,
     env: process.env.NODE_ENV,
     port: 3000,
     verbose: true,
@@ -123,7 +124,7 @@ export async function main(opts: IMainOptions) {
   // TODO: log to file
   app.use(morgan(options.env === 'production' ? 'tiny' : 'combined'));
 
-  // if (true === options.enableCors) app.use(GRAPHQL_ROUTE, cors());
+  if (true === options.enableCors) app.use(GRAPHQL_ROUTE, cors());
 
   app.use(compression());
 
