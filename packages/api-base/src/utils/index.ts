@@ -2,9 +2,9 @@ import * as R from 'ramda';
 import {IEntity, getFinancingType, getCreditorType,
         getDestinationInstitutionType, getFlowType, ICurrency, getCurrency,
         getSectors, getBundles, getChannels, getEntities, getEntityBySlugAsync} from '../cms/modules/global';
-import {isError} from '../isType';
-
-import {IGetIndicatorArgsSimple, IhasDiId, Isummable} from './types';
+import * as shortid from 'shortid';
+import {IhasDiId, Isummable} from './types';
+import {IDB} from '../db';
 
 export const RECIPIENT = 'recipient';
 export const DONOR = 'donor';
@@ -78,17 +78,11 @@ export const getTableNameFromSql = (sqlStr: string): string | Error => {
     return new Error(`couldnt get table name from sql string ${sqlStr}`);
 };
 
-// used by maps module
-export const getIndicatorDataSimple = async <T extends {}> (opts: IGetIndicatorArgsSimple): Promise<T[]> => {
-        const {table, sql, db, query, start_year, end_year} = opts;
-        let queryStr = '';
-        if (!query && sql) queryStr = Number(end_year) ? sql.indicatorRange :  sql.indicator;
-        if (query) queryStr = query;
-        const tableName = !table ? getTableNameFromSql(queryStr) : table;
-        if (isError(tableName)) throw new Error('No valid table name provided');
-        if (!queryStr.length) throw new Error('invalid query string');
-        // console.log(queryStr, {start_year, end_year, table: tableName});
-        return db.manyCacheable(queryStr, {start_year, end_year, table: tableName});
+export const getIndicatorDataSimple = async<T extends {}> ({db, query}: {db: IDB, query: string}): Promise<T[]> => {
+    const raw = await db.manyCacheable(query);
+    return raw
+        .map(toNumericFields)
+        .map(obj => ({...obj, uid: shortid.generate()})) as T[];
 };
 
 export const isDonor = async (slug: string): Promise<boolean>  => {

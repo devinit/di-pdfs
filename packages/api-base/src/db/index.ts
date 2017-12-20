@@ -4,7 +4,7 @@ import * as pgPromise from 'pg-promise';
 import * as LRU from 'lru-cache';
 
 export interface IExtensions {
-    manyCacheable: (query: string, values: any) => Promise<any>;
+    manyCacheable: (query: string, values?: object) => Promise<any[]>;
 }
 
 const lruOpts: LRU.Options<any> = {

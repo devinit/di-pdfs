@@ -17,6 +17,7 @@
   "dependencies": {
     "ramda": "^0.25.0",
     "@di-pdfs/api-base": "^1.0.0",
+    "@di-pdfs/pdf-base": "1.0.2",
     "shortid": "^2.2.8"
   },
   "devDependencies": {

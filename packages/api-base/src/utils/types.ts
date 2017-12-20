@@ -36,15 +36,6 @@ interface ISqlSimple {
     indicator: string;
     indicatorRange: string;
 }
-export interface IGetIndicatorArgsSimple {
-    id?: string;
-    db: IDatabase<IExtensions> & IExtensions;
-    start_year?: number;
-    end_year?: number;
-    sql?: ISqlSimple;
-    table?: string;
-    query?: string;
-}
 export interface IRAW {
     di_id: string;
     value_ncu?: string;

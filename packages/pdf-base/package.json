@@ -2,9 +2,9 @@
   "name": "@di-pdfs/pdf-base",
   "version": "1.0.2",
   "description": "for creating DI print pdfs",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "build": "npm run build-css && cp -R static dist/ && tsc",
+    "build": "npm run build-css && cp -R static lib/ && tsc",
     "css": "lessc src/theme/less/index.less static/styles.css",
     "chart": "cp node_modules/@devinit/charts/dist/di-charts.min.css static/",
     "build-css": "lessc  --clean-css='--s1 --advanced --compatibility=ie8' src/theme/less/index.less static/styles.min.css",

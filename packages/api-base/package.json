@@ -30,6 +30,7 @@
     "morgan": "^1.8.1",
     "pg-promise": "7.3.2",
     "ramda": "^0.25.0",
+    "shortid": "^2.2.8",
     "require-context": "^1.0.2"
   },
   "devDependencies": {
