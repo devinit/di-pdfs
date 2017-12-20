@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Brazil getting dvptCooperation 1`] = `
+"Array [
+  Object {
+    \\"color\\": \\"#0095CB\\",
+    \\"id\\": \\"Other development cooperation\\",
+    \\"uid\\": \\"Sk6U0yOzM\\",
+    \\"value\\": 81,
+    \\"year\\": 2011,
+  },
+  Object {
+    \\"color\\": \\"#e8443a\\",
+    \\"id\\": \\"Development cooperation estimated to be ODA eligible\\",
+    \\"uid\\": \\"SJgaIAkOfG\\",
+    \\"value\\": 318.3,
+    \\"year\\": 2011,
+  },
+  Object {
+    \\"color\\": \\"#0095CB\\",
+    \\"id\\": \\"Other development cooperation\\",
+    \\"uid\\": \\"rk-TIAkdzG\\",
+    \\"value\\": 75.4,
+    \\"year\\": 2012,
+  },
+  Object {
+    \\"color\\": \\"#e8443a\\",
+    \\"id\\": \\"Development cooperation estimated to be ODA eligible\\",
+    \\"uid\\": \\"ryGpUC1dMz\\",
+    \\"value\\": 301.6,
+    \\"year\\": 2012,
+  },
+  Object {
+    \\"color\\": \\"#0095CB\\",
+    \\"id\\": \\"Other development cooperation\\",
+    \\"uid\\": \\"r1QaLAkdff\\",
+    \\"value\\": 60.9,
+    \\"year\\": 2013,
+  },
+  Object {
+    \\"color\\": \\"#e8443a\\",
+    \\"id\\": \\"Development cooperation estimated to be ODA eligible\\",
+    \\"uid\\": \\"rJVTURy_Mf\\",
+    \\"value\\": 238.1,
+    \\"year\\": 2013,
+  },
+]"
+`;
