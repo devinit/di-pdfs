@@ -1,0 +1,11 @@
+type Multialatral {
+  multilateral: String!
+  color: String!
+  value: Float!
+  year: Int!
+  uid: String!
+}
+
+type Query {
+  multilateralExpenditure: [Multialatral]
+}

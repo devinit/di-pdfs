@@ -1,0 +1,30 @@
+type RegionValue {
+  region: String!
+  color: String!
+  value: Float!
+  uid: String!
+}
+
+type SectorValue {
+  sector: String!
+  color: String!
+  value: Float!
+  uid: String!
+  year: Int!
+}
+
+type RegionAndRecipient {
+  region: String!
+  recipient: String!
+  color: String!
+  value: Float!
+  uid: String!
+}
+
+type Query {
+  dvptCooperationExpenditure: [BasicIndicator]
+  multilateralExpenditure: [BasicIndicator]
+  odaLikeFlowsByRegion: [RegionValue]
+  odaLikeFlowsBySector: [SectorValue]
+  odaRecipients: [RegionAndRecipient]
+}
