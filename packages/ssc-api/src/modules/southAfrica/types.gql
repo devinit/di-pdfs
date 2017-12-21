@@ -1,0 +1,22 @@
+type RegionYearValue {
+  region: String!
+  year: Int!
+  color: String!
+  value: Float!
+  uid: String!
+}
+
+type TrendIndicator {
+  year: Int!
+  color: String!
+  value: Float!
+  uid: String!
+}
+
+
+type Query {
+  dvptCooperationTrend: [TrendIndicator]
+  govmtdepartment: [BasicIndicator]
+  aricfExpByRegion: [RegionYearValue]
+  aricfExpBySector: [SectorValue]
+}
