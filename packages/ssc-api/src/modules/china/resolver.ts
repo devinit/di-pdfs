@@ -3,11 +3,17 @@ module.exports = {
         async dvptCooperation(_root, _args, ctx) {
            return ctx.modules.china.dvptCooperation();
         },
-        async tchCooperationByRegion(_root, _args, ctx) {
-            return ctx.modules.china.tchCooperationByRegion();
+        async multiExpenditure(_root, _args, ctx) {
+            return ctx.modules.china.multiExpenditure();
          },
-         async topTchRecipients(_root, _args, ctx) {
-             return ctx.modules.china.topTchRecipients();
-         }
+         async odaLikeFlowsByRegion(_root, _args, ctx) {
+             return ctx.modules.china.odaLikeFlowsByRegion();
+         },
+         async odaLikeFlowsBySector(_root, _args, ctx) {
+            return ctx.modules.china.odaLikeFlowsByRegion();
+        },
+        async odaRecipients(_root, _args, ctx) {
+            return ctx.modules.china.odaLikeFlowsByRegion();
+        }
     }
 };
