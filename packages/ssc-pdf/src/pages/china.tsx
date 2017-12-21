@@ -8,24 +8,31 @@ export default () =>
             <Header title="China as a provider of development cooperation "/>
             <TextBlock>
                 <p>
-                China does not provide detailed information on its
-                development cooperation activities at the official level.
+                China last provided detailed information on its development cooperation
+                activities at the official level in 2014 in a White Paper on foreign aid,
+                the White Paper stated that China’s foreign assistance was provided
+                in three types: grants, interest free loans and concessional loans.
+                The paper provided data on foreign aid from 2010 to 2012,
+                with 2012 as the most recent year of data available.
                 However, analysis conducted by the Japan International Cooperation Agency (JICA)
-                estimates that China disbursed US$ 6.1 billion in 2015,
-                this estimate may be used as a proxy for flows which would meet the criteria
-                of Official Development Assistance (ODA), however data for concessional loans for this year needs
-                to be treated with some caution as disbursements were not disclosed for this year.
-                China provided just over half of its concessional development cooperation over the last 10 years
-                in the form of grants and interest-free loans, levels peaked in 2012 at US$3 billion,
-                whilst 42% of development cooperationover the same time period was in the form of concessional loans.
-                Expenditure to multilateral international organisations made up 8% of total. China provides flows to
-                developing countries which do not meet the criteria for counting as ODA, such as
-                preferential export buyer credits, levels of which stood at US$7.3 billion in 2015.
+                estimates that China’s gross concessional
+                development cooperation stood at US$6.1 billion in 2015;
+                the estimate may be used as a proxy for flows
+                which would meet the criteria for being Official Development Assistance (ODA) eligible.
+                According to this analysis, China provided just over half of its concessional
+                development cooperation over the last 10 years in the form of grants and interest-free loans,
+                where levels peaked in 2012 at US$3 billion, whilst 42% of development cooperation
+                over the same time period was in the form of concessional loans.
+                Expenditure to multilateral international organisations made up 8% of the total.
+                Furthermore, China also provides significant flows to developing countries which
+                would not meet the criteria for counting as ODA,
+                such as preferential export buyer credits, levels of which have grown year-on-year
+                since 2009 and were estimated to stand at US$7.3 billion in 2015.
                 </p>
             </TextBlock>
             <TextBlock>
-                <h2>Overall Gross Expenditure of concessional development cooperation</h2>
-                <Note>2011 - 2013, US$ millions, constant 2015 prices</Note>
+                <h2>Gross Expenditure of concessional development cooperation, 2006-2015</h2>
+                <Note>US$ billions, constant 2015 prices</Note>
             </TextBlock>
             <Div width="100%" height="150px" backgroundColor={colors.lightGrey}>
                 <P color={colors.red}> Chart Place holder </P>
@@ -64,6 +71,7 @@ export default () =>
                 </TextBlock>
         </Page>
         <Page footNote="China">
+            <Div display="flex">
             <TextBlock>
             <h2>Regional distribution of ODA-like flows</h2>
             <Note>2012-2014, commitments</Note>
@@ -72,6 +80,7 @@ export default () =>
                 <h2>ODA-like flows broken down by sector</h2>
                 <Note>2012 – 2014, commitments</Note>
             </TextBlock>
+            </Div>
             <Div width="100%" height="230px" backgroundColor={colors.lightGrey}>
                 <P color={colors.red}>Pie Chart Place holder </P>
             </Div>

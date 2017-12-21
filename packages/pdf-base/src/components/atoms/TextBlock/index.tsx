@@ -6,7 +6,7 @@ interface Props {
 }
 
 const TextBlock = glamorous.div<{marginTop?: string}>({
-        display: 'flex',
+        display: 'block',
         width: '100%',
         marginBottom: '1em',
         lineHeight: '1.3em'

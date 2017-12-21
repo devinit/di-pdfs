@@ -22,36 +22,36 @@ export default () => (
             </p>
         </TextBlock>
         <TextBlock>
-            <h2>Overall Expenditure</h2>
-            <Note>2008-2015, constant 2015 prices, US$ billions</Note>
+            <h2>Trends in development cooperation, 2008-2015</h2>
+            <Note>constant 2015 prices, US$ billions</Note>
         </TextBlock>
-        <Div width="100%" height="250px" backgroundColor={colors.lightGrey}>
+        <Div width="100%" height="200px" marginBottom="10px" backgroundColor={colors.lightGrey}>
             <P color={colors.red}> Histogram Place holder </P>
         </Div>
         <TextBlock>
-            <h2>Technical and economic cooperation and loans and advances by recipient country</h2>
-            <Note>2015, US$ millions, constant 2015 prices</Note>
+            <h2>Technical and economic cooperation and loans and advances by recipient country, 2015</h2>
+            <Note>Constant 2015 prices, US$ millions</Note>
         </TextBlock>
-        <Div width="100%" height="250px" backgroundColor={colors.lightGrey}>
+        <Div width="100%" height="200px" marginBottom="10px" backgroundColor={colors.lightGrey}>
             <P color={colors.red}> Table Place holder </P>
         </Div>
         <TextBlock>
-            <h2>Contributions to international organisations</h2>
-            <Note>2008-2015, constant 2015 prices, US$ millions.</Note>
+            <h2>Contributions to international organisations, 2011-2015</h2>
+            <Note>Constant 2015 prices, US$ millions.</Note>
         </TextBlock>
-        <Div width="100%" height="230px" backgroundColor={colors.lightGrey}>
+        <Div width="100%" height="190px" marginBottom="10px" backgroundColor={colors.lightGrey}>
             <P color={colors.red}>Component Histogram Place holder </P>
         </Div>
         <TextBlock>
-                <Note>
+                <p>
                     Note: data is sourced and compiled from
                     the Union Budget of India. Data is
                     converted from fiscal year to calendar year and exchanged
                     from Indian Rupee to US$ using
                     IMF exchange rates and deflated to constant 2015 prices
                     using IMF deflators.
-                    </Note>
+                    </p>
             </TextBlock>
-    </Page>
+        </Page>
 </Document>
 );

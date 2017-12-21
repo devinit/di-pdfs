@@ -1,73 +1,53 @@
 import * as React from 'react';
-import { P, Div } from 'glamorous';
+import { P, Div, Em } from 'glamorous';
 import {Document, Page, Header, TextBlock, Note, colors} from '@di-pdfs/pdf-base';
 
-export default () =>
-    (<Document>
-        <Page footNote="SouthAfrica">
-            <Header title="South Africa as a provider of development cooperation "/>
-            <TextBlock>
-                <p>
-                We estimate South Africa’s development cooperation stood at US$293 million
-                in 2015. Our data is based on Government of South Africa budget documents.
-                Levels increased significantly between 2014 and 2015 (by 69%), with an increase
-                in expenditure from the National Treasury sub-programme ‘International Development
-                Funding Institutions’ responsible for much of this rise. Concessional development cooperation
-                expenditure from the Department of International Relations and Cooperation (DIRCO), which coordinates,
-                implements and manages South Africa’s international relations programmes, has fallen slightly over
-                the last three years. DIRCO has significantly decreased recent funding levels to the
-                African Renaissance and International Cooperation Fund, which is an instrument set-up to
-                enhance cooperation between South Africa and other countries, with focus areas including
-                humanitarian assistance, socio-economic development and integration
-                and promotion and resolution of conflicts.
-                </p>
+export default () => (
+    <Document>
+    <Page footNote="Mexico">
+        <Header title="Mexico as a provider of development cooperation "/>
+        <TextBlock>
+            <p>
+            The latest estimates available on Mexico’s contribution to International Development
+            is provided by the OECD, which estimates that Mexico gave US$ 134 million in 2014.
+            This is based on a proxied definition of ODA. Development cooperation activities focus
+            on several key areas, such as, environmental protection, statistics, health, science and
+            technology and education. The Ministry of Finance funds these activities, which are coordinated
+            by the Mexican Agency of international Development Cooperation (AMEXCID) and then implemented by
+            public institutions.
+            </p>
+        </TextBlock>
+        <TextBlock>
+            <p>
+            Mexico engages in both bilateral and triangular corporation. Bilateral assistance is mainly
+            delivered through the regional programme ‘Meso American integration and Development Project’.
+            This has a broad sectoral focus ranging from health to technology. Its triangular cooperation
+            consists of partnering with DAC members, such as Japan and Germany and channelling assistance
+            through several multilateral organisations. In 2015, 60% of assistance channelled
+            through multilaterals went through the United Nations and 30% went through
+            the Inter – American Development Bank.
+            </p>
+        </TextBlock>
+        <TextBlock>
+            <h2>Expenditure to multilaterals broken down by multilateral, 2015</h2>
+            <Note>2015, constant 2015 prices</Note>
+        </TextBlock>
+        <Div width="100%" height="250px" backgroundColor={colors.lightGrey}>
+            <P color={colors.red}> Table Place holder </P>
+        </Div>
+        <TextBlock>
+                <Em>Source: </Em>
+        </TextBlock>
+        <TextBlock>
+            <h2>Overall Expenditure, 2011 – 2014</h2>
+            <Note>2011 - 2014, constant 2015 prices</Note>
+        </TextBlock>
+        <Div width="100%" height="230px" backgroundColor={colors.lightGrey}>
+            <P color={colors.red}>Chart Place holder </P>
+        </Div>
+        <TextBlock>
+                <Em>Source: </Em>
             </TextBlock>
-            <TextBlock>
-                <p>
-                Beyond the development cooperation in reference above, South Africa uses a number of other
-                development finance tools as part of its international cooperation including: loans and equity
-                through the Development Bank of Southern Africa (DBSA) and the
-                Industrial Development Corporation (IDC) and
-                peace and security expenditure, which are not captured in our estimates.
-                </p>
-            </TextBlock>
-            <TextBlock>
-                <h2>Trends in development cooperation</h2>
-                <Note>2006-2015, US$ millions, constant 2015 prices</Note>
-            </TextBlock>
-            <Div width="100%" height="150px" backgroundColor={colors.lightGrey}>
-                <P color={colors.red}> Chart Place holder </P>
-            </Div>
-            <TextBlock>
-                <h2>Trends by government department</h2>
-                <Note>2011-2015, % of total expenditure</Note>
-            </TextBlock>
-            <Div width="100%" height="250px" backgroundColor={colors.lightGrey}>
-                <P color={colors.red}> Chart Place holder <blockquote>It has a lgend</blockquote> </P>
-            </Div>
-            <TextBlock marginTop="1em">
-                <h2>Top 10 recipients of technical cooperation, 2011-2013</h2>
-                <Note>US$ millions Constant 2015 prices</Note>
-            </TextBlock>
-            <Div width="100%" height="230px" backgroundColor={colors.lightGrey}>
-                <P color={colors.red}>Table Place holder </P>
-            </Div>
-            <TextBlock>
-                <h2>African Renaissance and International Cooperation Fund, expenditure</h2>
-            </TextBlock>
-            <Div width="100%" height="230px" backgroundColor={colors.lightGrey}>
-                <P color={colors.red}>PieChart Place holder </P>
-            </Div>
-            <TextBlock>
-                   <h2>Breakdown by sector-type</h2>
-                   <Note>2014 - 2016</Note>
-            </TextBlock>
-                <TextBlock>
-                <h2>Expenditure by region></h2>
-                <Note>2014 – 2016, US$ millions constant 2015 prices</Note>
-            </TextBlock>
-            <Div width="100%" height="230px" backgroundColor={colors.lightGrey}>
-                <P color={colors.red}>Table Place holder </P>
-            </Div>
-        </Page>
-    </Document>);
+    </Page>
+</Document>
+);

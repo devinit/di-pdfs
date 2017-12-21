@@ -3,6 +3,7 @@ import { storiesOf } from '@storybook/react';
 import Header from '../Header';
 import Document from '../Document';
 import TextBlock from '../TextBlock';
+import Note from '../Note';
 import Page from '.';
 
 storiesOf('Page', module).add('Basic Page', () =>
@@ -10,6 +11,7 @@ storiesOf('Page', module).add('Basic Page', () =>
       <Page footNote="multilaterals">
         <Header title="World Bank Group"/>
         <TextBlock><p>hello page 1</p></TextBlock>
+        <Note> Note test </Note>
       </Page>
       <Page footNote="multilaterals">
         <Header title="World Bank Group"/>
