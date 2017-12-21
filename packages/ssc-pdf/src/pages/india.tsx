@@ -18,7 +18,7 @@ export default () => (
             India considers government-supported concessional lines of credit as part of its development cooperation.
             They support Indian exports and productive investments in developing countries.
             The data in this profile captures interest subsidies for lines
-            of credit, however does not show lines of credit expenditure. 
+            of credit, however does not show lines of credit expenditure.
             </p>
         </TextBlock>
         <TextBlock>

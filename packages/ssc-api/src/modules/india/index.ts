@@ -2,7 +2,7 @@ import {IDB} from '@di-pdfs/api-base/lib/db';
 import {getIndicatorDataSimple} from '@di-pdfs/api-base/lib/utils';
 import sql from './sql';
 import * as colors from '@di-pdfs/pdf-base/lib/theme/colors';
-import {IDataBasic, IDataRegion, IDataMulti} from '../../types';
+import {IDataBasic, IDataMulti} from '../../types';
 
 const dvptColorMap = {
     'Technical & economic cooperation with other countries': colors.red,
