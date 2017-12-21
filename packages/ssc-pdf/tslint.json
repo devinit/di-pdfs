@@ -12,7 +12,6 @@
       "object-literal-sort-keys": false,
       "arrow-parens":false,
       "variable-name":false,
-      "no-unused-variable": true,
       "ordered-imports": [false]
     }
   }

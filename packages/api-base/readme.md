@@ -2,4 +2,4 @@ Interfaces with postgres db and other data sources to provide data for the pdf w
 
 ______________________________________
 
-This will contain re-usable modules used in other api packages.
+This will contain re-usable modules used in other api packages. Largely adopted from current datahub api

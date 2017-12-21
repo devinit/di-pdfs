@@ -1,11 +1,11 @@
 import * as React from 'react';
 import config from './config';
 import Chart from '../../atoms/Chart';
-import {BaseConfig} from '../../atoms/Chart/types';
+import {IBaseConfig} from '../../atoms/Chart/types';
 import * as R from 'ramda';
 
 interface Props {
-    config: BaseConfig;
+    config: IBaseConfig;
     data: any[];
     height: string;
 }

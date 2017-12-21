@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Utility functions test should create human friendly numbers i.e 1.5k for 1500 1`] = `
+"Object {
+  \\"formattedB\\": Array [
+    \\"150\\",
+    \\"1.5k\\",
+    \\"15k\\",
+    \\"200m\\",
+  ],
+}"
+`;
