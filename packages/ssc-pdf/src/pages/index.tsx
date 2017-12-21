@@ -16,6 +16,8 @@ export default () => (
             by the Mexican Agency of international Development Cooperation (AMEXCID) and then implemented by
             public institutions.
             </p>
+        </TextBlock>
+        <TextBlock>
             <p>
             Mexico engages in both bilateral and triangular corporation. Bilateral assistance is mainly
             delivered through the regional programme ‘Meso American integration and Development Project’.
@@ -27,19 +29,19 @@ export default () => (
             </p>
         </TextBlock>
         <TextBlock>
-            <h2>Overall Expenditure, 2011 – 2014</h2>
-            <Note>2011 - 2014, constant 2015 prices</Note>
-        </TextBlock>
-        <TextBlock>
-                <Em>Source: </Em>
-            </TextBlock>
-        <TextBlock>
             <h2>Expenditure to multilaterals broken down by multilateral, 2015</h2>
             <Note>2015, constant 2015 prices</Note>
         </TextBlock>
         <Div width="100%" height="250px" backgroundColor={colors.lightGrey}>
             <P color={colors.red}> Table Place holder </P>
         </Div>
+        <TextBlock>
+                <Em>Source: </Em>
+        </TextBlock>
+        <TextBlock>
+            <h2>Overall Expenditure, 2011 – 2014</h2>
+            <Note>2011 - 2014, constant 2015 prices</Note>
+        </TextBlock>
         <Div width="100%" height="230px" backgroundColor={colors.lightGrey}>
             <P color={colors.red}>Chart Place holder </P>
         </Div>
