@@ -3,7 +3,7 @@ import brazil from './modules/brazil';
 
 const apiModules = [brazil];
 
-// starts apps
+// starts app
 main({
     resolverPattern: '**/dist/modules/**/resolver.js',
     apiModules

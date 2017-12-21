@@ -5,44 +5,230 @@ exports[`Brazil getting dvptCooperation 1`] = `
   Object {
     \\"color\\": \\"#0095CB\\",
     \\"id\\": \\"Other development cooperation\\",
-    \\"uid\\": \\"Sk6U0yOzM\\",
+    \\"uid\\": \\"B1AQmbFGM\\",
     \\"value\\": 81,
     \\"year\\": 2011,
   },
   Object {
     \\"color\\": \\"#e8443a\\",
     \\"id\\": \\"Development cooperation estimated to be ODA eligible\\",
-    \\"uid\\": \\"SJgaIAkOfG\\",
+    \\"uid\\": \\"SJxCmXZFzM\\",
     \\"value\\": 318.3,
     \\"year\\": 2011,
   },
   Object {
     \\"color\\": \\"#0095CB\\",
     \\"id\\": \\"Other development cooperation\\",
-    \\"uid\\": \\"rk-TIAkdzG\\",
+    \\"uid\\": \\"r1-R7mZYMM\\",
     \\"value\\": 75.4,
     \\"year\\": 2012,
   },
   Object {
     \\"color\\": \\"#e8443a\\",
     \\"id\\": \\"Development cooperation estimated to be ODA eligible\\",
-    \\"uid\\": \\"ryGpUC1dMz\\",
+    \\"uid\\": \\"Hkf0XXbKMz\\",
     \\"value\\": 301.6,
     \\"year\\": 2012,
   },
   Object {
     \\"color\\": \\"#0095CB\\",
     \\"id\\": \\"Other development cooperation\\",
-    \\"uid\\": \\"r1QaLAkdff\\",
+    \\"uid\\": \\"rkmRm7-tGf\\",
     \\"value\\": 60.9,
     \\"year\\": 2013,
   },
   Object {
     \\"color\\": \\"#e8443a\\",
     \\"id\\": \\"Development cooperation estimated to be ODA eligible\\",
-    \\"uid\\": \\"rJVTURy_Mf\\",
+    \\"uid\\": \\"H1VRmQWFzG\\",
     \\"value\\": 238.1,
     \\"year\\": 2013,
+  },
+]"
+`;
+
+exports[`Brazil getting tch cooperation 1`] = `
+"Array [
+  Object {
+    \\"color\\": \\"#f39b95\\",
+    \\"region\\": \\"Africa\\",
+    \\"uid\\": \\"SJSAQQ-YGM\\",
+    \\"value\\": 22059553,
+    \\"year\\": 2011,
+  },
+  Object {
+    \\"color\\": \\"#54C8FF\\",
+    \\"region\\": \\"Latin America and the Caribbean\\",
+    \\"uid\\": \\"rJUAXXWtGf\\",
+    \\"value\\": 25079064,
+    \\"year\\": 2011,
+  },
+  Object {
+    \\"color\\": \\"#bc2629\\",
+    \\"region\\": \\"Oceania\\",
+    \\"uid\\": \\"r1D0mQbKMM\\",
+    \\"value\\": 2196603,
+    \\"year\\": 2011,
+  },
+  Object {
+    \\"color\\": \\"#e8443a\\",
+    \\"region\\": \\"Europe\\",
+    \\"uid\\": \\"HyOAmQZtzf\\",
+    \\"value\\": 1195047,
+    \\"year\\": 2011,
+  },
+  Object {
+    \\"color\\": \\"#E03997\\",
+    \\"region\\": \\"Asia and the Middle East\\",
+    \\"uid\\": \\"ryKAXXbtzf\\",
+    \\"value\\": 506220,
+    \\"year\\": 2011,
+  },
+  Object {
+    \\"color\\": \\"#FF8EDF\\",
+    \\"region\\": \\"North America\\",
+    \\"uid\\": \\"ByqCQ7ZKff\\",
+    \\"value\\": 244924,
+    \\"year\\": 2011,
+  },
+  Object {
+    \\"color\\": \\"#f39b95\\",
+    \\"region\\": \\"Africa\\",
+    \\"uid\\": \\"HksCXXbKzf\\",
+    \\"value\\": 19877279,
+    \\"year\\": 2012,
+  },
+  Object {
+    \\"color\\": \\"#54C8FF\\",
+    \\"region\\": \\"Latin America and the Caribbean\\",
+    \\"uid\\": \\"rkhAQ7WKMG\\",
+    \\"value\\": 21020528,
+    \\"year\\": 2012,
+  },
+  Object {
+    \\"color\\": \\"#bc2629\\",
+    \\"region\\": \\"Oceania\\",
+    \\"uid\\": \\"Syp0QXbFfG\\",
+    \\"value\\": 1755113,
+    \\"year\\": 2012,
+  },
+  Object {
+    \\"color\\": \\"#e8443a\\",
+    \\"region\\": \\"Europe\\",
+    \\"uid\\": \\"Sy007QbtGf\\",
+    \\"value\\": 1184626,
+    \\"year\\": 2012,
+  },
+  Object {
+    \\"color\\": \\"#E03997\\",
+    \\"region\\": \\"Asia and the Middle East\\",
+    \\"uid\\": \\"H11gRQXbYGz\\",
+    \\"value\\": 753503,
+    \\"year\\": 2012,
+  },
+  Object {
+    \\"color\\": \\"#FF8EDF\\",
+    \\"region\\": \\"North America\\",
+    \\"uid\\": \\"HkglCQQ-YzM\\",
+    \\"value\\": 252481,
+    \\"year\\": 2012,
+  },
+  Object {
+    \\"color\\": \\"#f39b95\\",
+    \\"region\\": \\"Africa\\",
+    \\"uid\\": \\"B1blA7XZYfz\\",
+    \\"value\\": 20896283,
+    \\"year\\": 2013,
+  },
+  Object {
+    \\"color\\": \\"#54C8FF\\",
+    \\"region\\": \\"Latin America and the Caribbean\\",
+    \\"uid\\": \\"BkGxCmmbtzM\\",
+    \\"value\\": 15420578,
+    \\"year\\": 2013,
+  },
+  Object {
+    \\"color\\": \\"#bc2629\\",
+    \\"region\\": \\"Oceania\\",
+    \\"uid\\": \\"BJQgCmmbKfM\\",
+    \\"value\\": 1118071,
+    \\"year\\": 2013,
+  },
+  Object {
+    \\"color\\": \\"#e8443a\\",
+    \\"region\\": \\"Europe\\",
+    \\"uid\\": \\"H1NxAmQbKGf\\",
+    \\"value\\": 1277571,
+    \\"year\\": 2013,
+  },
+  Object {
+    \\"color\\": \\"#E03997\\",
+    \\"region\\": \\"Asia and the Middle East\\",
+    \\"uid\\": \\"S1BeAmXbFGM\\",
+    \\"value\\": 361537,
+    \\"year\\": 2013,
+  },
+  Object {
+    \\"color\\": \\"#FF8EDF\\",
+    \\"region\\": \\"North America\\",
+    \\"uid\\": \\"HkIeR77WFfM\\",
+    \\"value\\": 105021,
+    \\"year\\": 2013,
+  },
+]"
+`;
+
+exports[`Brazil getting tch top recipients 1`] = `
+"Array [
+  Object {
+    \\"recipient\\": \\"Mozambique\\",
+    \\"uid\\": \\"HyPgAQXbFGf\\",
+    \\"value\\": 6.9,
+  },
+  Object {
+    \\"recipient\\": \\"Sao Tome and Principe\\",
+    \\"uid\\": \\"SyOe07mWFzM\\",
+    \\"value\\": 2.68,
+  },
+  Object {
+    \\"recipient\\": \\"Non-developing\\",
+    \\"uid\\": \\"HJFgRmmWFGz\\",
+    \\"value\\": 1.95,
+  },
+  Object {
+    \\"recipient\\": \\"Timor-Leste\\",
+    \\"uid\\": \\"Hy5g0Q7WKMf\\",
+    \\"value\\": 1.75,
+  },
+  Object {
+    \\"recipient\\": \\"Guinea-Bissau\\",
+    \\"uid\\": \\"rJsxA7mZFfG\\",
+    \\"value\\": 1.59,
+  },
+  Object {
+    \\"recipient\\": \\"El Salvador\\",
+    \\"uid\\": \\"r1neRQmZtfM\\",
+    \\"value\\": 1.32,
+  },
+  Object {
+    \\"recipient\\": \\"Peru\\",
+    \\"uid\\": \\"HkaxAmXZtGz\\",
+    \\"value\\": 1.31,
+  },
+  Object {
+    \\"recipient\\": \\"Guatemala\\",
+    \\"uid\\": \\"SkAe0XmWFfM\\",
+    \\"value\\": 0.97,
+  },
+  Object {
+    \\"recipient\\": \\"Angola\\",
+    \\"uid\\": \\"HkJWCQXZYzG\\",
+    \\"value\\": 0.95,
+  },
+  Object {
+    \\"recipient\\": \\"Haiti\\",
+    \\"uid\\": \\"ryxbAQmWFMM\\",
+    \\"value\\": 0.95,
   },
 ]"
 `;

@@ -22,6 +22,8 @@ declare namespace DH {
 
   interface IQuery {
     dvptCooperation: Array<IDevtCo> | null;
+    tchCooperationByRegion: Array<ITchCooperationByRegion> | null;
+    topTchRecipients: Array<ITopTchRecipients> | null;
   }
 
 
@@ -31,6 +33,21 @@ declare namespace DH {
     color: string;
     value: number;
     uid: string;
+  }
+
+
+  interface ITchCooperationByRegion {
+    region: string;
+    color: string;
+    year: number;
+    value: number;
+    uid: string;
+  }
+
+
+  interface ITopTchRecipients {
+    recipient: string;
+    value: number;
   }
 }
 

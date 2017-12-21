@@ -6,6 +6,21 @@ type DevtCo {
   uid: String!
 }
 
+type TchCooperationByRegion {
+  region: String!
+  color: String!
+  year: Int!
+  value: Float!
+  uid: String!
+}
+
+type TopTchRecipients {
+  recipient: String!
+  value: Float!
+}
+
 type Query {
   dvptCooperation: [DevtCo]
+  tchCooperationByRegion: [TchCooperationByRegion]
+  topTchRecipients: [TopTchRecipients]
 }

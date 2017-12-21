@@ -4,3 +4,10 @@ export interface IDataBasic {
     year: number;
     uid: string;
 }
+
+export interface IDataRegion {
+    region: string;
+    value: number;
+    year: number;
+    uid: string;
+}
