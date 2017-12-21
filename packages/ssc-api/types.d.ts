@@ -24,11 +24,15 @@ declare namespace DH {
     dvptCooperation: Array<IBasicIndicator> | null;
     tchCooperationByRegion: Array<ITchCooperationByRegion> | null;
     topTchRecipients: Array<ITopTchRecipients> | null;
-    dvptCooperationExpenditure: Array<IBasicIndicator> | null;
-    multilateralExpenditure: Array<IMultialatral> | null;
+    overallMultilateralExpenditure: Array<IBasicIndicator> | null;
     odaLikeFlowsByRegion: Array<IRegionValue> | null;
     odaLikeFlowsBySector: Array<ISectorValue> | null;
     odaRecipients: Array<IRegionAndRecipient> | null;
+    multilateralExpenditure: Array<IMultialatral> | null;
+    dvptCooperationTrend: Array<ITrendIndicator> | null;
+    govmtdepartment: Array<IBasicIndicator> | null;
+    aricfExpByRegion: Array<IRegionYearValue> | null;
+    aricfExpBySector: Array<ISectorValue> | null;
   }
 
 
@@ -56,15 +60,6 @@ declare namespace DH {
   }
 
 
-  interface IMultialatral {
-    multilateral: string;
-    color: string;
-    value: number;
-    year: number;
-    uid: string;
-  }
-
-
   interface IRegionValue {
     region: string;
     color: string;
@@ -85,6 +80,32 @@ declare namespace DH {
   interface IRegionAndRecipient {
     region: string;
     recipient: string;
+    color: string;
+    value: number;
+    uid: string;
+  }
+
+
+  interface IMultialatral {
+    multilateral: string;
+    color: string;
+    value: number;
+    year: number;
+    uid: string;
+  }
+
+
+  interface ITrendIndicator {
+    year: number;
+    color: string;
+    value: number;
+    uid: string;
+  }
+
+
+  interface IRegionYearValue {
+    region: string;
+    year: number;
     color: string;
     value: number;
     uid: string;

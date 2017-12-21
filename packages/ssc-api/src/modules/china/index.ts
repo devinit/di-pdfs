@@ -33,7 +33,7 @@ const odaRegionColors = {
     'Africa': colors.red,
     'Central and Eastern Europe': colors.purple,
     'Latin America and the Caribbean': colors.lightBlue,
-    'Europe': colors.lightred,
+    'Europe': colors.lightRed,
     'Middle East': colors.pink,
     'The Pacific': colors.lightPink
 };
@@ -47,9 +47,9 @@ export class China {
         const data: IDataBasic[] = await getIndicatorDataSimple({query: sql.dvptCooperation, db: this.db});
         return data.map(obj => ({...obj, color: dvptColorMap[obj.id]}));
     }
-    public async multiExpenditure(): Promise<DH.IBasicIndicator[]> {
+    public async overallMultiExpenditure(): Promise<DH.IBasicIndicator[]> {
         const data: IDataBasic[] =
-            await getIndicatorDataSimple({query: sql.multExpenditure, db: this.db});
+            await getIndicatorDataSimple({query: sql.overallMultiExpenditure, db: this.db});
         return data.map(obj => ({...obj, color: colors.red}));
     }
     public async odaLikeFlowsByRegion(): Promise<DH.IRegionValue[]> {

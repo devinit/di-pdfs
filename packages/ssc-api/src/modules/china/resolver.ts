@@ -3,8 +3,8 @@ module.exports = {
         async dvptCooperation(_root, _args, ctx) {
            return ctx.modules.china.dvptCooperation();
         },
-        async multiExpenditure(_root, _args, ctx) {
-            return ctx.modules.china.multiExpenditure();
+        async overallMultiExpenditure(_root, _args, ctx) {
+            return ctx.modules.china.overallMultiExpenditure();
          },
          async odaLikeFlowsByRegion(_root, _args, ctx) {
              return ctx.modules.china.odaLikeFlowsByRegion();
