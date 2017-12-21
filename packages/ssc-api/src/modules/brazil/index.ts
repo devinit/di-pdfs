@@ -22,9 +22,9 @@ export class Brazil {
     constructor(db: IDB) {
         this.db = db;
     }
-    public async dvptCooperation(): Promise<DH.IDevtCo[]> {
+    public async dvptCooperation(): Promise<DH.IBasicIndicator[]> {
         const data: IDataBasic[] = await getIndicatorDataSimple({query: sql.dvptCooperation, db: this.db});
-        const withColor: DH.IDevtCo[] = data.map(obj => ({...obj, color: dvptColorMap[obj.id]}));
+        const withColor: DH.IBasicIndicator[] = data.map(obj => ({...obj, color: dvptColorMap[obj.id]}));
         return withColor;
     }
     public async tchCooperationByRegion(): Promise<DH.ITchCooperationByRegion[]> {

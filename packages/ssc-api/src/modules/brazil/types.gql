@@ -1,4 +1,4 @@
-type DevtCo {
+type BasicIndicator {
   id: String!
   year: Int!
   color: String!
@@ -20,7 +20,7 @@ type TopTchRecipients {
 }
 
 type Query {
-  dvptCooperation: [DevtCo]
+  dvptCooperation: [BasicIndicator]
   tchCooperationByRegion: [TchCooperationByRegion]
   topTchRecipients: [TopTchRecipients]
 }

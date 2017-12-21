@@ -21,13 +21,18 @@ declare namespace DH {
 
 
   interface IQuery {
-    dvptCooperation: Array<IDevtCo> | null;
+    dvptCooperation: Array<IBasicIndicator> | null;
     tchCooperationByRegion: Array<ITchCooperationByRegion> | null;
     topTchRecipients: Array<ITopTchRecipients> | null;
+    dvptCooperationExpenditure: Array<IBasicIndicator> | null;
+    multilateralExpenditure: Array<IMultialatral> | null;
+    odaLikeFlowsByRegion: Array<IRegionValue> | null;
+    odaLikeFlowsBySector: Array<ISectorValue> | null;
+    odaRecipients: Array<IRegionAndRecipient> | null;
   }
 
 
-  interface IDevtCo {
+  interface IBasicIndicator {
     id: string;
     year: number;
     color: string;
@@ -48,6 +53,41 @@ declare namespace DH {
   interface ITopTchRecipients {
     recipient: string;
     value: number;
+  }
+
+
+  interface IMultialatral {
+    multilateral: string;
+    color: string;
+    value: number;
+    year: number;
+    uid: string;
+  }
+
+
+  interface IRegionValue {
+    region: string;
+    color: string;
+    value: number;
+    uid: string;
+  }
+
+
+  interface ISectorValue {
+    sector: string;
+    color: string;
+    value: number;
+    uid: string;
+    year: number;
+  }
+
+
+  interface IRegionAndRecipient {
+    region: string;
+    recipient: string;
+    color: string;
+    value: number;
+    uid: string;
   }
 }
 
