@@ -1,8 +1,8 @@
 import {IDB} from '@di-pdfs/api-base/lib/db';
-import {getIndicatorDataSimple} from '@di-pdfs/api-base/lib/utils';
+import {getIndicatorDataSimple, getTotal} from '@di-pdfs/api-base/lib/utils';
 import sql from './sql';
 import * as colors from '@di-pdfs/pdf-base/lib/theme/colors';
-// import * as R from 'ramda';
+import * as R from 'ramda';
 import {IDataBasic, IDataRegion, IDataSector} from '../../types';
 
 const departmentColors = {
@@ -38,7 +38,12 @@ export class SouthAfrica {
     public async govmtdepartment(): Promise<DH.IBasicIndicator[]> {
         const data: IDataBasic[] =
             await getIndicatorDataSimple({query: sql.govmtdepartment, db: this.db});
-        return data.map(obj => ({...obj, color: departmentColors[obj.id]}));
+        const yearGroups = R.groupBy((obj => obj.yearStr), data.map(obj => ({...obj, yearStr: obj.year.toString()})));
+        const yearGroupTotals = Object.keys(yearGroups)
+            .reduce((all, year) => ({...all, [year]: getTotal(yearGroups[year])}), {});
+        const valuesAsPcts = data.map(obj =>
+            ({...obj, value: (obj.value / yearGroupTotals[obj.year.toString()]) * 100  }));
+        return valuesAsPcts.map(obj => ({...obj, color: departmentColors[obj.id]}));
     }
     public async aricfExpByRegion(): Promise<DH.IRegionYearValue[]> {
         const data: IDataRegion[] = await getIndicatorDataSimple({query: sql.aricfExpByRegion, db: this.db});

@@ -1,0 +1,281 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SouthAfrica getting aricfExpByRegion 1`] = `
+"Array [
+  Object {
+    \\"color\\": \\"#e8443a\\",
+    \\"region\\": \\"Africa\\",
+    \\"uid\\": \\"B12dtNqff\\",
+    \\"value\\": 11.4,
+    \\"year\\": 2014,
+  },
+  Object {
+    \\"color\\": \\"#fbd7cb\\",
+    \\"region\\": \\"Asia\\",
+    \\"uid\\": \\"rkx3OY4czf\\",
+    \\"value\\": 0.7,
+    \\"year\\": 2014,
+  },
+  Object {
+    \\"color\\": \\"#f39b95\\",
+    \\"region\\": \\"Latin America and the Caribbean\\",
+    \\"uid\\": \\"HyZ3dYEcMG\\",
+    \\"value\\": null,
+    \\"year\\": 2014,
+  },
+  Object {
+    \\"color\\": \\"#e8443a\\",
+    \\"region\\": \\"Africa\\",
+    \\"uid\\": \\"r1zh_K49GM\\",
+    \\"value\\": 6.7,
+    \\"year\\": 2015,
+  },
+  Object {
+    \\"color\\": \\"#fbd7cb\\",
+    \\"region\\": \\"Asia\\",
+    \\"uid\\": \\"BkQnuK4qff\\",
+    \\"value\\": 0.2,
+    \\"year\\": 2015,
+  },
+  Object {
+    \\"color\\": \\"#f39b95\\",
+    \\"region\\": \\"Latin America and the Caribbean\\",
+    \\"uid\\": \\"rkVhOtEqGG\\",
+    \\"value\\": 6.5,
+    \\"year\\": 2015,
+  },
+  Object {
+    \\"color\\": \\"#e8443a\\",
+    \\"region\\": \\"Africa\\",
+    \\"uid\\": \\"BJrn_tV5Mf\\",
+    \\"value\\": 4.3,
+    \\"year\\": 2016,
+  },
+  Object {
+    \\"color\\": \\"#fbd7cb\\",
+    \\"region\\": \\"Asia\\",
+    \\"uid\\": \\"SJIhuF45fG\\",
+    \\"value\\": null,
+    \\"year\\": 2016,
+  },
+  Object {
+    \\"color\\": \\"#f39b95\\",
+    \\"region\\": \\"Latin America and the Caribbean\\",
+    \\"uid\\": \\"HyPndt4qGf\\",
+    \\"value\\": 2.4,
+    \\"year\\": 2016,
+  },
+]"
+`;
+
+exports[`SouthAfrica getting aricfExpBySector 1`] = `
+"Array [
+  Object {
+    \\"color\\": \\"#E03997\\",
+    \\"sector\\": \\"ARICF expenditures (total)\\",
+    \\"uid\\": \\"H1PendK45Mf\\",
+    \\"value\\": 32.3,
+  },
+  Object {
+    \\"color\\": \\"#8f1b13\\",
+    \\"sector\\": \\"Coopertion between South Africa and other states\\",
+    \\"uid\\": \\"BJuln_YE9zf\\",
+    \\"value\\": 9.9,
+  },
+  Object {
+    \\"color\\": \\"#FF8EDF\\",
+    \\"sector\\": \\"Prevention and resolution of conflicts\\",
+    \\"uid\\": \\"BJYgh_FNcfG\\",
+    \\"value\\": 1.6,
+  },
+  Object {
+    \\"color\\": \\"#e8443a\\",
+    \\"sector\\": \\"Socio-economic  development and integration\\",
+    \\"uid\\": \\"By9e2dF4qGf\\",
+    \\"value\\": 1.8,
+  },
+  Object {
+    \\"color\\": \\"#f39b95\\",
+    \\"sector\\": \\"Promotion of democracy and good governance\\",
+    \\"uid\\": \\"B1oehOtV9Gf\\",
+    \\"value\\": 3,
+  },
+  Object {
+    \\"color\\": \\"#bc2629\\",
+    \\"sector\\": \\"Humanitarian assistance\\",
+    \\"uid\\": \\"rk2e2dYN9zf\\",
+    \\"value\\": 15.7,
+  },
+  Object {
+    \\"color\\": \\"#fbd7cb\\",
+    \\"sector\\": \\"Human resources development\\",
+    \\"uid\\": \\"BkTgh_F49fM\\",
+    \\"value\\": 0.2,
+  },
+]"
+`;
+
+exports[`SouthAfrica getting dvptCooperation 1`] = `
+"Array [
+  Object {
+    \\"uid\\": \\"r1s_tVqzG\\",
+    \\"value\\": 293,
+    \\"year\\": 2015,
+  },
+  Object {
+    \\"uid\\": \\"HJlsdYE9MG\\",
+    \\"value\\": 174,
+    \\"year\\": 2014,
+  },
+  Object {
+    \\"uid\\": \\"ByWouFEczz\\",
+    \\"value\\": 182,
+    \\"year\\": 2013,
+  },
+  Object {
+    \\"uid\\": \\"HJzsdKE9zG\\",
+    \\"value\\": 176,
+    \\"year\\": 2012,
+  },
+  Object {
+    \\"uid\\": \\"ryXidF49GG\\",
+    \\"value\\": 155,
+    \\"year\\": 2011,
+  },
+  Object {
+    \\"uid\\": \\"rkEiOKEqzG\\",
+    \\"value\\": 151,
+    \\"year\\": 2010,
+  },
+  Object {
+    \\"uid\\": \\"SyHjut4qzf\\",
+    \\"value\\": 193,
+    \\"year\\": 2009,
+  },
+  Object {
+    \\"uid\\": \\"SJ8s_KEqMM\\",
+    \\"value\\": 150,
+    \\"year\\": 2008,
+  },
+  Object {
+    \\"uid\\": \\"HJPiOFV5GM\\",
+    \\"value\\": 112,
+    \\"year\\": 2007,
+  },
+  Object {
+    \\"uid\\": \\"Hy_jOY4qzz\\",
+    \\"value\\": 99,
+    \\"year\\": 2006,
+  },
+]"
+`;
+
+exports[`SouthAfrica getting govmtdepartment 1`] = `
+"Array [
+  Object {
+    \\"color\\": \\"#DC73FF\\",
+    \\"id\\": \\"International Relations and Cooperation\\",
+    \\"uid\\": \\"BkdhdYNqzz\\",
+    \\"value\\": 69.18604651162791,
+    \\"year\\": 2011,
+  },
+  Object {
+    \\"color\\": \\"#f39b95\\",
+    \\"id\\": \\"National Treasury\\",
+    \\"uid\\": \\"BkY3uK49Gz\\",
+    \\"value\\": 20.994832041343674,
+    \\"year\\": 2011,
+  },
+  Object {
+    \\"color\\": \\"#bc2629\\",
+    \\"id\\": \\"Other\\",
+    \\"uid\\": \\"SychdF49Gf\\",
+    \\"value\\": 9.819121447028424,
+    \\"year\\": 2011,
+  },
+  Object {
+    \\"color\\": \\"#DC73FF\\",
+    \\"id\\": \\"International Relations and Cooperation\\",
+    \\"uid\\": \\"SkjnuYV5Gf\\",
+    \\"value\\": 65.70130607609312,
+    \\"year\\": 2012,
+  },
+  Object {
+    \\"color\\": \\"#f39b95\\",
+    \\"id\\": \\"National Treasury\\",
+    \\"uid\\": \\"HJh3OK45GM\\",
+    \\"value\\": 25.04258943781942,
+    \\"year\\": 2012,
+  },
+  Object {
+    \\"color\\": \\"#bc2629\\",
+    \\"id\\": \\"Other\\",
+    \\"uid\\": \\"Hk62Ot45GG\\",
+    \\"value\\": 9.25610448608745,
+    \\"year\\": 2012,
+  },
+  Object {
+    \\"color\\": \\"#DC73FF\\",
+    \\"id\\": \\"International Relations and Cooperation\\",
+    \\"uid\\": \\"r1C2uKEqMf\\",
+    \\"value\\": 66.66666666666666,
+    \\"year\\": 2013,
+  },
+  Object {
+    \\"color\\": \\"#f39b95\\",
+    \\"id\\": \\"National Treasury\\",
+    \\"uid\\": \\"B1JlnuF49zf\\",
+    \\"value\\": 24.546952224052717,
+    \\"year\\": 2013,
+  },
+  Object {
+    \\"color\\": \\"#bc2629\\",
+    \\"id\\": \\"Other\\",
+    \\"uid\\": \\"rygx3_FVqff\\",
+    \\"value\\": 8.786381109280613,
+    \\"year\\": 2013,
+  },
+  Object {
+    \\"color\\": \\"#DC73FF\\",
+    \\"id\\": \\"International Relations and Cooperation\\",
+    \\"uid\\": \\"HkWx3_tV9zM\\",
+    \\"value\\": 63.96085204375359,
+    \\"year\\": 2014,
+  },
+  Object {
+    \\"color\\": \\"#f39b95\\",
+    \\"id\\": \\"National Treasury\\",
+    \\"uid\\": \\"ByGg2uY49GG\\",
+    \\"value\\": 27.461139896373055,
+    \\"year\\": 2014,
+  },
+  Object {
+    \\"color\\": \\"#bc2629\\",
+    \\"id\\": \\"Other\\",
+    \\"uid\\": \\"B1mlh_t49Mz\\",
+    \\"value\\": 8.578008059873344,
+    \\"year\\": 2014,
+  },
+  Object {
+    \\"color\\": \\"#DC73FF\\",
+    \\"id\\": \\"International Relations and Cooperation\\",
+    \\"uid\\": \\"S1NlhOtV9zf\\",
+    \\"value\\": 35.195911413969334,
+    \\"year\\": 2015,
+  },
+  Object {
+    \\"color\\": \\"#f39b95\\",
+    \\"id\\": \\"National Treasury\\",
+    \\"uid\\": \\"S1Bxh_FV9fz\\",
+    \\"value\\": 59.557069846678026,
+    \\"year\\": 2015,
+  },
+  Object {
+    \\"color\\": \\"#bc2629\\",
+    \\"id\\": \\"Other\\",
+    \\"uid\\": \\"rJUgndKN5GM\\",
+    \\"value\\": 5.247018739352641,
+    \\"year\\": 2015,
+  },
+]"
+`;
