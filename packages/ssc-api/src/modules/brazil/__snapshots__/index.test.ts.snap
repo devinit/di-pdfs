@@ -1,52 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Brazil getting dvptCooperation 1`] = `
-"Array [
-  Object {
-    \\"color\\": \\"#0095CB\\",
-    \\"id\\": \\"Other development cooperation\\",
-    \\"uid\\": \\"unique_id_stub\\",
-    \\"value\\": 81,
-    \\"year\\": 2011,
-  },
-  Object {
-    \\"color\\": \\"#e8443a\\",
-    \\"id\\": \\"Development cooperation estimated to be ODA eligible\\",
-    \\"uid\\": \\"unique_id_stub\\",
-    \\"value\\": 318.3,
-    \\"year\\": 2011,
-  },
-  Object {
-    \\"color\\": \\"#0095CB\\",
-    \\"id\\": \\"Other development cooperation\\",
-    \\"uid\\": \\"unique_id_stub\\",
-    \\"value\\": 75.4,
-    \\"year\\": 2012,
-  },
-  Object {
-    \\"color\\": \\"#e8443a\\",
-    \\"id\\": \\"Development cooperation estimated to be ODA eligible\\",
-    \\"uid\\": \\"unique_id_stub\\",
-    \\"value\\": 301.6,
-    \\"year\\": 2012,
-  },
-  Object {
-    \\"color\\": \\"#0095CB\\",
-    \\"id\\": \\"Other development cooperation\\",
-    \\"uid\\": \\"unique_id_stub\\",
-    \\"value\\": 60.9,
-    \\"year\\": 2013,
-  },
-  Object {
-    \\"color\\": \\"#e8443a\\",
-    \\"id\\": \\"Development cooperation estimated to be ODA eligible\\",
-    \\"uid\\": \\"unique_id_stub\\",
-    \\"value\\": 238.1,
-    \\"year\\": 2013,
-  },
-]"
-`;
-
 exports[`Brazil getting tch cooperation 1`] = `
 "Array [
   Object {
@@ -174,61 +127,6 @@ exports[`Brazil getting tch cooperation 1`] = `
     \\"uid\\": \\"unique_id_stub\\",
     \\"value\\": 105021,
     \\"year\\": 2013,
-  },
-]"
-`;
-
-exports[`Brazil getting tch top recipients 1`] = `
-"Array [
-  Object {
-    \\"recipient\\": \\"Mozambique\\",
-    \\"uid\\": \\"unique_id_stub\\",
-    \\"value\\": 6.9,
-  },
-  Object {
-    \\"recipient\\": \\"Sao Tome and Principe\\",
-    \\"uid\\": \\"unique_id_stub\\",
-    \\"value\\": 2.68,
-  },
-  Object {
-    \\"recipient\\": \\"Non-developing\\",
-    \\"uid\\": \\"unique_id_stub\\",
-    \\"value\\": 1.95,
-  },
-  Object {
-    \\"recipient\\": \\"Timor-Leste\\",
-    \\"uid\\": \\"unique_id_stub\\",
-    \\"value\\": 1.75,
-  },
-  Object {
-    \\"recipient\\": \\"Guinea-Bissau\\",
-    \\"uid\\": \\"unique_id_stub\\",
-    \\"value\\": 1.59,
-  },
-  Object {
-    \\"recipient\\": \\"El Salvador\\",
-    \\"uid\\": \\"unique_id_stub\\",
-    \\"value\\": 1.32,
-  },
-  Object {
-    \\"recipient\\": \\"Peru\\",
-    \\"uid\\": \\"unique_id_stub\\",
-    \\"value\\": 1.31,
-  },
-  Object {
-    \\"recipient\\": \\"Guatemala\\",
-    \\"uid\\": \\"unique_id_stub\\",
-    \\"value\\": 0.97,
-  },
-  Object {
-    \\"recipient\\": \\"Angola\\",
-    \\"uid\\": \\"unique_id_stub\\",
-    \\"value\\": 0.95,
-  },
-  Object {
-    \\"recipient\\": \\"Haiti\\",
-    \\"uid\\": \\"unique_id_stub\\",
-    \\"value\\": 0.95,
   },
 ]"
 `;

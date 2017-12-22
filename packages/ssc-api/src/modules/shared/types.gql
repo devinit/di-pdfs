@@ -1,0 +1,17 @@
+type BasicIndicator {
+  id: String!
+  year: Int!
+  color: String!
+  value: Float!
+  uid: String!
+}
+
+type TopTchRecipients {
+  recipient: String!
+  value: Float!
+}
+
+type Query {
+  dvptCooperation(country: String!): [BasicIndicator]
+  topTchRecipients(country: String!): [TopTchRecipients]
+}

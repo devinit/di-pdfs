@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "jest ",
+    "lint": "tslint -c tslint.json 'src/**/*.ts'",
     "start": "npm run build && NODE_ENV=production node dist/main.js",
     "build": "NODE_ENV=production tsc",
+    "build:watch": "NODE_ENV=development tsc -w",
     "gqlToTs": "node node_modules/@di-pdfs/api-base/lib/makeTypeDefs",
     "dev": "NODE_ENV=development concurrently \"npm run build:watch\" \"node-dev dist/main.js\""
   },

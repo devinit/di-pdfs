@@ -1,16 +1,13 @@
 module.exports = {
     Query: {
-        async dvptCooperation(_root, _args, ctx) {
-           return ctx.modules.china.dvptCooperation();
-        },
-         async odaLikeFlowsByRegion(_root, _args, ctx) {
-             return ctx.modules.china.odaLikeFlowsByRegion();
+         async aricfExpBySector(_root, _args, ctx) {
+             return ctx.modules.southAfrica.aricfExpBySector();
          },
-         async odaLikeFlowsBySector(_root, _args, ctx) {
-            return ctx.modules.china.odaLikeFlowsByRegion();
+         async aricfExpByRegion(_root, _args, ctx) {
+            return ctx.modules.southAfrica.aricfExpByRegion();
         },
-        async odaRecipients(_root, _args, ctx) {
-            return ctx.modules.china.odaLikeFlowsByRegion();
+        async govmtdepartment(_root, _args, ctx) {
+            return ctx.modules.southAfrica.govmtdepartment();
         }
     }
 };

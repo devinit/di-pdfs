@@ -4,10 +4,6 @@ import db from '@di-pdfs/api-base/lib/db';
 
 describe('China', () => {
     const china = new China(db);
-    it('getting dvptCooperation', async () => {
-       const data = await china.dvptCooperation();
-       expect(prettyLists(data)).toMatchSnapshot();
-    }, 100000);
     it('getting multiCooperation', async () => {
         const data = await china.odaLikeFlowsByRegion();
         expect(prettyLists(data)).toMatchSnapshot();

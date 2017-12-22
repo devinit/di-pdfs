@@ -1,11 +1,3 @@
-type BasicIndicator {
-  id: String!
-  year: Int!
-  color: String!
-  value: Float!
-  uid: String!
-}
-
 type TchCooperationByRegion {
   region: String!
   color: String!
@@ -14,13 +6,6 @@ type TchCooperationByRegion {
   uid: String!
 }
 
-type TopTchRecipients {
-  recipient: String!
-  value: Float!
-}
-
 type Query {
-  dvptCooperation: [BasicIndicator]
   tchCooperationByRegion: [TchCooperationByRegion]
-  topTchRecipients: [TopTchRecipients]
 }

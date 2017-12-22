@@ -4,12 +4,6 @@ import sql from './sql';
 import * as colors from '@di-pdfs/pdf-base/lib/theme/colors';
 import {IDataBasic, IDataRegion, IDataRegionAndRecipient, IDataSector} from '../../types';
 
-const dvptColorMap = {
-    'Multilateral organisations': colors.orange,
-    'Gross disbursement of concessional loans': colors.lightRed,
-    'Grants and interest free loans': colors.red
-};
-
 const regionColors = {
     Africa: colors.blue,
     Oceania: colors.lightBlue,
@@ -42,10 +36,6 @@ export class China {
     private db: IDB;
     constructor(db: IDB) {
         this.db = db;
-    }
-    public async dvptCooperation(): Promise<DH.IBasicIndicator[]> {
-        const data: IDataBasic[] = await getIndicatorDataSimple({query: sql.dvptCooperation, db: this.db});
-        return data.map(obj => ({...obj, color: dvptColorMap[obj.id]}));
     }
     public async overallMultiExpenditure(): Promise<DH.IBasicIndicator[]> {
         const data: IDataBasic[] =

@@ -115,61 +115,6 @@ exports[`SouthAfrica getting aricfExpBySector 1`] = `
 ]"
 `;
 
-exports[`SouthAfrica getting dvptCooperation 1`] = `
-"Array [
-  Object {
-    \\"uid\\": \\"unique_id_stub\\",
-    \\"value\\": 293,
-    \\"year\\": 2015,
-  },
-  Object {
-    \\"uid\\": \\"unique_id_stub\\",
-    \\"value\\": 174,
-    \\"year\\": 2014,
-  },
-  Object {
-    \\"uid\\": \\"unique_id_stub\\",
-    \\"value\\": 182,
-    \\"year\\": 2013,
-  },
-  Object {
-    \\"uid\\": \\"unique_id_stub\\",
-    \\"value\\": 176,
-    \\"year\\": 2012,
-  },
-  Object {
-    \\"uid\\": \\"unique_id_stub\\",
-    \\"value\\": 155,
-    \\"year\\": 2011,
-  },
-  Object {
-    \\"uid\\": \\"unique_id_stub\\",
-    \\"value\\": 151,
-    \\"year\\": 2010,
-  },
-  Object {
-    \\"uid\\": \\"unique_id_stub\\",
-    \\"value\\": 193,
-    \\"year\\": 2009,
-  },
-  Object {
-    \\"uid\\": \\"unique_id_stub\\",
-    \\"value\\": 150,
-    \\"year\\": 2008,
-  },
-  Object {
-    \\"uid\\": \\"unique_id_stub\\",
-    \\"value\\": 112,
-    \\"year\\": 2007,
-  },
-  Object {
-    \\"uid\\": \\"unique_id_stub\\",
-    \\"value\\": 99,
-    \\"year\\": 2006,
-  },
-]"
-`;
-
 exports[`SouthAfrica getting govmtdepartment 1`] = `
 "Array [
   Object {

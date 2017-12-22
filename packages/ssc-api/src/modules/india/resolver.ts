@@ -5,9 +5,6 @@ module.exports = {
         },
         async multiCooperation(_root, _args, ctx) {
             return ctx.modules.india.multiCooperation();
-         },
-         async topTchRecipients(_root, _args, ctx) {
-             return ctx.modules.india.topTchRecipients();
          }
     }
 };

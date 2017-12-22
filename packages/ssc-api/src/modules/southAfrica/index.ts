@@ -32,9 +32,6 @@ export class SouthAfrica {
     constructor(db: IDB) {
         this.db = db;
     }
-    public async dvptCooperationTrend(): Promise<DH.ITrendIndicator[]> {
-        return getIndicatorDataSimple({query: sql.dvptCooperationTrend, db: this.db});
-    }
     public async govmtdepartment(): Promise<DH.IBasicIndicator[]> {
         const data: IDataBasic[] =
             await getIndicatorDataSimple({query: sql.govmtdepartment, db: this.db});
@@ -56,4 +53,4 @@ export class SouthAfrica {
     }
 }
 
-export default {china: (db: IDB) => new SouthAfrica(db)};
+export default {southAfrica: (db: IDB) => new SouthAfrica(db)};
