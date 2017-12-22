@@ -4,7 +4,7 @@
   "description": "ssc api",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest ",
     "start": "npm run build && NODE_ENV=production node dist/main.js",
     "build": "NODE_ENV=production tsc",
     "gqlToTs": "node node_modules/@di-pdfs/api-base/lib/makeTypeDefs",
@@ -18,7 +18,7 @@
   "license": "ISC",
   "dependencies": {
     "@di-pdfs/api-base": "^1.0.0",
-    "@di-pdfs/pdf-base": "1.0.2",
+    "@di-pdfs/pdf-base": "1.0.3",
     "ramda": "^0.25.0",
     "shortid": "^2.2.8"
   },
