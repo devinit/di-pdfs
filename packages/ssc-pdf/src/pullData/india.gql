@@ -1,0 +1,9 @@
+query Inda {
+  dvptCooperation(country: "inda") {
+    id
+    uid
+    year
+    color
+    value
+  }
+}

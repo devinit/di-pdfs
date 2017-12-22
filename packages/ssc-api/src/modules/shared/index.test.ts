@@ -5,7 +5,7 @@ import db from '@di-pdfs/api-base/lib/db';
 describe('SouthAfrica', () => {
     const shared = new Shared(db);
     it('getting dvptCooperation', async () => {
-        const data = await shared.dvptCooperation('brazil');
+        const data = await shared.dvptCooperation('southAfrica');
         expect(prettyLists(data)).toMatchSnapshot();
      }, 100000);
     it('getting topTchRecipients', async () => {

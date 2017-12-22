@@ -4,7 +4,7 @@
   "description": "ssc api",
   "main": "index.js",
   "scripts": {
-    "test": "jest ",
+    "test": "jest src/modules/southAfrica/index.test.ts",
     "lint": "tslint -c tslint.json 'src/**/*.ts'",
     "start": "npm run build && NODE_ENV=production node dist/main.js",
     "build": "NODE_ENV=production tsc",

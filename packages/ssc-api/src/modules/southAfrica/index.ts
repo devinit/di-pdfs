@@ -3,7 +3,7 @@ import {getIndicatorDataSimple, getTotal} from '@di-pdfs/api-base/lib/utils';
 import sql from './sql';
 import * as colors from '@di-pdfs/pdf-base/lib/theme/colors';
 import * as R from 'ramda';
-import {IDataBasic, IDataRegion, IDataSector} from '../../types';
+import {IDataBasic, IDataSimple, IDataRegion, IDataSector} from '../../types';
 
 const departmentColors = {
     'International Relations and Cooperation': colors.lightPurple,
@@ -31,6 +31,11 @@ export class SouthAfrica {
     private db: IDB;
     constructor(db: IDB) {
         this.db = db;
+    }
+    public async dvptCooperationTrend(): Promise<DH.IYearValue[]> {
+        const data: IDataSimple[] =
+            await getIndicatorDataSimple({query: sql.dvptCooperationTrend, db: this.db});
+        return data;
     }
     public async govmtdepartment(): Promise<DH.IBasicIndicator[]> {
         const data: IDataBasic[] =

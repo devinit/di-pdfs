@@ -5,6 +5,12 @@ export interface IDataBasic {
     uid: string;
 }
 
+export interface IDataSimple {
+    value: number;
+    year: number;
+    uid: string;
+}
+
 export interface IDataRegion {
     region: string;
     value: number;

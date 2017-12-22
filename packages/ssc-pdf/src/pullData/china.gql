@@ -1,0 +1,9 @@
+query China {
+  dvptCooperation(country: "china") {
+    id
+    uid
+    year
+    color
+    value
+  }
+}

@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pull Data read in gql Files 1`] = `
+"Array [
+  \\"query Brazil {
+  dvptCooperation(country: \\\\\\"brazil\\\\\\") {
+    id
+    uid
+    year
+    color
+    value
+  }
+  tchCooperationByRegion{
+    region
+    color
+    year
+    value
+    uid
+  }
+  topTchRecipients(country: \\\\\\"brazil\\\\\\") {
+    recipient
+    value
+  }
+}
+\\",
+  \\"query China {
+  dvptCooperation(country: \\\\\\"china\\\\\\") {
+    id
+    uid
+    year
+    color
+    value
+  }
+}
+\\",
+  \\"query SouthAfrica {
+  dvptCooperation(country: \\\\\\"southAfrica\\\\\\") {
+    id
+    uid
+    year
+    color
+    value
+  }
+}
+\\",
+  \\"query Inda {
+  dvptCooperation(country: \\\\\\"inda\\\\\\") {
+    id
+    uid
+    year
+    color
+    value
+  }
+}
+\\",
+]"
+`;

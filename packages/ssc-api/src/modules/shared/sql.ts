@@ -10,8 +10,5 @@ export default {
     },
     india: {
         tchTopRecipts: 'SELECT * FROM india_chart_2_technical_economic_cooperation_by_recipient',
-    },
-    southAfrica: {
-        dvptCooperationTrend: 'SELECT * FROM south_africa_chart_1_trends_in_development_cooperation',
     }
 };

@@ -1,0 +1,20 @@
+query Brazil {
+  dvptCooperation(country: "brazil") {
+    id
+    uid
+    year
+    color
+    value
+  }
+  tchCooperationByRegion{
+    region
+    color
+    year
+    value
+    uid
+  }
+  topTchRecipients(country: "brazil") {
+    recipient
+    value
+  }
+}

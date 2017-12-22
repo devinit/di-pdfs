@@ -4,6 +4,10 @@ import db from '@di-pdfs/api-base/lib/db';
 
 describe('SouthAfrica', () => {
     const southAfrica = new SouthAfrica(db);
+    it('getting dvptCooperationTrend', async () => {
+        const data = await southAfrica.dvptCooperationTrend();
+        expect(prettyLists(data)).toMatchSnapshot();
+     }, 100000);
     it('getting aricfExpByRegion', async () => {
         const data = await southAfrica.aricfExpByRegion();
         expect(prettyLists(data)).toMatchSnapshot();
