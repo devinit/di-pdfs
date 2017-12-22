@@ -7,5 +7,5 @@ type Multialatral {
 }
 
 type Query {
-  multilateralExpenditure: [Multialatral]
+  multiCooperation: [Multialatral]
 }

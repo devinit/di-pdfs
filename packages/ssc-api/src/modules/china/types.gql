@@ -22,7 +22,7 @@ type RegionAndRecipient {
 }
 
 type Query {
-  overallMultilateralExpenditure: [BasicIndicator]
+  overallMultiExpenditure: [BasicIndicator]
   odaLikeFlowsByRegion: [RegionValue]
   odaLikeFlowsBySector: [SectorValue]
   odaRecipients: [RegionAndRecipient]
