@@ -1,5 +1,5 @@
 query Inda {
-  dvptCooperation(country: "inda") {
+  dvptCooperation(country: "india") {
     id
     uid
     year
