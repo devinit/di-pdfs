@@ -1,5 +1,5 @@
 /* tslint:disable */
 
 export default {
-    tchTopRecipts: 'SELECT * FROM south_south_cooperation.brazil_chart_3_top_recipients_technical_cooperpation',
+    tchCooperationByRegion: 'SELECT * FROM south_south_cooperation.brazil_chart_2_technical_cooperpation_by_region',
 };

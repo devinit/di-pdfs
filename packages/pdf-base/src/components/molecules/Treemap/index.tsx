@@ -3,7 +3,7 @@ import config from './config';
 import Chart from '../../atoms/Chart';
 import * as R from 'ramda';
 
-interface Props {
+export interface Props {
     config: {
         labeling: {
         prefix?: string,

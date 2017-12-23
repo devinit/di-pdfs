@@ -32,7 +32,7 @@ const jsonToJs = (json: string): string =>
   `/* tslint:disable */
   // this file is auto generated
   \n
-  module.exports = ${json};
+  export default ${json};
   \n
   `;
 

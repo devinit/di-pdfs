@@ -2,7 +2,7 @@ import * as React from 'react';
 import glamorous, { Div } from 'glamorous';
 
 type  Orientation = 'horizontal' | 'vertical';
-interface Props {
+export interface Props {
     orientation: Orientation;
     data: Array<{
         color: string;

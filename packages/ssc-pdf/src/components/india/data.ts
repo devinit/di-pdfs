@@ -1,278 +1,278 @@
-/* eslint-disable */
+/* tslint:disable */
 // this file is auto generated
 
-module.exports = {
+export default {
   dvptCooperation: [
     {
       id: 'Interest subsidy for lines of credit',
-      uid: 'B1t7_A1hiGG',
+      uid: 'S1tQPuE3ifz',
       year: 2008,
       color: '#bc2629',
       value: 39.2
     },
     {
       id: 'Other',
-      uid: 'Bk5mOCk3oMz',
+      uid: 'H1qmv_4njMM',
       year: 2008,
       color: '#8f1b13',
       value: 5.1
     },
     {
       id: 'International organisations',
-      uid: 'SyjX_C1nsMf',
+      uid: 'HysXwd4hsfM',
       year: 2008,
       color: '#f39b95',
       value: 233.5
     },
     {
       id: 'Loans and advances to foreign governments',
-      uid: 'rkhXuCk2sGf',
+      uid: 'B137DOVhszz',
       year: 2008,
       color: '#fbd7cb',
       value: 160.4
     },
     {
       id: 'Technical & economic cooperation with other countries',
-      uid: 'B1p7O013jzz',
+      uid: 'HJ6QvdNhizM',
       year: 2008,
       color: '#e8443a',
       value: 375.7
     },
     {
       id: 'Interest subsidy for lines of credit',
-      uid: 'S1RXd0JnizM',
+      uid: 'BJCmwuNhozz',
       year: 2009,
       color: '#bc2629',
       value: 29.6
     },
-    { id: 'Other', uid: 'SyJEOC13jGz', year: 2009, color: '#8f1b13', value: 4 },
+    { id: 'Other', uid: 'rk1EwdVhizG', year: 2009, color: '#8f1b13', value: 4 },
     {
       id: 'International organisations',
-      uid: 'r1gV_C1hoGM',
+      uid: 'Byg4vdVnizz',
       year: 2009,
       color: '#f39b95',
       value: 137.1
     },
     {
       id: 'Loans and advances to foreign governments',
-      uid: 'Sk-VOAyhizz',
+      uid: 'Sk-NDOE3izG',
       year: 2009,
       color: '#fbd7cb',
       value: 119.1
     },
     {
       id: 'Technical & economic cooperation with other countries',
-      uid: 'BkfV_013oGz',
+      uid: 'rkzND_EnoMf',
       year: 2009,
       color: '#e8443a',
       value: 419.7
     },
     {
       id: 'Interest subsidy for lines of credit',
-      uid: 'Sy7EO0y3sMz',
+      uid: 'ByQEP_V2jfG',
       year: 2010,
       color: '#bc2629',
       value: 23.5
     },
     {
       id: 'Other',
-      uid: 'ryVNuR1hjfM',
+      uid: 'B1VVDdV3ofM',
       year: 2010,
       color: '#8f1b13',
       value: 4.5
     },
     {
       id: 'International organisations',
-      uid: 'HySEORknofG',
+      uid: 'HJBEDdV2szM',
       year: 2010,
       color: '#f39b95',
       value: 116.6
     },
     {
       id: 'Loans and advances to foreign governments',
-      uid: 'r1INdAJ2jzf',
+      uid: 'SkL4DdVhozM',
       year: 2010,
       color: '#fbd7cb',
       value: 87.8
     },
     {
       id: 'Technical & economic cooperation with other countries',
-      uid: 'HJwNORJhiMz',
+      uid: 'rywNvO4nszM',
       year: 2010,
       color: '#e8443a',
       value: 451.9
     },
     {
       id: 'Interest subsidy for lines of credit',
-      uid: 'r1_NuRknjGf',
+      uid: 'SyuNw_V2iff',
       year: 2011,
       color: '#bc2629',
       value: 23.5
     },
     {
       id: 'Other',
-      uid: 'HkFVu0k3jfM',
+      uid: 'HkF4wuN2jGz',
       year: 2011,
       color: '#8f1b13',
       value: 6.7
     },
     {
       id: 'International organisations',
-      uid: 'HJ9Nd0J3sff',
+      uid: 'ryqEDuNnoGf',
       year: 2011,
       color: '#f39b95',
       value: 145.2
     },
     {
       id: 'Loans and advances to foreign governments',
-      uid: 'SysEuRknjMf',
+      uid: 'BkiNPO4nsfM',
       year: 2011,
       color: '#fbd7cb',
       value: 153
     },
     {
       id: 'Technical & economic cooperation with other countries',
-      uid: 'HynNd0k2iMM',
+      uid: 'BJn4wOVnszM',
       year: 2011,
       color: '#e8443a',
       value: 424
     },
     {
       id: 'Interest subsidy for lines of credit',
-      uid: 'rkTVu0J2szf',
+      uid: 'SypVwON3ozz',
       year: 2012,
       color: '#bc2629',
       value: 40.4
     },
     {
       id: 'Other',
-      uid: 'ryRVdAk3oGG',
+      uid: 'BJRNwOEnizz',
       year: 2012,
       color: '#8f1b13',
       value: 7.2
     },
     {
       id: 'International organisations',
-      uid: 'SJkHdCynsGM',
+      uid: 'HkkBDONnifG',
       year: 2012,
       color: '#f39b95',
       value: 134.2
     },
     {
       id: 'Loans and advances to foreign governments',
-      uid: 'SkgSOC12jfM',
+      uid: 'BkxrvOE3ozz',
       year: 2012,
       color: '#fbd7cb',
       value: 262.8
     },
     {
       id: 'Technical & economic cooperation with other countries',
-      uid: 'B1-HuCJnsGz',
+      uid: 'B1ZrvuVnoGz',
       year: 2012,
       color: '#e8443a',
       value: 538.2
     },
     {
       id: 'Interest subsidy for lines of credit',
-      uid: 'ryMHdAkhjzf',
+      uid: 'BkGHw_E2jzz',
       year: 2013,
       color: '#bc2629',
       value: 60.7
     },
     {
       id: 'Other',
-      uid: 'r1QHuAJ2iff',
+      uid: 'Skmrw_V3sMz',
       year: 2013,
       color: '#8f1b13',
       value: 8.7
     },
     {
       id: 'International organisations',
-      uid: 'rkNB_R1hsGz',
+      uid: 'Hy4SwONnjfG',
       year: 2013,
       color: '#f39b95',
       value: 157.9
     },
     {
       id: 'Loans and advances to foreign governments',
-      uid: 'HJSH_RyhjMG',
+      uid: 'ryBBv_NnizG',
       year: 2013,
       color: '#fbd7cb',
       value: 270.1
     },
     {
       id: 'Technical & economic cooperation with other countries',
-      uid: 'r1UHdA1hjMG',
+      uid: 'BkIrwONnjGM',
       year: 2013,
       color: '#e8443a',
       value: 776.7
     },
     {
       id: 'Interest subsidy for lines of credit',
-      uid: 'BkDrdR12oGM',
+      uid: 'HkwHwdE3sff',
       year: 2014,
       color: '#bc2629',
       value: 60.5
     },
     {
       id: 'Other',
-      uid: 'HkurORJ3izM',
+      uid: 'r1urwuVhsMG',
       year: 2014,
       color: '#8f1b13',
       value: 8.4
     },
     {
       id: 'International organisations',
-      uid: 'SyYHuRy2jfM',
+      uid: 'H1YHD_N3oGz',
       year: 2014,
       color: '#f39b95',
       value: 165.9
     },
     {
       id: 'Loans and advances to foreign governments',
-      uid: 'H19HdCJhjff',
+      uid: 'Sk9Bwd4njMz',
       year: 2014,
       color: '#fbd7cb',
       value: 297.7
     },
     {
       id: 'Technical & economic cooperation with other countries',
-      uid: 'SJsSdR1nszf',
+      uid: 'BkoBDuVnszf',
       year: 2014,
       color: '#e8443a',
       value: 717.6
     },
     {
       id: 'Interest subsidy for lines of credit',
-      uid: 'ByhSuCk2oGG',
+      uid: 'rknHw_N2izM',
       year: 2015,
       color: '#bc2629',
       value: 73.3
     },
     {
       id: 'Other',
-      uid: 'By6HOR12oMf',
+      uid: 'SyTSPdVnszf',
       year: 2015,
       color: '#8f1b13',
       value: 3.6
     },
     {
       id: 'International organisations',
-      uid: 'r1RS_CynizG',
+      uid: 'BJRSvuE3jzG',
       year: 2015,
       color: '#f39b95',
       value: 256.1
     },
     {
       id: 'Loans and advances to foreign governments',
-      uid: 'Hk1Ud013ozM',
+      uid: 'BykIvu4nozM',
       year: 2015,
       color: '#fbd7cb',
       value: 445.7
     },
     {
       id: 'Technical & economic cooperation with other countries',
-      uid: 'HyeU_A12iGf',
+      uid: 'SJl8wuN2sGf',
       year: 2015,
       color: '#e8443a',
       value: 733.2

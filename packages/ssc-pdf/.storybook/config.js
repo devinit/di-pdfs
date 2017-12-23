@@ -1,6 +1,6 @@
 import { configure } from '@storybook/react';
-import '@di-pdfs/pdf-base/lib/static/styles.min.css';
-import '@di-pdfs/pdf-base/lib/static/di-charts.min.css';
+import '../dist/styles.min.css';
+import '../dist/di-charts.min.css';
 
 const req = require.context('../src/components', true, /.stories.tsx$/);
 

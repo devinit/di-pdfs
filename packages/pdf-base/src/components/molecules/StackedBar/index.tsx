@@ -4,7 +4,7 @@ import Chart from '../../atoms/Chart';
 import {IBaseConfig} from '../../atoms/Chart/types';
 import * as R from 'ramda';
 
-interface Props {
+export interface Props {
     config: IBaseConfig & {groupBy: string};
     data: any[];
     height: string;

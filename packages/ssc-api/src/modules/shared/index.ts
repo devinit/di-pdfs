@@ -4,7 +4,7 @@ import sql from './sql';
 import * as colors from '@di-pdfs/pdf-base/lib/theme/colors';
 import {IDataBasic} from '../../types';
 
-const dvptColorMap = {
+export const dvptColorMap = {
     brazil: {
         'Other development cooperation': colors.blue,
         'Development cooperation estimated to be ODA eligible': colors.red,

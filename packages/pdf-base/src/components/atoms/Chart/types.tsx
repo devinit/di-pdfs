@@ -1,5 +1,5 @@
 export interface IAxis {
-    axisLabel: string;
+    axisLabel?: string;
     indicator: string;
 }
 

@@ -4,7 +4,7 @@ import {ILegend} from '../../atoms/Chart/types';
 import Chart from '../../atoms/Chart';
 import * as R from 'ramda';
 
-interface Props {
+export interface Props {
     config: {
         circular: {
             label: string;
