@@ -10,5 +10,6 @@ export default {
     },
     india: {
         tchTopRecipts: 'SELECT * FROM india_chart_2_technical_economic_cooperation_by_recipient',
+        dvptCooperation: 'SELECT * FROM  india_chart_1_overall_expenditure',
     }
 };
