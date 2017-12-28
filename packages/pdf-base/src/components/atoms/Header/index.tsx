@@ -2,7 +2,7 @@ import * as React from 'react';
 import {red} from '../../../theme/colors';
 import {Header} from 'glamorous';
 
-interface Props {
+export interface Props {
     title: string;
     downlaodLink?: string;
 }

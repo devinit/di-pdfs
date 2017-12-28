@@ -2,7 +2,7 @@ import * as React from 'react';
 import glamorous, {Span} from 'glamorous';
 import {red} from '../../../theme/colors';
 
-interface Props {
+export interface Props {
    text: string;
 }
 

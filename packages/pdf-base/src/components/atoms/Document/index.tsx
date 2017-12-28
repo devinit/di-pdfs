@@ -1,7 +1,7 @@
 import * as React from 'react';
 import glamorous from 'glamorous';
 
-interface Props {
+export interface Props {
     children: React.ReactChild[] | React.ReactChild;
 }
 

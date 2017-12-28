@@ -1,7 +1,7 @@
 import * as React from 'react';
 import glamorous, {Tbody, Th, Tr, Td} from 'glamorous';
 import {red, lightGrey} from '../../../theme/colors';
-interface Props {
+export interface Props {
     headings: string[];
     data: object[];
 }

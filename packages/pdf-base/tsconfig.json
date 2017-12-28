@@ -4,6 +4,8 @@
       "sourceMap": false,
       "strict": true,
       "lib": ["es2017", "dom"],
+      "declaration": true,
+      "declarationDir": "lib",
       "experimentalDecorators": true,
       "typeRoots": ["node_modules/@types", "src/types"],
       "noImplicitAny": false,
@@ -14,6 +16,6 @@
     },
     "exclude": [
       "node_modules",
-      "out"
+      "lib"
     ]
   }

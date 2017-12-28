@@ -2,7 +2,7 @@ import * as React from 'react';
 import glamorous, {Div} from 'glamorous';
 import FootNote from '../FootNote';
 
-interface Props {
+export interface Props {
     children: React.ReactChild[] | React.ReactChild;
     footNote: string;
 }
