@@ -10,11 +10,13 @@ export interface Props {
     height: string;
 }
 
-export default (props: Props) =>
-    (
+export default (props: Props) => {
+    console.log('stacked configs: ', R.mergeDeepRight(config, props.config));
+    return  (
         <Chart
             height={props.height}
             data={props.data}
             config={R.mergeDeepRight(config, props.config)}
         />
     );
+};

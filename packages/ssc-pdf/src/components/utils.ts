@@ -1,4 +1,4 @@
-import {dvptColorMap} from '@di-pdfs/ssc-api/lib/modules/shared';
+import dvptColorMap from '@di-pdfs/ssc-api/lib/modules/shared/config';
 
 export const dvptCoLegendData = (country: string): Array<{color: string; value: string}> => {
     return Object.keys(dvptColorMap[country]).map(value => {

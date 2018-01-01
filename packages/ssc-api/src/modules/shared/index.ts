@@ -1,27 +1,8 @@
 import {IDB} from '@di-pdfs/api-base/lib/db';
 import {getIndicatorDataSimple} from '@di-pdfs/api-base/lib/utils';
 import sql from './sql';
-import * as colors from '@di-pdfs/pdf-base/lib/theme/colors';
+import dvptColorMap from './config';
 import {IDataBasic} from '../../types';
-
-export const dvptColorMap = {
-    brazil: {
-        'Other development cooperation': colors.blue,
-        'Development cooperation estimated to be ODA eligible': colors.red,
-    },
-    china: {
-        'Multilateral organisations': colors.orange,
-        'Gross disbursement of concessional loans': colors.lightRed,
-        'Grants and interest free loans': colors.red
-    },
-    india: {
-        'Technical & economic cooperation with other countries': colors.red,
-        'Loans and advances to foreign governments': colors.lighterRed,
-        'Interest subsidy for lines of credit': colors.darkRed,
-        'International organisations': colors.lightRed,
-        'Other': colors.darkerRed
-    },
-};
 
 export class Shared {
     private db: IDB;

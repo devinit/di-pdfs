@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "npm run prebuild && concurrently \"tsc --pretty --watch\" \"next dist\"",
-    "prebuild": "mkdir -p dist && cp -R node_modules/@di-pdfs/pdf-base/lib/static/ dist/ && tsc",
+    "prebuild": "mkdir -p dist && cp -R node_modules/@di-pdfs/pdf-base/lib/static/ dist/static && tsc",
     "pull": "npm run build && node dist/pullData/index.js",
     "test": "jest",
     "build": "next build dist",
@@ -31,7 +31,7 @@
     "@types/next": "^2.4.7",
     "@types/node": "^8.0.55",
     "@types/jest": "^21.1.8",
-    "@types/react": "16.0.28",
+    "@types/react": "16.0.27",
     "concurrently": "^3.5.0",
     "tslint": "^5.8.0",
     "tslint-react": "^3.2.0",

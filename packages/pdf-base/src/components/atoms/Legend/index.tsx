@@ -28,7 +28,7 @@ export default (props: Props) =>
         alignItems="flex-start"
     >
         {props.data.map(row => (
-            <Row orientation={props.orientation}>
+            <Row orientation={props.orientation} key={row.value}>
                 <Div backgroundColor={row.color} width="1em" height="1em" />
                 <Div marginLeft={'1em'} textAlign={'left'} >{row.value}</Div>
             </Row>

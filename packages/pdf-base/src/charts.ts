@@ -5,7 +5,7 @@ import Treemap, {Props as TrProps} from './components/molecules/Treemap';
 
 export type HiProps = HiProps;
 export type PiProps = PiProps;
-export type StPros = StProps;
+export type StProps = StProps;
 export type TrProps = TrProps;
 
 export default {

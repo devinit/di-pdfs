@@ -3,13 +3,14 @@ import {Div} from 'glamorous';
 import {dvptCoLegendData} from '../utils';
 import {Legend} from '@di-pdfs/pdf-base';
 import {LegendProps} from '@di-pdfs/pdf-base';
-import charts, {HiProps} from '@di-pdfs/pdf-base/lib/charts';
+import charts from '@di-pdfs/pdf-base/lib/charts';
 import data from './data';
 
-const options: HiProps = {
+const options = {
     data: data.dvptCooperation,
     height: '250px',
     config: {
+        groupBy: 'id',
         linearAxis: {
             indicator: 'value',
         },
@@ -26,11 +27,11 @@ const legendOptions: LegendProps = {
 };
 
 export default () =>
-    <Div display="flex" flexDirection="row" padding="10px">
-        <Div width="60%">
-            <charts.Histogram {...options} />
+    <Div padding="10px" width="70%" display="flex" justifyContent="space-between" >
+        <Div width="40%" key="stacked">
+            <charts.StackedBar {...options} />
         </Div>
-        <Div width="40%">
+        <Div width="40%" key="legend-stacked">
             <Legend {...legendOptions} />
         </Div>
     </Div>;
