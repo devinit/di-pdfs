@@ -1,7 +1,8 @@
 import * as React from 'react';
-import { P, Div, Em } from 'glamorous';
-import BarChart from '../components/brazil/BarChart';
-import {Document, Page, Header, TextBlock, Note, colors} from '@di-pdfs/pdf-base';
+import { Em } from 'glamorous';
+import StackedBar from '../components/brazil/StackedBar';
+import Table from '../components/brazil/Table';
+import {Document, Page, Header, TextBlock, Note} from '@di-pdfs/pdf-base';
 
 export default () =>
     (<Document>
@@ -33,7 +34,7 @@ export default () =>
                 <h2>Development cooperation, 2011 – 2013</h2>
                 <Note>US$ millions, constant 2015 prices</Note>
             </TextBlock>
-            <BarChart />
+            <StackedBar dataKey="dvptCooperation" groupBy="id" />
             <TextBlock>
                     <Em>Source: Brazilian cooperation for international development:
                         2011-2013. Brasília. IPEA. ABC, 2017 and Organisation for Economic Co-operatio
@@ -43,16 +44,12 @@ export default () =>
                 <h2>Technical cooerpation by region, 2011 - 2013</h2>
                 <Note>Percent</Note>
             </TextBlock>
-            <Div width="100%" height="250px" backgroundColor={colors.lightGrey}>
-                <P color={colors.red}> Chart Place holder </P>
-            </Div>
+            <StackedBar dataKey="tchCooperationByRegion" groupBy="region" />
             <TextBlock marginTop="1em">
                 <h2>Top 10 recipients of technical cooperation, 2011-2013</h2>
                 <Note>US$ millions Constant 2015 prices</Note>
             </TextBlock>
-            <Div width="100%" height="180px" backgroundColor={colors.lightGrey}>
-                <P color={colors.red}>Table Place holder </P>
-            </Div>
+            <Table />
             <TextBlock>
                     <Em>
                         Source:Brazilian cooperation for international development: 2011-2013. Brasília.
