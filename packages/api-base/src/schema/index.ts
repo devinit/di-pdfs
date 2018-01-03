@@ -26,7 +26,8 @@ interface Ischema {
 }
 
 // TODO: use & to ceate the resulting returned type
-export const createSchema = async ({apiModules, gqlTypesGlobPattern, resolverPattern}: Ischema): Promise<any> => {
+export const createSchema = async ({apiModules, gqlTypesGlobPattern, resolverPattern}: Ischema):
+    Promise<{schema: any, context: any}> => {
     try {
         const typeDefs = await getTypeDefs(gqlTypesGlobPattern);
         const modules = apiModules.reduce((all, module)  => {
