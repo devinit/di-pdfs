@@ -21,7 +21,7 @@ type TrendIndicator {
 
 
 type Query {
-   dvptCooperationTrend: [YearValue]
+  dvptCooperationTrend: [YearValue]
   govmtdepartment: [BasicIndicator]
   aricfExpByRegion: [RegionYearValue]
   aricfExpBySector: [SectorValue]

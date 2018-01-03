@@ -4,9 +4,9 @@
   "description": "ssc api",
   "main": "index.js",
   "scripts": {
-    "test": "jest src/modules/southAfrica/index.test.ts",
+    "test": "jest src/modules/china/index.test.ts",
     "lint": "tslint -c tslint.json 'src/**/*.ts'",
-    "start": "npm run build && NODE_ENV=production node lib/main.js",
+    "start": "npm run build && NODE_ENV=production PORT=8080 node lib/main.js",
     "build": "NODE_ENV=production tsc",
     "build:watch": "NODE_ENV=development tsc -w",
     "gqlToTs": "node node_modules/@di-pdfs/api-base/lib/makeTypeDefs",

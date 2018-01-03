@@ -4,7 +4,7 @@ import * as fs from 'fs-extra';
 
 const basePath = 'src/components';
 
-const getWrite = getAndWriteData('http://localhost:3000/graphql');
+const getWrite = getAndWriteData('http://localhost:8080/graphql');
 
 const getGql = (fileName: string): string => fs.readFileSync(`src/pullData/${fileName}.gql`, 'utf8');
 

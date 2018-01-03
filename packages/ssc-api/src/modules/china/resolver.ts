@@ -3,14 +3,14 @@ module.exports = {
         async overallMultiExpenditure(_root, _args, ctx) {
             return ctx.modules.china.overallMultiExpenditure();
          },
-         async odaLikeFlowsByRegion(_root, _args, ctx) {
-             return ctx.modules.china.odaLikeFlowsByRegion();
+         async flowsByRegion(_root, _args, ctx) {
+             return ctx.modules.china.flowsByRegion();
          },
-         async odaLikeFlowsBySector(_root, _args, ctx) {
-            return ctx.modules.china.odaLikeFlowsByRegion();
+         async flowsBySector(_root, _args, ctx) {
+            return ctx.modules.china.flowsBySector();
         },
         async odaRecipients(_root, _args, ctx) {
-            return ctx.modules.china.odaLikeFlowsByRegion();
+            return ctx.modules.china.odaRecipients();
         }
     }
 };

@@ -6,4 +6,23 @@ query China {
     color
     value
   }
+  overallMultiExpenditure {
+    id
+    year
+    color
+    value
+    uid
+  }
+  odaLikeFlowsByRegion {
+    uid
+    value
+    color
+    region
+  }
+  odaLikeFlowsBySector {
+    sector
+    value
+    uid
+    year
+  }
 }

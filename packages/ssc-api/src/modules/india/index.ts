@@ -1,8 +1,7 @@
 import {IDB} from '@di-pdfs/api-base/lib/db';
 import {getIndicatorDataSimple} from '@di-pdfs/api-base/lib/utils';
 import sql from './sql';
-import * as colors from '@di-pdfs/pdf-base/lib/theme/colors';
-import vmultilateralColors from './config';
+import multilateralColors from './config';
 import {IDataMulti} from '../../types';
 
 export class India {

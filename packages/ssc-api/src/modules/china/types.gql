@@ -6,7 +6,7 @@ type RegionValue {
 }
 
 type SectorValue {
-  sector: String!
+  sector: String!   
   color: String!
   value: Float!
   uid: String!
@@ -23,7 +23,7 @@ type RegionAndRecipient {
 
 type Query {
   overallMultiExpenditure: [BasicIndicator]
-  odaLikeFlowsByRegion: [RegionValue]
-  odaLikeFlowsBySector: [SectorValue]
+  flowsByRegion: [RegionValue]
+  flowsBySector: [SectorValue]
   odaRecipients: [RegionAndRecipient]
 }

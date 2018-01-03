@@ -23,8 +23,8 @@ declare namespace DH {
   interface IQuery {
     tchCooperationByRegion: Array<ITchCooperationByRegion> | null;
     overallMultiExpenditure: Array<IBasicIndicator> | null;
-    odaLikeFlowsByRegion: Array<IRegionValue> | null;
-    odaLikeFlowsBySector: Array<ISectorValue> | null;
+    flowsByRegion: Array<IRegionValue> | null;
+    flowsBySector: Array<ISectorValue> | null;
     odaRecipients: Array<IRegionAndRecipient> | null;
     multiCooperation: Array<IMultialatral> | null;
     dvptCooperation: Array<IBasicIndicator> | null;

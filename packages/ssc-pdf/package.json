@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "npm run prebuild && concurrently \"tsc --pretty --watch\" \"next dist\"",
     "prebuild": "rm -rf dist && mkdir -p dist && cp -R node_modules/@di-pdfs/pdf-base/lib/static/ dist/static && tsc",
-    "pull": "npm run build && node dist/pullData/index.js",
+    "pull": "tsc && node dist/pullData/index.js",
     "test": "jest",
     "build": "next build dist",
     "start": "next start dist",
