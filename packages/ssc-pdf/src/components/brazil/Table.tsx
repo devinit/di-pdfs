@@ -20,7 +20,7 @@ export default () => {
                 <Table data={splitData[0]}  headings={headings}/>
             </Div>
             <Div width="50%" key="legend-stacked">
-                <Table data={splitData[1]}   headings={headings}/>
+                <Table data={splitData[1]} headings={headings}/>
             </Div>
         </Div>
     );

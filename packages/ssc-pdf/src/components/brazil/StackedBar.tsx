@@ -1,7 +1,7 @@
 import * as React from 'react';
 import {Div} from 'glamorous';
 import {dvptCoLegendData} from '../utils';
-import {Legend} from '@di-pdfs/pdf-base';
+import {Legend, LegendProps} from '@di-pdfs/pdf-base';
 import regionColors from '@di-pdfs/ssc-api/lib/modules/brazil/config';
 import charts from '@di-pdfs/pdf-base/lib/charts';
 import data from './data';
@@ -26,7 +26,7 @@ interface Props {
     groupBy: string;
 }
 
-const techLegend = (): Legend => {
+const techLegend = (): LegendProps => {
     if (!regionColors) throw new Error('no regions colors');
     const legendData = Object.keys(regionColors)
         .map(region => ({color: regionColors[region], value: region}));
