@@ -10,5 +10,6 @@ const apiModules = [brazil, china, india, southAfrica, shared];
 // starts app
 main({
     resolverPattern: '**/dist/modules/**/resolver.js',
-    apiModules
+    apiModules,
+    port: process.env.PORT || 3000
   });
