@@ -7,7 +7,7 @@ import data from './data';
 
 const options = {
     data: data.dvptCooperation,
-    height: '200px',
+    height: '230px',
     config: {
         groupBy: 'id',
         linearAxis: {
@@ -27,10 +27,10 @@ const legendOptions = () => ({
 
 export default () =>
     <Div padding="5px" width="100%" display="flex" justifyContent="space-between" >
-        <Div width="35%" key="stacked">
+        <Div width="70%" key="stacked">
             <charts.StackedBar {...options} />
         </Div>
-        <Div width="50%" key="legend-stacked">
+        <Div width="28%" key="legend-stacked">
             <Legend {...legendOptions()} />
         </Div>
     </Div>;

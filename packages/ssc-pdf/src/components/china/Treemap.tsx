@@ -8,7 +8,7 @@ import data from './data';
 
 const options = () => ({
     data: data.odaRecipients.map(obj => ({...obj, name: obj.recipient})),
-    height: '400px',
+    height: '250px',
     config: {
         labeling: {
             prefix: 'US$'
@@ -21,11 +21,11 @@ const legendOptions = () => ({
 });
 
 export default () =>
-    <Div padding="5px" width="100%" display="flex" >
-        <Div width="80%" key="stacked">
+    <Div padding="5px" width="100%" display="flex" flexDirection="column" >
+        <Div width="100%" key="stacked">
             <charts.Treemap {...options()} />
         </Div>
-        <Div>
+        <Div paddingTop="20px" >
             <Legend {...legendOptions()} />
         </Div>
     </Div>;

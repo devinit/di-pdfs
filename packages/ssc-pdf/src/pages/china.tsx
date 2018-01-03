@@ -1,6 +1,10 @@
 import * as React from 'react';
-import { P, Div } from 'glamorous';
-import {Document, Page, Header, TextBlock, Note, colors} from '@di-pdfs/pdf-base';
+import { Div } from 'glamorous';
+import {Document, Page, Header, TextBlock, Note} from '@di-pdfs/pdf-base';
+import Pie from '../components/china/Pie';
+import StackedBar from '../components/china/StackedBar';
+import Bar from '../components/china/Bar';
+import Treemap from '../components/china/Treemap';
 
 export default () =>
     (<Document>
@@ -34,9 +38,7 @@ export default () =>
                 <h2>Gross Expenditure of concessional development cooperation, 2006-2015</h2>
                 <Note>US$ billions, constant 2015 prices</Note>
             </TextBlock>
-            <Div width="100%" height="150px" backgroundColor={colors.lightGrey}>
-                <P color={colors.red}> Chart Place holder </P>
-            </Div>
+            <StackedBar />
             <TextBlock>
                     <p>Source: Kitano, N. 2017.
                         A Note on Estimating China’s Foreign Aid Using New Data:2015 Preliminary Figures.
@@ -46,9 +48,7 @@ export default () =>
                 <h2>Multilateral expenditure</h2>
                 <Note>2006-2015, US$ billions, constant 2015</Note>
             </TextBlock>
-            <Div width="100%" height="250px" backgroundColor={colors.lightGrey}>
-                <P color={colors.red}> Chart Place holder </P>
-            </Div>
+            <Bar />
             <TextBlock>
                     <p>Source: Kitano, N. 2017.
                         A Note on Estimating China’s Foreign Aid Using New Data:2015 Preliminary Figures.
@@ -81,9 +81,7 @@ export default () =>
                 <Note>2012 – 2014, commitments</Note>
             </TextBlock>
             </Div>
-            <Div width="100%" height="230px" backgroundColor={colors.lightGrey}>
-                <P color={colors.red}>Pie Chart Place holder </P>
-            </Div>
+            <Pie />
             <TextBlock>
                     <p>Source: AidData. 2017. Global Chinese Official Finance Dataset, Version 1.0.
                         Retrieved from http://aiddata.org/data/chinese-global-official-finance-dataset</p>
@@ -92,9 +90,7 @@ export default () =>
                 <h2>Recipients of ODA-like flows</h2>
                 <Note>2012-2014, commitments</Note>
             </TextBlock>
-            <Div width="100%" height="230px" backgroundColor={colors.lightGrey}>
-                <P color={colors.red}>Chart Place holder </P>
-            </Div>
+           <Treemap />
             <TextBlock>
                     <p>Source: AidData. 2017. Global Chinese Official Finance Dataset, Version 1.0.
                         Retrieved from http://aiddata.org/data/chinese-global-official-finance-dataset</p>
