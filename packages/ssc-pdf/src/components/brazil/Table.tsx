@@ -9,7 +9,13 @@ export default () => {
     const splitData = splitAt(mid, data.topTchRecipients);
     const headings = ['Recipient country', 'Development Cooperation'];
     return (
-        <Div padding="10px" width="100%" display="flex" justifyContent="space-between" >
+        <Div
+            paddingLeft="50px"
+            paddingRight="50px"
+            width="100%"
+            display="flex"
+            justifyContent="space-between"
+        >
             <Div width="50%" key="stacked">
                 <Table data={splitData[0]}  headings={headings}/>
             </Div>
