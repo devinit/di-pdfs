@@ -5,42 +5,42 @@ export default {
   dvptCooperation: [
     {
       id: 'Other development cooperation',
-      uid: 'rkRdsNqXG',
+      uid: 'Hyiz3ClIc7z',
       year: 2011,
       color: '#0095CB',
       value: 81
     },
     {
       id: 'Development cooperation estimated to be ODA eligible',
-      uid: 'HJxC_o4qQM',
+      uid: 'SJnz2ReU9mG',
       year: 2011,
       color: '#e8443a',
       value: 318.3
     },
     {
       id: 'Other development cooperation',
-      uid: 'SyZROiE9QM',
+      uid: 'H16GnAg8cXM',
       year: 2012,
       color: '#0095CB',
       value: 75.4
     },
     {
       id: 'Development cooperation estimated to be ODA eligible',
-      uid: 'SkzAOiVqQf',
+      uid: 'H1Af3Cl85Xz',
       year: 2012,
       color: '#e8443a',
       value: 301.6
     },
     {
       id: 'Other development cooperation',
-      uid: 'r1Q0OsVqQz',
+      uid: 'BJyX2Rx89QG',
       year: 2013,
       color: '#0095CB',
       value: 60.9
     },
     {
       id: 'Development cooperation estimated to be ODA eligible',
-      uid: 'rJNCOjEcmG',
+      uid: 'Hkl73ClU5mf',
       year: 2013,
       color: '#e8443a',
       value: 238.1
@@ -52,126 +52,126 @@ export default {
       color: '#f39b95',
       year: 2011,
       value: 22059553,
-      uid: 'r1SCuo45XM'
+      uid: 'B1WXh0xU9mM'
     },
     {
       region: 'Latin America and the Caribbean',
       color: '#54C8FF',
       year: 2011,
       value: 25079064,
-      uid: 'HkURdjN5mf'
+      uid: 'HJG7nCx89mz'
     },
     {
       region: 'Oceania',
       color: '#bc2629',
       year: 2011,
       value: 2196603,
-      uid: 'HkwRdsEc7M'
+      uid: 'SyQXhRl8cXM'
     },
     {
       region: 'Europe',
       color: '#e8443a',
       year: 2011,
       value: 1195047,
-      uid: 'r1u0OjE57f'
+      uid: 'rkEQhRe8qQG'
     },
     {
       region: 'Asia and the Middle East',
       color: '#E03997',
       year: 2011,
       value: 506220,
-      uid: 'SyKCujV9mz'
+      uid: 'H1rm3AeLcXM'
     },
     {
       region: 'North America',
       color: '#FF8EDF',
       year: 2011,
       value: 244924,
-      uid: 'Sy9ROi49mz'
+      uid: 'Hk8QhRxUcQG'
     },
     {
       region: 'Africa',
       color: '#f39b95',
       year: 2012,
       value: 19877279,
-      uid: 'SkjCui457f'
+      uid: 'HJPmh0eIcmG'
     },
     {
       region: 'Latin America and the Caribbean',
       color: '#54C8FF',
       year: 2012,
       value: 21020528,
-      uid: 'Hk2C_sVc7f'
+      uid: 'Hk_QnRxLcmz'
     },
     {
       region: 'Oceania',
       color: '#bc2629',
       year: 2012,
       value: 1755113,
-      uid: 'BkTAuo4qmM'
+      uid: 'BJY72CgL5XG'
     },
     {
       region: 'Europe',
       color: '#e8443a',
       year: 2012,
       value: 1184626,
-      uid: 'Sy0CdjNqQM'
+      uid: 'B19QnCeUc7z'
     },
     {
       region: 'Asia and the Middle East',
       color: '#E03997',
       year: 2012,
       value: 753503,
-      uid: 'r1ygAdj4c7M'
+      uid: 'rJomnRxL5QG'
     },
     {
       region: 'North America',
       color: '#FF8EDF',
       year: 2012,
       value: 252481,
-      uid: 'HJeeA_i45Xz'
+      uid: 'SynQhClU9XG'
     },
     {
       region: 'Africa',
       color: '#f39b95',
       year: 2013,
       value: 20896283,
-      uid: 'S1-xCuoNcmM'
+      uid: 'Skpm20xI9mM'
     },
     {
       region: 'Latin America and the Caribbean',
       color: '#54C8FF',
       year: 2013,
       value: 15420578,
-      uid: 'SyMeCOjNcmz'
+      uid: 'HkR720lUqmf'
     },
     {
       region: 'Oceania',
       color: '#bc2629',
       year: 2013,
       value: 1118071,
-      uid: 'BkQx0diEcXM'
+      uid: 'rJkVhClI9mf'
     },
     {
       region: 'Europe',
       color: '#e8443a',
       year: 2013,
       value: 1277571,
-      uid: 'H1Ve0_j4cXf'
+      uid: 'S1lNhAgLcmf'
     },
     {
       region: 'Asia and the Middle East',
       color: '#E03997',
       year: 2013,
       value: 361537,
-      uid: 'ByHg0uo4cmz'
+      uid: 'Sk-NhAeL57M'
     },
     {
       region: 'North America',
       color: '#FF8EDF',
       year: 2013,
       value: 105021,
-      uid: 'BJ8eROo4cQM'
+      uid: 'r1G420gU9Qf'
     }
   ],
   topTchRecipients: [

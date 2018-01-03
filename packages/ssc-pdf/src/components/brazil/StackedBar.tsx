@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {Div} from 'glamorous';
-import {dvptCoLegendData} from '../utils';
+import {dvptCoLegendData, getLegendData} from '../utils';
 import {Legend, LegendProps} from '@di-pdfs/pdf-base';
 import regionColors from '@di-pdfs/ssc-api/lib/modules/brazil/config';
 import charts from '@di-pdfs/pdf-base/lib/charts';
@@ -26,12 +26,8 @@ interface Props {
     groupBy: string;
 }
 
-const techLegend = (): LegendProps => {
-    if (!regionColors) throw new Error('no regions colors');
-    const legendData = Object.keys(regionColors)
-        .map(region => ({color: regionColors[region], value: region}));
-    return {orientation: 'vertical', data: legendData};
-};
+const techLegend = (): LegendProps =>
+    ({orientation: 'vertical', data: getLegendData(regionColors)});
 
 const legendOptions = (dataKey: string) => {
     if (dataKey === 'dvptCooperation') {

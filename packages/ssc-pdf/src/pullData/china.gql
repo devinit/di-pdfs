@@ -13,16 +13,23 @@ query China {
     value
     uid
   }
-  odaLikeFlowsByRegion {
+  flowsByRegion {
     uid
     value
     color
     region
   }
-  odaLikeFlowsBySector {
+  flowsBySector {
     sector
     value
     uid
     year
+  }
+  odaRecipients {
+    uid
+    value
+    region
+    recipient
+    color
   }
 }
