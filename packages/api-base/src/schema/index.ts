@@ -39,7 +39,7 @@ export const createSchema = async ({apiModules, gqlTypesGlobPattern, resolverPat
         const schema: GraphQLSchema = makeExecutableSchema({ typeDefs, resolvers });
         return { schema, context: {modules} };
     } catch (error) {
-        console.error(error);
+        throw new Error(error);
     }
 };
 
