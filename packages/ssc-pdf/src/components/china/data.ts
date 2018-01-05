@@ -5,210 +5,210 @@ export default {
   dvptCooperation: [
     {
       id: 'Grants and interest free loans',
-      uid: 'HkWZzAE33QG',
+      uid: 'rJwe6pZ62XG',
       year: 2006,
       color: '#e8443a',
       value: 1.8
     },
     {
       id: 'Gross disbursement of concessional loans',
-      uid: 'rJfbGAVnn7f',
+      uid: 'r1Ogpp-a2mf',
       year: 2006,
       color: '#f39b95',
       value: 0.7
     },
     {
       id: 'Multilateral organisations',
-      uid: 'r1XZfAVh3XM',
+      uid: 'S1FlaaZT37z',
       year: 2006,
       color: '#EA7600',
       value: 0.2
     },
     {
       id: 'Grants and interest free loans',
-      uid: 'HJVZfCVh27M',
+      uid: 'BJ9lT6-6nXM',
       year: 2007,
       color: '#e8443a',
       value: 2.3
     },
     {
       id: 'Gross disbursement of concessional loans',
-      uid: 'S1SbzCN337M',
+      uid: 'SJixp6b6hmG',
       year: 2007,
       color: '#f39b95',
       value: 1.3
     },
     {
       id: 'Multilateral organisations',
-      uid: 'Sy8ZG0N3h7G',
+      uid: 'rknlapWT3Qf',
       year: 2007,
       color: '#EA7600',
       value: 0.2
     },
     {
       id: 'Grants and interest free loans',
-      uid: 'r1PbG0EnnXM',
+      uid: 'B1ae66-T37M',
       year: 2008,
       color: '#e8443a',
       value: 2.3
     },
     {
       id: 'Gross disbursement of concessional loans',
-      uid: 'SJuZG0N2nQz',
+      uid: 'rkRg6pZThmf',
       year: 2008,
       color: '#f39b95',
       value: 1
     },
     {
       id: 'Multilateral organisations',
-      uid: 'ByYZzCEh27z',
+      uid: 'BJ1ZTa-ahXf',
       year: 2008,
       color: '#EA7600',
       value: 0.3
     },
     {
       id: 'Grants and interest free loans',
-      uid: 'r1qbz0NhnXG',
+      uid: 'Bye-a6ZT3XG',
       year: 2009,
       color: '#e8443a',
       value: 2.4
     },
     {
       id: 'Gross disbursement of concessional loans',
-      uid: 'HkoZz0N3hXM',
+      uid: 'r1-WTTZ62Xf',
       year: 2009,
       color: '#f39b95',
       value: 1.8
     },
     {
       id: 'Multilateral organisations',
-      uid: 'Sk3-M0Vhn7G',
+      uid: 'SJM-TTb62XG',
       year: 2009,
       color: '#EA7600',
       value: 0.3
     },
     {
       id: 'Grants and interest free loans',
-      uid: 'Hkabz0Eh27G',
+      uid: 'SJmZpabp27M',
       year: 2010,
       color: '#e8443a',
       value: 2.3
     },
     {
       id: 'Gross disbursement of concessional loans',
-      uid: 'ByR-zR4h27z',
+      uid: 'S1VbTaZT27G',
       year: 2010,
       color: '#f39b95',
       value: 2.3
     },
     {
       id: 'Multilateral organisations',
-      uid: 'SJ1zMRE227G',
+      uid: 'HJrbaTbphXG',
       year: 2010,
       color: '#EA7600',
       value: 0.4
     },
     {
       id: 'Grants and interest free loans',
-      uid: 'HJxMfCE2hmf',
+      uid: 'BJLW6pWThQG',
       year: 2011,
       color: '#e8443a',
       value: 2.7
     },
     {
       id: 'Gross disbursement of concessional loans',
-      uid: 'BkWGz0Vn2Qz',
+      uid: 'BkPWaTZa3Qf',
       year: 2011,
       color: '#f39b95',
       value: 2.3
     },
     {
       id: 'Multilateral organisations',
-      uid: 'H1GzGAEn3Xf',
+      uid: 'Bydbp6Z6nmz',
       year: 2011,
       color: '#EA7600',
       value: 0.3
     },
     {
       id: 'Grants and interest free loans',
-      uid: 'SyXGz0NhnmG',
+      uid: 'rJKbpabphmM',
       year: 2012,
       color: '#e8443a',
       value: 3
     },
     {
       id: 'Gross disbursement of concessional loans',
-      uid: 'rkNzMA433XG',
+      uid: 'Hycb6TZ637z',
       year: 2012,
       color: '#f39b95',
       value: 2.1
     },
     {
       id: 'Multilateral organisations',
-      uid: 'B1SzfC42n7G',
+      uid: 'Byjbp6Z6nXf',
       year: 2012,
       color: '#EA7600',
       value: 0.4
     },
     {
       id: 'Grants and interest free loans',
-      uid: 'HJUMGCV227G',
+      uid: 'B1nZ6pbahXf',
       year: 2013,
       color: '#e8443a',
       value: 2.6
     },
     {
       id: 'Gross disbursement of concessional loans',
-      uid: 'HJPGMCNhnmG',
+      uid: 'Bya-pTWa2XG',
       year: 2013,
       color: '#f39b95',
       value: 2.3
     },
     {
       id: 'Multilateral organisations',
-      uid: 'HyOfMC42hQf',
+      uid: 'ryCZpTba2QM',
       year: 2013,
       color: '#EA7600',
       value: 0.7
     },
     {
       id: 'Grants and interest free loans',
-      uid: 'BkFfM0En37M',
+      uid: 'rJ1fpTWT37M',
       year: 2014,
       color: '#e8443a',
       value: 2.4
     },
     {
       id: 'Gross disbursement of concessional loans',
-      uid: 'Sk9zMRV2hmM',
+      uid: 'SkxMTTW6nQz',
       year: 2014,
       color: '#f39b95',
       value: 2.6
     },
     {
       id: 'Multilateral organisations',
-      uid: 'SJjffAE33mG',
+      uid: 'Hk-f6pbph7G',
       year: 2014,
       color: '#EA7600',
       value: 0.4
     },
     {
       id: 'Grants and interest free loans',
-      uid: 'ry3zzRNn3mz',
+      uid: 'Hyff66WThmf',
       year: 2015,
       color: '#e8443a',
       value: 2.2
     },
     {
       id: 'Gross disbursement of concessional loans',
-      uid: 'rkpGfR4hnmf',
+      uid: 'ryXGpTbp27z',
       year: 2015,
       color: '#f39b95',
       value: 3.3
     },
     {
       id: 'Multilateral organisations',
-      uid: 'SJRMGAEhnmM',
+      uid: 'SkNzaT-62Qz',
       year: 2015,
       color: '#EA7600',
       value: 0.6
@@ -220,816 +220,816 @@ export default {
       year: 2006,
       color: '#e8443a',
       value: 0.2,
-      uid: 'rk17f0E3h7f'
+      uid: 'HyBiTpWpnQG'
     },
     {
       id: 'Multilateral organisations',
       year: 2007,
       color: '#e8443a',
       value: 0.2,
-      uid: 'BJgQzRN32QM'
+      uid: 'Bk8japZphQG'
     },
     {
       id: 'Multilateral organisations',
       year: 2008,
       color: '#e8443a',
       value: 0.3,
-      uid: 'SkWXGCN22mG'
+      uid: 'rJDopTZ62Xf'
     },
     {
       id: 'Multilateral organisations',
       year: 2009,
       color: '#e8443a',
       value: 0.3,
-      uid: 'rkGXfR43hmz'
+      uid: 'rkdoa6-ThXG'
     },
     {
       id: 'Multilateral organisations',
       year: 2010,
       color: '#e8443a',
       value: 0.4,
-      uid: 'rJQXzA4n2XM'
+      uid: 'BktsTT-ahmG'
     },
     {
       id: 'Multilateral organisations',
       year: 2011,
       color: '#e8443a',
       value: 0.3,
-      uid: 'HJEXGCVnnmf'
+      uid: 'BJ9iTaWTh7f'
     },
     {
       id: 'Multilateral organisations',
       year: 2012,
       color: '#e8443a',
       value: 0.4,
-      uid: 'ByrmGAN237f'
+      uid: 'Hksjp6WanXG'
     },
     {
       id: 'Multilateral organisations',
       year: 2013,
       color: '#e8443a',
       value: 0.7,
-      uid: 'HyUXMREh3Xz'
+      uid: 'ryniT6bp2mz'
     },
     {
       id: 'Multilateral organisations',
       year: 2014,
       color: '#e8443a',
       value: 0.4,
-      uid: 'rJD7z0V23Qf'
+      uid: 'Bypo6pb6h7z'
     },
     {
       id: 'Multilateral organisations',
       year: 2015,
       color: '#e8443a',
       value: 0.6,
-      uid: 'Bk_mMCN2nQf'
+      uid: 'SJ0iTTWpnQf'
     }
   ],
   flowsByRegion: [
-    { uid: 'B1KmMA4h3XG', value: 65.9, color: '#0095CB', region: 'Africa' },
-    { uid: 'SJcXMRNh2Xz', value: 19, color: '#e8443a', region: 'Asia' },
-    { uid: 'rJomMCV3nXG', value: 7, color: '#93328E', region: 'Europe' },
-    { uid: 'ry2QzCVn27z', value: 6, color: '#21BA45', region: 'Americas' },
-    { uid: 'HkaQMCV2nXM', value: 2.1, color: '#54C8FF', region: 'Oceania' }
+    { uid: 'SJ-9pp-62Xz', value: 65.9, color: '#0095CB', region: 'Africa' },
+    { uid: 'S1Gc6TW627M', value: 19, color: '#e8443a', region: 'Asia' },
+    { uid: 'SJ79ap-a27M', value: 7, color: '#93328E', region: 'Europe' },
+    { uid: 'ryEcaaZT27z', value: 6, color: '#21BA45', region: 'Americas' },
+    { uid: 'BkSqTa-p3XG', value: 2.1, color: '#54C8FF', region: 'Oceania' }
   ],
   flowsBySector: [
     {
       sector: 'Transport and Storage',
       value: 5695.6,
-      uid: 'S1A7fRVn2mM',
+      uid: 'S1JmppZ637f',
       year: 2012
     },
     {
       sector: 'Energy Generation and Supply',
       value: 1441.9,
-      uid: 'rJkEzRVnnXG',
+      uid: 'S1eXpT-phXf',
       year: 2012
     },
     {
       sector: 'Industry, Mining, Construction',
       value: 1355.8,
-      uid: 'B1xEMC42n7M',
+      uid: 'S1W7aaZp2mz',
       year: 2012
     },
     {
       sector: 'Water Supply and Sanitation',
       value: 919.8,
-      uid: 'Sk-NMRV32QM',
+      uid: 'SyGX6abphXz',
       year: 2012
     },
-    { sector: 'Communications', value: 306.8, uid: 'SkG4GAE2hmM', year: 2012 },
-    { sector: 'Trade and Tourism', value: 0, uid: 'S1XEfRN3hQf', year: 2012 },
+    { sector: 'Communications', value: 306.8, uid: 'B1X7pTZ637z', year: 2012 },
+    { sector: 'Trade and Tourism', value: 0, uid: 'ryEXp6-T2Xf', year: 2012 },
     {
       sector: 'Government and Civil Society',
       value: 445.7,
-      uid: 'HJN4GR4nhXf',
+      uid: 'ByBma6Wa37G',
       year: 2012
     },
-    { sector: 'All others', value: 1777.7, uid: 'B1HVMAN3hmG', year: 2012 },
+    { sector: 'All others', value: 1777.7, uid: 'Sy8mTTZp3QG', year: 2012 },
     {
       sector: 'Transport and Storage',
       value: 3319.9,
-      uid: 'rk8NMRNnn7f',
+      uid: 'SkDm6TZpn7z',
       year: 2013
     },
     {
       sector: 'Energy Generation and Supply',
       value: 568.5,
-      uid: 'BkD4zC423mM',
+      uid: 'r1uXa6Za3Xf',
       year: 2013
     },
     {
       sector: 'Industry, Mining, Construction',
       value: 187.1,
-      uid: 'S1_Vz04nn7M',
+      uid: 'HkF76p-6n7G',
       year: 2013
     },
     {
       sector: 'Water Supply and Sanitation',
       value: 560.3,
-      uid: 'rJKNzC432QG',
+      uid: 'rJ576p-Tn7G',
       year: 2013
     },
-    { sector: 'Communications', value: 696, uid: 'Byq4MRVhnXf', year: 2013 },
+    { sector: 'Communications', value: 696, uid: 'rkoX6TW6nXG', year: 2013 },
     {
       sector: 'Trade and Tourism',
       value: 900.3,
-      uid: 'SJi4M04h2mf',
+      uid: 'rknQaTZ63mz',
       year: 2013
     },
     {
       sector: 'Government and Civil Society',
       value: 276.6,
-      uid: 'H1n4MCVh3XG',
+      uid: 'B1aXa6Zp2XM',
       year: 2013
     },
-    { sector: 'All others', value: 3046, uid: 'BJT4zA422Xf', year: 2013 },
+    { sector: 'All others', value: 3046, uid: 'HkCX6pbThmG', year: 2013 },
     {
       sector: 'Transport and Storage',
       value: 4008.4,
-      uid: 'SJRNGA4hhXz',
+      uid: 'BkkEaabThmz',
       year: 2014
     },
     {
       sector: 'Energy Generation and Supply',
       value: 1404,
-      uid: 'B11rM0E32XG',
+      uid: 'BJlEppba2QM',
       year: 2014
     },
     {
       sector: 'Industry, Mining, Construction',
       value: 439,
-      uid: 'r1lBGRV3hQM',
+      uid: 'r1WNTpWp2XG',
       year: 2014
     },
     {
       sector: 'Water Supply and Sanitation',
       value: 0,
-      uid: 'B1-HfAVn2QM',
+      uid: 'rkMNaT-T2mz',
       year: 2014
     },
-    { sector: 'Communications', value: 367, uid: 'S1zrfREh3XG', year: 2014 },
+    { sector: 'Communications', value: 367, uid: 'SJ74Tpb6nQz', year: 2014 },
     {
       sector: 'Trade and Tourism',
       value: 31.7,
-      uid: 'Hy7rzANnnXz',
+      uid: 'r1VV6pWa37G',
       year: 2014
     },
     {
       sector: 'Government and Civil Society',
       value: 28.2,
-      uid: 'r1NBfAVn2Qf',
+      uid: 'r1H4pa-p3QG',
       year: 2014
     },
-    { sector: 'All others', value: 579.8, uid: 'r1SHMR42h7f', year: 2014 }
+    { sector: 'All others', value: 579.8, uid: 'rJINa6bpn7f', year: 2014 }
   ],
   odaRecipients: [
     {
-      uid: 'SJIHzRV33Xf',
+      uid: 'B1DVpT-TnXz',
       value: 1628.4,
       region: 'Africa',
       recipient: 'Nigeria',
       color: '#e8443a'
     },
     {
-      uid: 'rkvHGAVh37M',
+      uid: 'HyONTa-a2QG',
       value: 1455,
       region: 'Africa',
       recipient: 'Zimbabwe',
       color: '#e8443a'
     },
     {
-      uid: 'HJuHM04nn7M',
+      uid: 'SJKETaZa2mz',
       value: 1223.3,
       region: 'Africa',
       recipient: 'Niger',
       color: '#e8443a'
     },
     {
-      uid: 'H1tHMCV2hQG',
+      uid: 'B1qN6aZ6nQz',
       value: 1137.8,
       region: 'Africa',
       recipient: 'Cameroon',
       color: '#e8443a'
     },
     {
-      uid: 'SJ5HzA4n2mG',
+      uid: 'SyjVaaba3XG',
       value: 1023.1,
       region: 'Asia',
       recipient: 'Sri Lanka',
       color: '#bc2629'
     },
     {
-      uid: 'BJsSG04hhmf',
+      uid: 'rkn4pabp3XG',
       value: 952.9,
       region: 'Africa',
       recipient: 'Mozambique',
       color: '#e8443a'
     },
     {
-      uid: 'H1nSz0N32QG',
+      uid: 'S1pNTaZTh7z',
       value: 911.5,
       region: 'Central and Eastern Europe',
       recipient: 'Montenegro',
       color: '#93328E'
     },
     {
-      uid: 'BJ6rfRN3hmf',
+      uid: 'ByRE6p-pn7z',
       value: 884.1,
       region: 'Africa',
       recipient: 'Ethiopia',
       color: '#e8443a'
     },
     {
-      uid: 'r1Rrf0N3nXf',
+      uid: 'rkkBp6ZT27G',
       value: 700.1,
       region: 'Africa',
       recipient: 'Sudan',
       color: '#e8443a'
     },
     {
-      uid: 'ByJ8zRE2hQM',
+      uid: 'rJxSTa-T3QM',
       value: 539.4,
       region: 'Africa',
       recipient: 'Africa, regional',
       color: '#e8443a'
     },
     {
-      uid: 'BylIzCEhh7f',
+      uid: 'rkZBaaZph7G',
       value: 512.9,
       region: 'Africa',
       recipient: 'Uganda',
       color: '#e8443a'
     },
     {
-      uid: 'SJb8MRNnnXz',
+      uid: 'HyGBapZp3QG',
       value: 496.9,
       region: 'Asia',
       recipient: 'Cambodia',
       color: '#bc2629'
     },
     {
-      uid: 'ByfUz042nmG',
+      uid: 'rJQS6aW63XM',
       value: 496.7,
       region: 'Asia',
       recipient: 'Mongolia',
       color: '#bc2629'
     },
     {
-      uid: 'Hym8MA433Qf',
+      uid: 'HyVHpaWph7z',
       value: 475.6,
       region: 'Asia',
       recipient: 'Pakistan',
       color: '#bc2629'
     },
     {
-      uid: 'HkEUzCVh2QM',
+      uid: 'B1BST6bphXM',
       value: 465.7,
       region: 'Asia',
       recipient: 'Indonesia',
       color: '#bc2629'
     },
     {
-      uid: 'BJSLGRN3n7f',
+      uid: 'HJLraaZanQG',
       value: 415.5,
       region: 'Africa',
       recipient: 'Zambia',
       color: '#e8443a'
     },
     {
-      uid: 'ByUIMREhnmM',
+      uid: 'H1PraabT27G',
       value: 401.6,
       region: 'Latin America and the Caribbean',
       recipient: 'Costa Rica',
       color: '#54C8FF'
     },
     {
-      uid: 'SyDUMAEn3XM',
+      uid: 'HJdSp6Wa2Qz',
       value: 396.2,
       region: 'Africa',
       recipient: 'Ghana',
       color: '#e8443a'
     },
     {
-      uid: 'H1dUf0V22QM',
+      uid: 'SJFraabahQM',
       value: 364.3,
       region: 'Asia',
       recipient: 'Uzbekistan',
       color: '#bc2629'
     },
     {
-      uid: 'BkKIGRNnnXz',
+      uid: 'SJ9Ha6ba2mz',
       value: 329.9,
       region: 'Latin America and the Caribbean',
       recipient: 'Jamaica',
       color: '#54C8FF'
     },
     {
-      uid: 'HkqUz0NnhXz',
+      uid: 'r1srpTZTnQf',
       value: 327.4,
       region: 'Asia',
       recipient: 'Nepal',
       color: '#bc2629'
     },
     {
-      uid: 'BJs8z0E3nmz',
+      uid: 'Hk2HaTWa2mM',
       value: 324.7,
       region: 'Africa',
       recipient: 'Kenya',
       color: '#e8443a'
     },
     {
-      uid: 'ry38GRV2nQf',
+      uid: 'B1pST6ZT27G',
       value: 317.8,
       region: 'Asia',
       recipient: 'Bangladesh',
       color: '#bc2629'
     },
     {
-      uid: 'H1TLMC43nXz',
+      uid: 'BJ0STpWa2XM',
       value: 310.3,
       region: 'Central and Eastern Europe',
       recipient: 'Serbia',
       color: '#93328E'
     },
     {
-      uid: 'rJAUGAVh2Qz',
+      uid: 'rkJUp6bThmM',
       value: 303.2,
       region: 'The Pacific',
       recipient: 'Fiji',
       color: '#FF8EDF'
     },
     {
-      uid: 'B1JwfRE3h7f',
+      uid: 'r1lIT6-phQf',
       value: 297.1,
       region: 'Africa',
       recipient: 'Mauritania',
       color: '#e8443a'
     },
     {
-      uid: 'SkgwzA43hQf',
+      uid: 'HJWITabThmM',
       value: 240,
       region: 'Africa',
       recipient: 'Namibia',
       color: '#e8443a'
     },
     {
-      uid: 'SJ-vfCE3hmf',
+      uid: 'H1zLp6bpnXG',
       value: 215.1,
       region: 'Africa',
       recipient: 'Rwanda',
       color: '#e8443a'
     },
     {
-      uid: 'r1zPMC4hnQf',
+      uid: 'rJmLa6ZphXf',
       value: 211.8,
       region: 'Africa',
       recipient: 'Mali',
       color: '#e8443a'
     },
     {
-      uid: 'BJ7PGCEnhQf',
+      uid: 'r1V8T6bTnXf',
       value: 180.1,
       region: 'The Pacific',
       recipient: 'Vanuatu',
       color: '#FF8EDF'
     },
     {
-      uid: 'BJNDfC4337G',
+      uid: 'BJHLa6Wa2Xz',
       value: 156.2,
       region: 'Latin America and the Caribbean',
       recipient: 'Guyana',
       color: '#54C8FF'
     },
     {
-      uid: 'BJSPfRNh3Qz',
+      uid: 'Sy8ITaZanXz',
       value: 133.4,
       region: 'Africa',
       recipient: 'Gabon',
       color: '#e8443a'
     },
     {
-      uid: 'HkIwGRVnhmG',
+      uid: 'BJv866WahmG',
       value: 117.1,
       region: 'Africa',
       recipient: 'Angola',
       color: '#e8443a'
     },
     {
-      uid: 'HJwwfR422mf',
+      uid: 'ry_Lp6Z63mz',
       value: 115.1,
       region: 'Africa',
       recipient: 'Sierra Leone',
       color: '#e8443a'
     },
     {
-      uid: 'rydwMRV3n7z',
+      uid: 'HyYI6aW62Qf',
       value: 102.3,
       region: 'Central and Eastern Europe',
       recipient: 'Belarus',
       color: '#93328E'
     },
     {
-      uid: 'ryKDMCE32mG',
+      uid: 'Sk9LTaW6h7f',
       value: 73.1,
       region: 'Asia',
       recipient: 'Tajikistan',
       color: '#bc2629'
     },
     {
-      uid: 'SkcDzCEnhmM',
+      uid: 'BJiLapWp2XG',
       value: 67.8,
       region: 'Africa',
       recipient: 'Benin',
       color: '#e8443a'
     },
     {
-      uid: 'HkiDfCN22mG',
+      uid: 'SJ2ITaWTn7f',
       value: 58.7,
       region: 'Africa',
       recipient: 'South Sudan',
       color: '#e8443a'
     },
     {
-      uid: 'r1hvf0Nn3XG',
+      uid: 'r16ITTWThQf',
       value: 53.2,
       region: 'Africa',
       recipient: 'Senegal',
       color: '#e8443a'
     },
     {
-      uid: 'ryavzRE2nQG',
+      uid: 'B1AUT6bT3mf',
       value: 52,
       region: 'Central and Eastern Europe',
       recipient: 'Ukraine',
       color: '#93328E'
     },
     {
-      uid: 'r1ADGANnhXM',
+      uid: 'r1JwTpZTh7f',
       value: 50.3,
       region: 'The Pacific',
       recipient: 'Samoa',
       color: '#FF8EDF'
     },
     {
-      uid: 'ryydGCEn37z',
+      uid: 'rJlPa6Wa2Qf',
       value: 33.5,
       region: 'Asia',
       recipient: 'Afghanistan',
       color: '#bc2629'
     },
     {
-      uid: 'HylOGC422mz',
+      uid: 'rJZPaTZpnmf',
       value: 33.2,
       region: 'The Pacific',
       recipient: 'Tonga',
       color: '#FF8EDF'
     },
     {
-      uid: 'H1Zdf0N22Xf',
+      uid: 'ryzvTTba3Qz',
       value: 32.4,
       region: 'Africa',
       recipient: 'Malawi',
       color: '#e8443a'
     },
     {
-      uid: 'SyfOGRVhhmM',
+      uid: 'rkmP6pW62mz',
       value: 31.9,
       region: 'Africa',
       recipient: 'Tunisia',
       color: '#e8443a'
     },
     {
-      uid: 'SJQufREhh7G',
+      uid: 'Hk4P6pbpn7f',
       value: 27.1,
       region: 'Latin America and the Caribbean',
       recipient: 'Grenada',
       color: '#54C8FF'
     },
     {
-      uid: 'SkV_M04hn7G',
+      uid: 'ByHDpTWahXM',
       value: 26.6,
       region: 'Africa',
       recipient: 'Djibouti',
       color: '#e8443a'
     },
     {
-      uid: 'H1HdM042n7G',
+      uid: 'HJLPa6Z6nXf',
       value: 25.3,
       region: 'Africa',
       recipient: 'Burundi',
       color: '#e8443a'
     },
     {
-      uid: 'HkUOzAV23QM',
+      uid: 'H1PDaaW627z',
       value: 24.4,
       region: 'Africa',
       recipient: 'Egypt',
       color: '#e8443a'
     },
     {
-      uid: 'Syw_fC4337M',
+      uid: 'BydPaa-627f',
       value: 23.4,
       region: 'The Pacific',
       recipient: 'Papua New Guinea',
       color: '#FF8EDF'
     },
     {
-      uid: 'BJOuGAN23Xf',
+      uid: 'HktPT6-T37z',
       value: 21.5,
       region: 'Asia',
       recipient: 'Armenia',
       color: '#bc2629'
     },
     {
-      uid: 'HytdfAN2hmM',
+      uid: 'SJqPpaWa3Xf',
       value: 21.1,
       region: 'Middle East',
       recipient: 'Yemen',
       color: '#E03997'
     },
     {
-      uid: 'SyqdfC4hhmM',
+      uid: 'H1ovpabpnQG',
       value: 20.1,
       region: 'Asia',
       recipient: 'Myanmar',
       color: '#bc2629'
     },
     {
-      uid: 'r1j_fR4h37M',
+      uid: 'B1nvaTbp2mf',
       value: 19.3,
       region: 'Africa',
       recipient: 'Mauritius',
       color: '#e8443a'
     },
     {
-      uid: 'HknuzAE2hQM',
+      uid: 'HkaDp6Zp3mG',
       value: 18.9,
       region: 'Africa',
       recipient: 'Equatorial Guinea',
       color: '#e8443a'
     },
     {
-      uid: 'Sk6uGA42hQf',
+      uid: 'SJRD66-p3Qf',
       value: 18.7,
       region: 'Africa',
       recipient: 'Togo',
       color: '#e8443a'
     },
     {
-      uid: 'BJR_f0NnnmM',
+      uid: 'r1kOT6-p2mM',
       value: 18.7,
       region: 'Latin America and the Caribbean',
       recipient: 'Dominica',
       color: '#54C8FF'
     },
     {
-      uid: 'SyJFM0V3hXz',
+      uid: 'HyeOTaZ63mG',
       value: 18.6,
       region: 'Africa',
       recipient: 'Lesotho',
       color: '#e8443a'
     },
     {
-      uid: 'r1xKGCVnnmG',
+      uid: 'r1W_aT-anmG',
       value: 16.1,
       region: 'Africa',
       recipient: 'Chad',
       color: '#e8443a'
     },
     {
-      uid: 'BybFz0432Xz',
+      uid: 'Hyzu66bahXM',
       value: 16.1,
       region: 'Middle East',
       recipient: 'Jordan',
       color: '#E03997'
     },
     {
-      uid: 'H1ztzREhhmM',
+      uid: 'B1QOTT-62XG',
       value: 16,
       region: 'Middle East',
       recipient: 'Middle East, regional',
       color: '#E03997'
     },
     {
-      uid: 'H1XYzRN22Xf',
+      uid: 'ryNOTp-6nXf',
       value: 12,
       region: 'Africa',
       recipient: 'Guinea',
       color: '#e8443a'
     },
     {
-      uid: 'HkVKG04nhXM',
+      uid: 'S1SOTp-p2mM',
       value: 9.9,
       region: 'Africa',
       recipient: 'Liberia',
       color: '#e8443a'
     },
     {
-      uid: 'r1BYzCNhhQz',
+      uid: 'S1Ida6WT3mf',
       value: 4.4,
       region: 'Asia',
       recipient: 'Maldives',
       color: '#bc2629'
     },
     {
-      uid: 'HkUKzAN32mz',
+      uid: 'HywOT6Wp2XG',
       value: 3.3,
       region: 'Africa',
       recipient: 'Morocco',
       color: '#e8443a'
     },
     {
-      uid: 'HkPYfAE32Xf',
+      uid: 'H1_uaTWa2Xz',
       value: 1.6,
       region: 'Asia',
       recipient: 'Philippines',
       color: '#bc2629'
     },
     {
-      uid: 'r1dtfAE327z',
+      uid: 'SktuT6bTnXz',
       value: 1.6,
       region: 'Africa',
       recipient: 'Guinea-Bissau',
       color: '#e8443a'
     },
     {
-      uid: 'BJKtfRNn3Qz',
+      uid: 'B19dapWpnQG',
       value: 1.1,
       region: 'Africa',
       recipient: 'Comoros',
       color: '#e8443a'
     },
     {
-      uid: 'Hy5YG0VhhQz',
+      uid: 'rJsdT6Za3XM',
       value: 1,
       region: 'Asia',
       recipient: 'Southeast Asia, regional',
       color: '#bc2629'
     },
     {
-      uid: 'SkitM0V23QM',
+      uid: 'ryhuT6Z63mf',
       value: 1,
       region: 'Latin America and the Caribbean',
       recipient: 'Uruguay',
       color: '#54C8FF'
     },
     {
-      uid: 'Hy2YM0E22XG',
+      uid: 'HJpOTpbphQM',
       value: 0.4,
       region: 'Latin America and the Caribbean',
       recipient: 'Cuba',
       color: '#54C8FF'
     },
     {
-      uid: 'rJatfRE23mG',
+      uid: 'ryC_a6b6hQG',
       value: 0.1,
       region: 'Asia',
       recipient: 'Thailand',
       color: '#bc2629'
     },
     {
-      uid: 'ryAYzAVh2Qz',
+      uid: 'H1kKaTZp2mM',
       value: 0.1,
       region: 'Latin America and the Caribbean',
       recipient: 'Peru',
       color: '#54C8FF'
     },
     {
-      uid: 'rJk5z0N2nQf',
+      uid: 'ryetpT-pnXM',
       value: 0,
       region: 'Africa',
       recipient: 'Somalia',
       color: '#e8443a'
     },
     {
-      uid: 'HylqGRV2h7G',
+      uid: 'rkWtpTb62Qf',
       value: 0,
       region: 'Asia',
       recipient: 'Malaysia',
       color: '#bc2629'
     },
     {
-      uid: 'r1Z9fCNh3QG',
+      uid: 'HyfKa6ZT3QM',
       value: 0,
       region: 'Africa',
       recipient: 'Botswana',
       color: '#e8443a'
     },
     {
-      uid: 'rkMqG0Nn2XG',
+      uid: 'rJmKa6WT3QG',
       value: 0,
       region: 'Asia',
       recipient: 'Viet Nam',
       color: '#bc2629'
     },
     {
-      uid: 'ryXcf0E227G',
+      uid: 'SkVtppW63Xz',
       value: 0,
       region: 'Latin America and the Caribbean',
       recipient: 'Colombia',
       color: '#54C8FF'
     },
     {
-      uid: 'H14cfREn37G',
+      uid: 'HySKpT-ah7G',
       value: 6,
       region: 'Latin America and the Caribbean',
       recipient: 'Antigua and Barbuda',
       color: '#54C8FF'
     },
     {
-      uid: 'SJr5fREn3QM',
+      uid: 'HJIY6p-T37z',
       value: 761.5,
       region: 'Latin America and the Caribbean',
       recipient: 'Bolivia (Plurinational State of)',
       color: '#54C8FF'
     },
     {
-      uid: 'SJLqzANhn7G',
+      uid: 'rJvKaT-p3mM',
       value: 66.7,
       region: 'Africa',
       recipient: 'Cabo Verde',
       color: '#e8443a'
     },
     {
-      uid: 'Skv5MA42hmG',
+      uid: 'SkOYpabp37f',
       value: 5,
       region: 'Africa',
       recipient: 'Congo (Democratic Republic of the)',
       color: '#e8443a'
     },
     {
-      uid: 'HJ_5GCVn3QG',
+      uid: 'H1FYTaZT2Xz',
       value: 887,
       region: 'Africa',
       recipient: 'Congo',
       color: '#e8443a'
     },
     {
-      uid: 'rkKczRV2nmf',
+      uid: 'rk5KaaWpnQM',
       value: 3508.2,
       region: 'Africa',
       recipient: "Côte d'Ivoire",
       color: '#e8443a'
     },
     {
-      uid: 'Hk59GAVn27z',
+      uid: 'HyjtaTbTh7z',
       value: 19.1,
       region: 'Asia',
       recipient: "Korea (Democratic People's Republic of)",
       color: '#bc2629'
     },
     {
-      uid: 'Hkj5zCV337z',
+      uid: 'SJ2t6pW62QM',
       value: 1109.9,
       region: 'Asia',
       recipient: 'Kyrgyzstan',
       color: '#bc2629'
     },
     {
-      uid: 'H129f0En3mz',
+      uid: 'S1pF6Tbpnmf',
       value: 89,
       region: 'Asia',
       recipient: "Lao People's Democratic Republic",
       color: '#bc2629'
     },
     {
-      uid: 'rk6qGRN2hXf',
+      uid: 'BkRtpT-T2Qf',
       value: 600.3,
       region: 'Central and Eastern Europe',
       recipient: 'Macedonia (the former Yugoslav Republic of)',
       color: '#93328E'
     },
     {
-      uid: 'Bk05MR4h3mf',
+      uid: 'rkJ9TTWpnXf',
       value: 5.4,
       region: 'Middle East',
       recipient: 'Syrian Arab Republic',
       color: '#E03997'
     },
     {
-      uid: 'Sk1iGAV2nmG',
+      uid: 'HJxqTpbT2XM',
       value: 2280.7,
       region: 'Africa',
       recipient: 'Tanzania, United Republic of',

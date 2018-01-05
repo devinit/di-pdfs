@@ -23,6 +23,5 @@ query SouthAfrica {
    	color
     value
     uid
-    year
   }
 }
