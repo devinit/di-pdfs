@@ -1,6 +1,7 @@
 import * as React from 'react';
-import { P, Div } from 'glamorous';
-import {Document, Page, Header, TextBlock, Note, colors} from '@di-pdfs/pdf-base';
+import {Document, Page, Header, TextBlock, Note} from '@di-pdfs/pdf-base';
+import StackedBar from '../components/india/StackedBar';
+import Table from '../components/india/Table';
 
 export default () => (
     <Document>
@@ -25,23 +26,17 @@ export default () => (
             <h2>Trends in development cooperation, 2008-2015</h2>
             <Note>constant 2015 prices, US$ billions</Note>
         </TextBlock>
-        <Div width="100%" height="200px" marginBottom="10px" backgroundColor={colors.lightGrey}>
-            <P color={colors.red}> Histogram Place holder </P>
-        </Div>
+        <StackedBar dataKey="dvptCooperation" groupBy="id" />
         <TextBlock>
             <h2>Technical and economic cooperation and loans and advances by recipient country, 2015</h2>
             <Note>Constant 2015 prices, US$ millions</Note>
         </TextBlock>
-        <Div width="100%" height="200px" marginBottom="10px" backgroundColor={colors.lightGrey}>
-            <P color={colors.red}> Table Place holder </P>
-        </Div>
-        <TextBlock>
+        <Table />
+        <TextBlock marginTop="20px">
             <h2>Contributions to international organisations, 2011-2015</h2>
             <Note>Constant 2015 prices, US$ millions.</Note>
         </TextBlock>
-        <Div width="100%" height="190px" marginBottom="10px" backgroundColor={colors.lightGrey}>
-            <P color={colors.red}>Component Histogram Place holder </P>
-        </Div>
+        <StackedBar dataKey="multiCooperation" groupBy="multilateral" />
         <TextBlock>
                 <p>
                     Note: data is sourced and compiled from
