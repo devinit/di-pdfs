@@ -6,4 +6,15 @@ query Inda {
     color
     value
   }
+  multiCooperation {
+   	multilateral
+    color
+    value
+    year
+    uid
+  }
+	topTchRecipients(country: "india") {
+    recipient
+    value
+  }	
 }

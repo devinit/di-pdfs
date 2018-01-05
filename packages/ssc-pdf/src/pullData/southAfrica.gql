@@ -4,4 +4,25 @@ query SouthAfrica {
     year
     value
   }
+  govmtdepartment {
+    id
+    year
+    color
+    value
+    uid
+  }
+ aricfExpByRegion {
+  	region
+  	year
+  	color
+  	value
+  	uid
+	} 
+	aricfExpBySector {
+    sector
+   	color
+    value
+    uid
+    year
+  }
 }
