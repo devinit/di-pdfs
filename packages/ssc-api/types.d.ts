@@ -32,7 +32,7 @@ declare namespace DH {
     dvptCooperationTrend: Array<IYearValue> | null;
     govmtdepartment: Array<IBasicIndicator> | null;
     aricfExpByRegion: Array<IRegionYearValue> | null;
-    aricfExpBySector: Array<ISectorValue> | null;
+    aricfExpBySector: Array<ISectorSimple> | null;
   }
 
 
@@ -105,6 +105,14 @@ declare namespace DH {
   interface IRegionYearValue {
     region: string;
     year: number;
+    color: string;
+    value: number;
+    uid: string;
+  }
+
+
+  interface ISectorSimple {
+    sector: string;
     color: string;
     value: number;
     uid: string;

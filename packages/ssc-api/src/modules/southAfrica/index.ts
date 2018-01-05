@@ -49,9 +49,11 @@ export class SouthAfrica {
     }
     public async aricfExpByRegion(): Promise<DH.IRegionYearValue[]> {
         const data: IDataRegion[] = await getIndicatorDataSimple({query: sql.aricfExpByRegion, db: this.db});
-        return data.map(obj => ({...obj, color: regionColors[obj.region]}));
+        return data
+                .filter(obj => obj.value !== null)
+                .map(obj => ({...obj, color: regionColors[obj.region]}));
     }
-    public async aricfExpBySector(): Promise<DH.ISectorValue[]> {
+    public async aricfExpBySector(): Promise<DH.ISectorSimple[]> {
         const data: IDataSector[] =
             await getIndicatorDataSimple({query: sql.aricfExpBySector, db: this.db});
         return data.map(obj => ({...obj, color: sectorColors[obj.sector]}));
