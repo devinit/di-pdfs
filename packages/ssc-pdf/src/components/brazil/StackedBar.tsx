@@ -39,10 +39,6 @@ const legendOptions = (dataKey: string) => {
     return techLegend();
 };
 
-console.log(legendOptions('dvptCooperation'));
-
-console.log(techLegend());
-
 export default (props: Props) =>
     <Div padding="5px" width="100%" display="flex" justifyContent="space-between" >
         <Div width="35%" key="stacked">
