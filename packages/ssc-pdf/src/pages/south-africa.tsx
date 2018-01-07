@@ -44,24 +44,22 @@ export default () =>
                 <Note>percentage of total expenditure</Note>
             </TextBlock>
             <StackedBar dataKey="govmtdepartment" groupBy="id" />
-            </Page>
-            <Page>
             <TextBlock>
                 <h2>African Renaissance and International Cooperation Fund, expenditure</h2>
             </TextBlock>
             <Div display="flex">
-            <TextBlock>
-                   <h2>ARICF expenditure by region, 2014-2016</h2>
-                   <Note>US$ millions constant 2015 prices</Note>
-            </TextBlock>
-            <TextBlock>
-                <h2>ARICF breakdownby sector-type, 2014-2016</h2>
-                <Note>percentage</Note>
-            </TextBlock>
+                <TextBlock>
+                    <h2>ARICF expenditure by region, 2014-2016</h2>
+                    <Note>US$ millions constant 2015 prices</Note>
+                </TextBlock>
+                <TextBlock>
+                    <h2>ARICF breakdownby sector-type, 2014-2016</h2>
+                    <Note>Percentage</Note>
+                </TextBlock>
             </Div>
             <Div display="flex">
-            <StackedBar dataKey="aricfExpByRegion" groupBy="region" />
-            <Pie />
+                <StackedBar dataKey="aricfExpByRegion" groupBy="region" />
+                <Pie />
             </Div>
         </Page>
     </Document>);

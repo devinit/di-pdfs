@@ -5,13 +5,13 @@ import data from './data';
 
 const options = {
     data: data.dvptCooperationTrend,
-    height: '200px',
+    height: '180px',
     config: {
         linearAxis: {
             indicator: 'value',
           },
           categoryAxis: {
-            indicator: 'year'
+            indicator: 'year',
           },
     }
 };

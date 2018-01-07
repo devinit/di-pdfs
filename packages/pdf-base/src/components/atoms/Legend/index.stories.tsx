@@ -4,14 +4,14 @@ import {red, green, blue} from '../../../theme/colors';
 import Legend from '.';
 
 const data = [
-    {value: 'Uga', color: red},
-    {value: 'Moz', color: green},
+    {value: 'Coopertion between South Africa and other states', color: red},
+    {value: 'Socio-economic  development and integratio', color: green},
     {value: 'Ke', color: blue}
 ];
 
 storiesOf('Legend', module)
     .add('legend vertical', () =>
-        (<div style={{width: '20%', padding: '100px'}}>
+        (<div style={{width: '10%', padding: '10px', border: 'solid'}}>
             <Legend data={data} orientation="vertical" />
         </div>
         ))

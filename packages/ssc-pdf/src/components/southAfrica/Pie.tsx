@@ -8,7 +8,7 @@ import data from './data';
 
 const options = (chartData, label) => ({
     data: chartData,
-    height: '200px',
+    height: '150px',
     config: {
         circular: {
             label,
@@ -18,19 +18,17 @@ const options = (chartData, label) => ({
 });
 
 const legendOptions = (legendData: object) => ({
-    orientation: 'horizontal',
+    orientation: 'vertical',
     data: getLegendData(legendData)
 });
-console.log(legendOptions(sectorColors));
+// console.log(legendOptions(sectorColors));
 
 export default () =>
-    <Div padding="5px" width="100%" display="flex" justifyContent="space-between" >
-        <Div width="50%" key="stacked" display="flex" flexDirection="column">
-            <div>
-                <charts.Pie {...options(data.aricfExpBySector, 'region')} />
-            </div>
-            <Div paddingTop="10px">
-                <Legend {...legendOptions(sectorColors)} />
-            </Div>
+    <Div padding="0px" width="100%" display="flex" justifyContent="space-between" >
+        <Div width="40%" key="pie">
+            <charts.Pie {...options(data.aricfExpBySector, 'region')} />
+        </Div>
+        <Div paddingTop="0px" width="55%">
+            <Legend {...legendOptions(sectorColors)} />
         </Div>
     </Div>;
