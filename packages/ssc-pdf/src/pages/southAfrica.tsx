@@ -1,6 +1,9 @@
 import * as React from 'react';
-import { P, Div } from 'glamorous';
-import {Document, Page, Header, TextBlock, Note, colors} from '@di-pdfs/pdf-base';
+import { Div } from 'glamorous';
+import StackedBar from '../components/southAfrica/StackedBar';
+import Bar from '../components/southAfrica/Bar';
+import Pie from '../components/southAfrica/Pie';
+import {Document, Page, Header, TextBlock, Note} from '@di-pdfs/pdf-base';
 
 export default () =>
     (<Document>
@@ -35,23 +38,12 @@ export default () =>
                 <h2>Trends in development cooperation, 2006-2015</h2>
                 <Note>2006-2015, US$ millions, constant 2015 prices</Note>
             </TextBlock>
-            <Div width="100%" height="150px" backgroundColor={colors.lightGrey}>
-                <P color={colors.red}> Chart Place holder </P>
-            </Div>
+            <Bar />
             <TextBlock>
                 <h2>Trends by government department, 2011-2015</h2>
                 <Note>percentage of total expenditure</Note>
             </TextBlock>
-            <Div width="100%" height="250px" backgroundColor={colors.lightGrey}>
-                <P color={colors.red}> Chart Place holder </P>
-            </Div>
-            <TextBlock marginTop="1em">
-                <h2>Top 10 recipients of technical cooperation, 2011-2013</h2>
-                <Note>US$ millions Constant 2015 prices</Note>
-            </TextBlock>
-            <Div width="100%" height="230px" backgroundColor={colors.lightGrey}>
-                <P color={colors.red}>Table Place holder </P>
-            </Div>
+            <StackedBar dataKey="govmtdepartment" groupBy="id" />
             </Page>
             <Page>
             <TextBlock>
@@ -68,12 +60,8 @@ export default () =>
             </TextBlock>
             </Div>
             <Div display="flex">
-            <Div width="100%" height="230px" backgroundColor={colors.lightGrey}>
-                <P color={colors.red}>PieChart Place holder </P>
-            </Div>
-            <Div width="100%" height="230px" backgroundColor={colors.lightGrey}>
-                <P color={colors.red}>Table Place holder </P>
-            </Div>
+            <StackedBar dataKey="aricfExpByRegion" groupBy="region" />
+            <Pie />
             </Div>
         </Page>
     </Document>);
