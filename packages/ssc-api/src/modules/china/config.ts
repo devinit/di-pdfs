@@ -21,10 +21,10 @@ export const sectorColors = {
 
 export const odaRegionColors = {
     'Africa': colors.red,
-    'Asia': colors.darkRed,
-    'Central and Eastern Europe': colors.purple,
+    'Asia': colors.orange,
+    'Central and Eastern Europe': colors.lightPurple,
     'Latin America and the Caribbean': colors.lightBlue,
-    'Europe': colors.lightRed,
-    'Middle East': colors.pink,
-    'The Pacific': colors.lightPink
+    'Europe': colors.purple,
+    'Middle East': colors.darkBlue,
+    'The Pacific': colors.blue
 };
