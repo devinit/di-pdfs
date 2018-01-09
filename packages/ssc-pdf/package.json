@@ -18,6 +18,7 @@
   "author": "epicallan.al@gmail.com",
   "license": "ISC",
   "dependencies": {
+    "@devinit/charts": "^1.6.29",
     "@di-pdfs/api-base": "^1.0.0",
     "@di-pdfs/pdf-base": "1.0.3",
     "@di-pdfs/ssc-api": "^1.0.0",
