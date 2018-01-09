@@ -11,7 +11,7 @@ const data = [
 
 storiesOf('Legend', module)
     .add('legend vertical', () =>
-        (<div style={{width: '10%', padding: '10px', border: 'solid'}}>
+        (<div style={{width: '10%', padding: '10px'}}>
             <Legend data={data} orientation="vertical" />
         </div>
         ))

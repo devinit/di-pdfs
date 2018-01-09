@@ -1,6 +1,6 @@
 import * as React from 'react';
 import config from './config';
-import {ILegend} from '../../atoms/Chart/types';
+import {ILegend, ILabeling} from '../../atoms/Chart/types';
 import Chart from '../../atoms/Chart';
 import * as R from 'ramda';
 
@@ -13,6 +13,7 @@ export interface Props {
             strokeWidth?: number;
             strokeColor?: string ;
         }
+        labeling?: ILabeling;
         legend?: ILegend // uses inbuilt legend, you may as well use the html based one in atoms
     };
     data: any[];
