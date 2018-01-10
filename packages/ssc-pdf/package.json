@@ -5,10 +5,12 @@
   "main": "index.js",
   "scripts": {
     "dev": "npm run prebuild && concurrently \"tsc --pretty --watch\" \"next dist\"",
-    "prebuild": "rm -rf dist && mkdir -p dist && cp -R node_modules/@di-pdfs/pdf-base/lib/static/ dist/static && tsc",
+    "prebuild": "rm -rf dist && mkdir -p dist && cp -R node_modules/@di-pdfs/pdf-base/lib/static/ dist/static && cp next.config.js dist && tsc",
     "pull": "tsc && node dist/pullData/index.js",
     "test": "jest",
     "build": "next build dist",
+    "export": "next export dist",
+    "static": "npm run build && npm export",
     "start": "next start dist",
     "lint": "tslint -c tslint.json 'pages/**/*.tsx' 'src/**/*.tsx' 'src/**/*.ts'"
   },
