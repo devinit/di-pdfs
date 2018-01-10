@@ -16,7 +16,7 @@ storiesOf('Legend', module)
         </div>
         ))
     .add('legend horizontal', () =>
-        (<div style={{width: '20%', padding: '100px'}}>
+        (<div style={{width: '35%', padding: '100px'}}>
             <Legend data={data} orientation="horizontal" />
         </div>
         ));

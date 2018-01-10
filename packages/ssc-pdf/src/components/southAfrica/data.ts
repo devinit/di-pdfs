@@ -3,16 +3,16 @@
 
 export default {
   dvptCooperationTrend: [
-    { uid: 'H1k2pTb6n7G', year: 2015, value: 293 },
-    { uid: 'HklhppWThmG', year: 2014, value: 174 },
-    { uid: 'SkW3pp-p37M', year: 2013, value: 182 },
-    { uid: 'rkG2Tp-Th7z', year: 2012, value: 176 },
-    { uid: 'B1Q3apbp3QM', year: 2011, value: 155 },
-    { uid: 'ByE36aZT37f', year: 2010, value: 151 },
-    { uid: 'H1S2TpZpnXf', year: 2009, value: 193 },
-    { uid: 'B18hp6Z6nmG', year: 2008, value: 150 },
-    { uid: 'SyDh6aWa37z', year: 2007, value: 112 },
-    { uid: 'rJun66bThmG', year: 2006, value: 99 }
+    { uid: 'S1TEIC8rmEz', year: 2015, value: 293 },
+    { uid: 'BJAEIR8HX4M', year: 2014, value: 174 },
+    { uid: 'BkkSIAUr74G', year: 2013, value: 182 },
+    { uid: 'S1eHUC8HX4M', year: 2012, value: 176 },
+    { uid: 'HyZrUC8B7NG', year: 2011, value: 155 },
+    { uid: 'rkGr8A8HQ4z', year: 2010, value: 151 },
+    { uid: 'rymBUCIr7Ef', year: 2009, value: 193 },
+    { uid: 'S1VHUCLSmNz', year: 2008, value: 150 },
+    { uid: 'SJHrIR8H7Vf', year: 2007, value: 112 },
+    { uid: 'BkUHICLHmNf', year: 2006, value: 99 }
   ],
   govmtdepartment: [
     {
@@ -20,105 +20,105 @@ export default {
       year: 2011,
       color: '#DC73FF',
       value: 69.18604651162791,
-      uid: 'BJI5ppZ6nQz'
+      uid: 'rkYUCLB7VG'
     },
     {
       id: 'National Treasury',
       year: 2011,
       color: '#f39b95',
       value: 20.994832041343674,
-      uid: 'HyvqppZT27z'
+      uid: 'H1qL0Ir74M'
     },
     {
       id: 'Other',
       year: 2011,
       color: '#bc2629',
       value: 9.819121447028424,
-      uid: 'BJuqpTZp27z'
+      uid: 'SJoLC8B7VM'
     },
     {
       id: 'International Relations and Cooperation',
       year: 2012,
       color: '#DC73FF',
       value: 65.70130607609312,
-      uid: 'SktcT6Zah7G'
+      uid: 'S13IRUSXVz'
     },
     {
       id: 'National Treasury',
       year: 2012,
       color: '#f39b95',
       value: 25.04258943781942,
-      uid: 'S1cqTaWpnmM'
+      uid: 'Sy6LRIHQVM'
     },
     {
       id: 'Other',
       year: 2012,
       color: '#bc2629',
       value: 9.25610448608745,
-      uid: 'ByoqTTWpn7G'
+      uid: 'B10L0IHXNM'
     },
     {
       id: 'International Relations and Cooperation',
       year: 2013,
       color: '#DC73FF',
       value: 66.66666666666666,
-      uid: 'r1ncTp-an7G'
+      uid: 'SykxIRLrQNG'
     },
     {
       id: 'National Treasury',
       year: 2013,
       color: '#f39b95',
       value: 24.546952224052717,
-      uid: 'S1Tq6aWThXG'
+      uid: 'ryglI0LHQNz'
     },
     {
       id: 'Other',
       year: 2013,
       color: '#bc2629',
       value: 8.786381109280613,
-      uid: 'rJA5TTW63Xf'
+      uid: 'HkWeUAIS7EM'
     },
     {
       id: 'International Relations and Cooperation',
       year: 2014,
       color: '#DC73FF',
       value: 63.96085204375359,
-      uid: 'ryJo6aZTh7M'
+      uid: 'rkMeIRUSQNf'
     },
     {
       id: 'National Treasury',
       year: 2014,
       color: '#f39b95',
       value: 27.461139896373055,
-      uid: 'ByxiT6Zp2mG'
+      uid: 'Symx80IS7VM'
     },
     {
       id: 'Other',
       year: 2014,
       color: '#bc2629',
       value: 8.578008059873344,
-      uid: 'BkboaaWpnmz'
+      uid: 'BJNxI0UHXNf'
     },
     {
       id: 'International Relations and Cooperation',
       year: 2015,
       color: '#DC73FF',
       value: 35.195911413969334,
-      uid: 'BkMo6TZa2QM'
+      uid: 'HkreU08rQVz'
     },
     {
       id: 'National Treasury',
       year: 2015,
       color: '#f39b95',
       value: 59.557069846678026,
-      uid: 'S1XiapZphQG'
+      uid: 'S1UgLAUr7Nf'
     },
     {
       id: 'Other',
       year: 2015,
       color: '#bc2629',
       value: 5.247018739352641,
-      uid: 'HyEsT6Wah7M'
+      uid: 'HkPlURLH7Ez'
     }
   ],
   aricfExpByRegion: [
@@ -127,49 +127,49 @@ export default {
       year: 2014,
       color: '#e8443a',
       value: 11.4,
-      uid: 'rJKnppWT27f'
+      uid: 'B1vA8rm4z'
     },
     {
       region: 'Asia',
       year: 2014,
-      color: '#fbd7cb',
+      color: '#EA7600',
       value: 0.7,
-      uid: 'Bych6aWpnQM'
+      uid: 'H1lPC8Hm4f'
     },
     {
       region: 'Africa',
       year: 2015,
       color: '#e8443a',
       value: 6.7,
-      uid: 'rJ22aTZa2mG'
+      uid: 'HyfPAUBmVf'
     },
     {
       region: 'Asia',
       year: 2015,
-      color: '#fbd7cb',
+      color: '#EA7600',
       value: 0.2,
-      uid: 'SypnTpWa3Xf'
+      uid: 'ryQv0UHQVf'
     },
     {
       region: 'Latin America and the Caribbean',
       year: 2015,
-      color: '#f39b95',
+      color: '#93328E',
       value: 6.5,
-      uid: 'SJRnTpZanXz'
+      uid: 'ByVDR8HQNG'
     },
     {
       region: 'Africa',
       year: 2016,
       color: '#e8443a',
       value: 4.3,
-      uid: 'BJ16a6-p3mM'
+      uid: 'S1Bv0UBXEz'
     },
     {
       region: 'Latin America and the Caribbean',
       year: 2016,
-      color: '#f39b95',
+      color: '#93328E',
       value: 2.4,
-      uid: 'ryZTp6W637z'
+      uid: 'BJDvR8BQVf'
     }
   ],
   aricfExpBySector: [
@@ -177,43 +177,43 @@ export default {
       sector: 'ARICF expenditures (total)',
       color: '#E03997',
       value: 32.3,
-      uid: 'ryfpaaba2Xz'
+      uid: 'HJuDRUBX4f'
     },
     {
       sector: 'Coopertion between South Africa and other states',
       color: '#8f1b13',
       value: 9.9,
-      uid: 'rJXTaTWp2Qf'
+      uid: 'ryYvR8rX4f'
     },
     {
       sector: 'Prevention and resolution of conflicts',
       color: '#FF8EDF',
       value: 1.6,
-      uid: 'BJV6TTZpnmf'
+      uid: 'S1qw0LBm4G'
     },
     {
       sector: 'Socio-economic  development and integration',
       color: '#e8443a',
       value: 1.8,
-      uid: 'ByB6pabpnQG'
+      uid: 'SkoPCIrXEM'
     },
     {
       sector: 'Promotion of democracy and good governance',
       color: '#f39b95',
       value: 3,
-      uid: 'ryLTaabThQG'
+      uid: 'Sk2v0UHQVf'
     },
     {
       sector: 'Humanitarian assistance',
       color: '#bc2629',
       value: 15.7,
-      uid: 'H1wTT6bp2QM'
+      uid: 'rkTw0Irm4G'
     },
     {
       sector: 'Human resources development',
       color: '#fbd7cb',
       value: 0.2,
-      uid: 'rJdTTpZanQM'
+      uid: 'rJAv0IS74z'
     }
   ]
 };

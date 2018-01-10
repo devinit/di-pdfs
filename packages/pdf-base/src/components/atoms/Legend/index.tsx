@@ -15,8 +15,8 @@ const Row = glamorous.div<{orientation: Orientation}>({
     alignItems: 'flex-start'
     },
     (props) => ({
-        flexDirection: props.orientation === 'vertical' ? 'row' : 'column',
-        flexWrap: 'nowrap',
+        flexDirection: 'row',
+        flexWrap: props.orientation === 'vertical' ? 'nowrap' : 'wrap',
         marginBottom: props.orientation === 'vertical' ? '0.5em' : '0',
         marginLeft: props.orientation === 'horizontal' ? '0.5em' : '0'
     })
@@ -26,6 +26,7 @@ export default (props: Props) =>
     (<Div
         display="flex"
         flexFlow={props.orientation === 'vertical' ? 'column' : 'row'}
+        flexWrap={props.orientation === 'vertical' ? 'nowrap' : 'wrap'}
         alignItems="flex-start"
     >
         {props.data.map(row => (

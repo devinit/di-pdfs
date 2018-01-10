@@ -6,7 +6,7 @@
   "scripts": {
     "build": "npm run build-css && cp -R static lib/ && tsc",
     "css": "lessc src/theme/less/index.less static/styles.css",
-    "chart": "cp node_modules/@devinit/charts/dist/di-charts.min.css static/",
+    "copy-chart-css": "cp node_modules/@devinit/charts/dist/di-charts.min.css static/",
     "build-css": "lessc  --clean-css='--s1 --advanced --compatibility=ie8' src/theme/less/index.less static/styles.min.css",
     "lint": "tslint -c tslint.json 'pages/**/*.tsx' 'src/**/*.tsx' 'src/**/*.ts'",
     "storybook": "start-storybook -s static -p 6006",
@@ -21,7 +21,7 @@
     "glamor": "^2.20.40"
   },
   "dependencies": {
-    "@devinit/charts": "^1.6.30",
+    "@devinit/charts": "^1.6.32",
     "glamor": "^2.20.40",
     "glamorous": "^4.11.0",
     "ramda": "^0.25.0",

@@ -5,42 +5,42 @@ export default {
   dvptCooperation: [
     {
       id: 'Other development cooperation',
-      uid: 'Bkaa-T3Qz',
+      uid: 'Hkal80LBQVz',
       year: 2011,
       color: '#0095CB',
       value: 81
     },
     {
       id: 'Development cooperation estimated to be ODA eligible',
-      uid: 'S1lp6Wph7f',
+      uid: 'Hy0xL0LBQNf',
       year: 2011,
       color: '#e8443a',
       value: 318.3
     },
     {
       id: 'Other development cooperation',
-      uid: 'S1-pTZphXf',
+      uid: 'SJJW8RISQEM',
       year: 2012,
       color: '#0095CB',
       value: 75.4
     },
     {
       id: 'Development cooperation estimated to be ODA eligible',
-      uid: 'rkza6-ahmG',
+      uid: 'r1eZ80UHXEf',
       year: 2012,
       color: '#e8443a',
       value: 301.6
     },
     {
       id: 'Other development cooperation',
-      uid: 'H1Q6pbahmf',
+      uid: 'rJ-ZLCLrXEG',
       year: 2013,
       color: '#0095CB',
       value: 60.9
     },
     {
       id: 'Development cooperation estimated to be ODA eligible',
-      uid: 'B1NTT-T3Qf',
+      uid: 'H1GZIA8rmEf',
       year: 2013,
       color: '#e8443a',
       value: 238.1
@@ -49,129 +49,129 @@ export default {
   tchCooperationByRegion: [
     {
       region: 'Africa',
-      color: '#f39b95',
+      color: '#e8443a',
       year: 2011,
       value: 22059553,
-      uid: 'HkHp6-p27f'
+      uid: 'rk-m8A8rmEf'
     },
     {
       region: 'Latin America and the Caribbean',
-      color: '#54C8FF',
+      color: '#0095CB',
       year: 2011,
       value: 25079064,
-      uid: 'B1U6Tba37f'
+      uid: 'ryGXIA8HmVM'
     },
     {
       region: 'Oceania',
-      color: '#bc2629',
+      color: '#EA7600',
       year: 2011,
       value: 2196603,
-      uid: 'SywTTWTnmG'
+      uid: 'SkmQLAUrXEz'
     },
     {
       region: 'Europe',
-      color: '#e8443a',
+      color: '#93328E',
       year: 2011,
       value: 1195047,
-      uid: 'BkuTa-6hXM'
+      uid: 'ByVXLALS7Nf'
     },
     {
       region: 'Asia and the Middle East',
-      color: '#E03997',
+      color: '#FECB2F',
       year: 2011,
       value: 506220,
-      uid: 'BkFTTb6hXf'
+      uid: 'ByHQURUSXEf'
     },
     {
       region: 'North America',
-      color: '#FF8EDF',
+      color: '#0095CB',
       year: 2011,
       value: 244924,
-      uid: 'H1qapba2XG'
+      uid: 'ByIQICLB7EM'
     },
     {
       region: 'Africa',
-      color: '#f39b95',
+      color: '#e8443a',
       year: 2012,
       value: 19877279,
-      uid: 'BJsTabpnQf'
+      uid: 'HkwQIRUSQVG'
     },
     {
       region: 'Latin America and the Caribbean',
-      color: '#54C8FF',
+      color: '#0095CB',
       year: 2012,
       value: 21020528,
-      uid: 'B1nppZa2XM'
+      uid: 'SJ_XLR8HmVz'
     },
     {
       region: 'Oceania',
-      color: '#bc2629',
+      color: '#EA7600',
       year: 2012,
       value: 1755113,
-      uid: 'BkT66-ahmG'
+      uid: 'BkK7808SXVG'
     },
     {
       region: 'Europe',
-      color: '#e8443a',
+      color: '#93328E',
       year: 2012,
       value: 1184626,
-      uid: 'r1R6pZ62mf'
+      uid: 'Sy9QIAUBQ4M'
     },
     {
       region: 'Asia and the Middle East',
-      color: '#E03997',
+      color: '#FECB2F',
       year: 2012,
       value: 753503,
-      uid: 'rJJxTpWahmf'
+      uid: 'ByimUALSmVM'
     },
     {
       region: 'North America',
-      color: '#FF8EDF',
+      color: '#0095CB',
       year: 2012,
       value: 252481,
-      uid: 'B1ge6a-ThQM'
+      uid: 'S12Q8AUBQNz'
     },
     {
       region: 'Africa',
-      color: '#f39b95',
+      color: '#e8443a',
       year: 2013,
       value: 20896283,
-      uid: 'BkZxppW62XM'
+      uid: 'rkpXUAUB7EG'
     },
     {
       region: 'Latin America and the Caribbean',
-      color: '#54C8FF',
+      color: '#0095CB',
       year: 2013,
       value: 15420578,
-      uid: 'HyzxTT-62XM'
+      uid: 'HyCXURIBXEz'
     },
     {
       region: 'Oceania',
-      color: '#bc2629',
+      color: '#EA7600',
       year: 2013,
       value: 1118071,
-      uid: 'HymxaTWanmM'
+      uid: 'SJyVLRIS74f'
     },
     {
       region: 'Europe',
-      color: '#e8443a',
+      color: '#93328E',
       year: 2013,
       value: 1277571,
-      uid: 'SkElT6bp3mf'
+      uid: 'HyxVLRIBmVM'
     },
     {
       region: 'Asia and the Middle East',
-      color: '#E03997',
+      color: '#FECB2F',
       year: 2013,
       value: 361537,
-      uid: 'SkSeaTZ6nQz'
+      uid: 'ry-EIA8r7EG'
     },
     {
       region: 'North America',
-      color: '#FF8EDF',
+      color: '#0095CB',
       year: 2013,
       value: 105021,
-      uid: 'SkUlTaZ6hQf'
+      uid: 'BJfNICIS7Vz'
     }
   ],
   topTchRecipients: [
