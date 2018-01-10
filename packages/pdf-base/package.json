@@ -1,6 +1,6 @@
 {
   "name": "@devinit/pdf-base",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "for creating DI print pdfs",
   "main": "lib/index.js",
   "scripts": {
@@ -23,8 +23,8 @@
   "peerDependencies": {
     "glamor": "^2.20.40"
   },
-  "github": {
-    "release": false
+  "publishConfig": {
+    "access": "public"
   },
   "repository": {
     "type": "git",
@@ -50,11 +50,11 @@
     "file-loader": "^1.1.5",
     "less": "^2.7.3",
     "less-plugin-clean-css": "^1.5.1",
+    "release-it": "^5.2.0",
     "style-loader": "^0.19.0",
     "ts-loader": "^3.2.0",
     "tslint": "^5.8.0",
     "tslint-react": "^3.2.0",
-    "release-it": "^5.2.0",
     "typescript": "^2.6.1"
   }
 }
