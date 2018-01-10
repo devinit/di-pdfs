@@ -20,15 +20,15 @@
   ],
   "author": "epicallan.al@gmail.com",
   "license": "ISC",
-  "peerDependencies": {
-    "glamor": "^2.20.40"
-  },
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/devinit/di-pdfs.git"
+  },
+  "peerDependencies": {
+    "glamor": "^2.20.40"
   },
   "dependencies": {
     "@devinit/charts": "^1.6.35",

@@ -27,7 +27,6 @@
   "license": "ISC",
   "dependencies": {
     "@devinit/api-base": "^1.0.6",
-    "@devinit/charts": "^1.6.29",
     "@devinit/pdf-base": "1.0.4",
     "ramda": "^0.25.0",
     "shortid": "^2.2.8"

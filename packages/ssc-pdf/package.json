@@ -22,7 +22,6 @@
   "license": "ISC",
   "dependencies": {
     "@devinit/api-base": "^1.0.6",
-    "@devinit/charts": "^1.6.35",
     "@devinit/pdf-base": "1.0.3",
     "@devinit/ssc-api": "^1.0.6",
     "glamor": "^2.20.40",
