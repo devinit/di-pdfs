@@ -1,5 +1,5 @@
-Interfaces with postgres db and other data sources to provide data for the pdf webapp.
+Graphql server that interfaces with postgres db and other data sources to provide data for the pdf webapp.
 
 ______________________________________
 
-This will contain re-usable modules used in other api packages. Largely adopted from current datahub api
+Contains re-usable modules used in other api packages. Largely adopted from current datahub api
