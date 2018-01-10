@@ -47,6 +47,9 @@
     "release-it": "^5.2.0",
     "typescript": "^2.6.1"
   },
+  "github": {
+    "release": false
+  },
   "jest": {
     "transform": {
       ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
