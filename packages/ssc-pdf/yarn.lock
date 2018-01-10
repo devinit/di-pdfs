@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@devinit/charts@^1.6.29":
-  version "1.6.29"
-  resolved "https://registry.yarnpkg.com/@devinit/charts/-/charts-1.6.29.tgz#8a06d0fe1257ddbdcc175bc3d9296b3de8ba2480"
+"@devinit/charts@^1.6.35":
+  version "1.6.35"
+  resolved "https://registry.yarnpkg.com/@devinit/charts/-/charts-1.6.35.tgz#091e384b907df1c182b0c9e9ef1c3ed1ef89baee"
   dependencies:
     babel-runtime "6.26.0"
     chai-stats "^0.3.0"

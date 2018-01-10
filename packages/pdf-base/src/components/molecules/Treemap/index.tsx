@@ -6,8 +6,9 @@ import * as R from 'ramda';
 export interface Props {
     config: {
         labeling: {
-        prefix?: string,
-        autofit?: true,
+            prefix?: string;
+            autofit?: true;
+            showValues?: boolean;
         };
     };
     data: Array<{color?: string; value: number; name: string}>;

@@ -11,7 +11,8 @@ const options = () => ({
     height: '250px',
     config: {
         labeling: {
-            prefix: 'US$'
+            showValues: false,
+            showPercents: true,
         }
     }
 });

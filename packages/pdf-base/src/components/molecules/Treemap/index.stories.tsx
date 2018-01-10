@@ -4,7 +4,8 @@ import Treemap from '.';
 
 const config = {
     labeling: {
-        prefix: 'US$'
+        prefix: 'US$',
+        showValues: false,
     }
 };
 const data = [
