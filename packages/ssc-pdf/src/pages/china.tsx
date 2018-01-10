@@ -59,7 +59,7 @@ export default () =>
                 The data presented on this page is sourced from Aiddata’s official financing
                 from China dataset. The data shown in the charts below are estimates of ODA-like commitments.
                 Aiddata use an open-source data collection methodology to collect project-level data from
-                providers of official finance who do not participate in global aid reporting systems
+                providers of official finance who do not participate in global aid reporting systems.
                 The data shows between 2012 and 2014 that two-thirds of China’s ODA-like commitments went to Africa,
                 the top three recipients over this period were Cote d’lvoire,
                 Tanzania and Nigeria . 19% went to Asia – where

@@ -11,7 +11,7 @@
     "build": "next build dist",
     "export": "next export dist",
     "static": "npm run build && npm export",
-    "start": "npm run build && next start dist",
+    "start": "npm run build && next start dist -p 9999",
     "lint": "tslint -c tslint.json 'pages/**/*.tsx' 'src/**/*.tsx' 'src/**/*.ts'"
   },
   "keywords": [

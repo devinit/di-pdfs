@@ -11,6 +11,6 @@
        "**/lib": true,
        "**/.out": true,
        "**/coverage": true,
-       "**/node_modules": false
+       "**/node_modules": true
    }
 }
