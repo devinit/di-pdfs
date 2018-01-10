@@ -20,8 +20,8 @@
   "author": "epicallan.al@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "@devinit/charts": "^1.6.35",
     "@devinit/api-base": "^1.0.0",
+    "@devinit/charts": "^1.6.35",
     "@devinit/pdf-base": "1.0.3",
     "@devinit/ssc-api": "^1.0.0",
     "glamor": "^2.20.40",

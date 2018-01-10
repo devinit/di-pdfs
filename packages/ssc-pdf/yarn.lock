@@ -16,6 +16,17 @@
     tooltip "^1.6.1"
     tooltip.js "^1.1.4"
 
+"@devinit/pdf-base@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@devinit/pdf-base/-/pdf-base-1.0.3.tgz#de99190740cf24f1d2e45d8525eb27fc8f14919d"
+  dependencies:
+    "@devinit/charts" "^1.6.35"
+    glamor "^2.20.40"
+    glamorous "^4.11.0"
+    ramda "^0.25.0"
+    react "^16.2.0"
+    react-dom "^16.2.0"
+
 "@semantic-release/commit-analyzer@^3.0.1":
   version "3.0.7"
   resolved "https://registry.yarnpkg.com/@semantic-release/commit-analyzer/-/commit-analyzer-3.0.7.tgz#dc955444a6d3d2ae9b8e21f90c2c80c4e9142b2f"
