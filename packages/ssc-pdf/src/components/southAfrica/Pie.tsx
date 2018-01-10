@@ -1,9 +1,9 @@
 import * as React from 'react';
 import {Div} from 'glamorous';
-import charts from '@di-pdfs/pdf-base/lib/charts';
+import charts from '@devinit/pdf-base/lib/charts';
 import {getLegendData} from '../utils';
-import {sectorColors} from '@di-pdfs/ssc-api/lib/modules/southAfrica/config';
-import {Legend} from '@di-pdfs/pdf-base';
+import {sectorColors} from '@devinit/ssc-api/lib/modules/southAfrica/config';
+import {Legend} from '@devinit/pdf-base';
 import data from './data';
 
 const options = (chartData, label) => ({

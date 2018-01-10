@@ -3,7 +3,7 @@ import { Div } from 'glamorous';
 import StackedBar from '../components/southAfrica/StackedBar';
 import Bar from '../components/southAfrica/Bar';
 import Pie from '../components/southAfrica/Pie';
-import {Document, Page, Header, TextBlock, Note} from '@di-pdfs/pdf-base';
+import {Document, Page, Header, TextBlock, Note} from '@devinit/pdf-base';
 
 export default () =>
     (<Document>

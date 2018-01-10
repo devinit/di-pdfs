@@ -1,4 +1,4 @@
-import * as colors from '@di-pdfs/pdf-base/lib/theme/colors';
+import * as colors from '@devinit/pdf-base/lib/theme/colors';
 
 export const departmentColors = {
     'International Relations and Cooperation': colors.lightPurple,

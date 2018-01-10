@@ -1,5 +1,5 @@
-import {IDB} from '@di-pdfs/api-base/lib/db';
-import {getIndicatorDataSimple} from '@di-pdfs/api-base/lib/utils';
+import {IDB} from '@devinit/api-base/lib/db';
+import {getIndicatorDataSimple} from '@devinit/api-base/lib/utils';
 import sql from './sql';
 import regionColors from './config';
 import {IDataRegion} from '../../types';

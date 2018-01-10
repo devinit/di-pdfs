@@ -36,6 +36,6 @@ lerna bootstrap # installs all package dependencies
 lerna run lint # lints all packages
 lerna run build && lerna run start # starts api & pdf front end
 lerna run dev # runs packages in dev mode
-lerna run build --scope @di-pdfs/pdf-base # running a command in say one package
+lerna run build --scope @devinit/pdf-base # running a command in say one package
 
 ```

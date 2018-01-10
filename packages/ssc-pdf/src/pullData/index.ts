@@ -1,4 +1,4 @@
-import {getAndWriteData} from '@di-pdfs/api-base/lib/query';
+import {getAndWriteData} from '@devinit/api-base/lib/query';
 import * as path from 'path';
 import * as fs from 'fs-extra';
 

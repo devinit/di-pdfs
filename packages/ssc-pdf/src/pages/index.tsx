@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {Document, Page, Header, TextBlock, colors} from '@di-pdfs/pdf-base';
+import {Document, Page, Header, TextBlock, colors} from '@devinit/pdf-base';
 
 export default () => (
     <Document>

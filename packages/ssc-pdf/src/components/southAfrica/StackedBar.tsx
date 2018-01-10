@@ -1,9 +1,9 @@
 import * as React from 'react';
 import {Div} from 'glamorous';
 import {getLegendData} from '../utils';
-import {regionColors, departmentColors} from '@di-pdfs/ssc-api/lib/modules/southAfrica/config';
-import {Legend, LegendProps} from '@di-pdfs/pdf-base';
-import charts from '@di-pdfs/pdf-base/lib/charts';
+import {regionColors, departmentColors} from '@devinit/ssc-api/lib/modules/southAfrica/config';
+import {Legend, LegendProps} from '@devinit/pdf-base';
+import charts from '@devinit/pdf-base/lib/charts';
 import data from './data';
 
 const options = (dataKey: string, groupBy: string) => ({

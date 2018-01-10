@@ -1,8 +1,8 @@
 import * as React from 'react';
 import {Div} from 'glamorous';
 import {dvptCoLegendData} from '../utils';
-import {Legend} from '@di-pdfs/pdf-base';
-import charts from '@di-pdfs/pdf-base/lib/charts';
+import {Legend} from '@devinit/pdf-base';
+import charts from '@devinit/pdf-base/lib/charts';
 import data from './data';
 
 const options = {

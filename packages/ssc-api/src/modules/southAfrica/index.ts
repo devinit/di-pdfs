@@ -1,5 +1,5 @@
-import {IDB} from '@di-pdfs/api-base/lib/db';
-import {getIndicatorDataSimple, getTotal} from '@di-pdfs/api-base/lib/utils';
+import {IDB} from '@devinit/api-base/lib/db';
+import {getIndicatorDataSimple, getTotal} from '@devinit/api-base/lib/utils';
 import {departmentColors, regionColors, sectorColors} from './config';
 import sql from './sql';
 import * as R from 'ramda';

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Div } from 'glamorous';
-import {Document, Page, Header, TextBlock, Note} from '@di-pdfs/pdf-base';
+import {Document, Page, Header, TextBlock, Note} from '@devinit/pdf-base';
 import Pie from '../components/china/Pie';
 import StackedBar from '../components/china/StackedBar';
 import Bar from '../components/china/Bar';

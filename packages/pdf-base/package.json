@@ -1,5 +1,5 @@
 {
-  "name": "@di-pdfs/pdf-base",
+  "name": "@devinit/pdf-base",
   "version": "1.0.3",
   "description": "for creating DI print pdfs",
   "main": "lib/index.js",

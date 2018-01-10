@@ -1,9 +1,9 @@
 import * as React from 'react';
 import {Div} from 'glamorous';
 import {getLegendData} from '../utils';
-import {odaRegionColors} from '@di-pdfs/ssc-api/lib/modules/china/config';
-import charts from '@di-pdfs/pdf-base/lib/charts';
-import {Legend} from '@di-pdfs/pdf-base';
+import {odaRegionColors} from '@devinit/ssc-api/lib/modules/china/config';
+import charts from '@devinit/pdf-base/lib/charts';
+import {Legend} from '@devinit/pdf-base';
 import data from './data';
 
 const options = () => ({

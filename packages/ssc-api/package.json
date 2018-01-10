@@ -1,5 +1,5 @@
 {
-  "name": "@di-pdfs/ssc-api",
+  "name": "@devinit/ssc-api",
   "version": "1.0.0",
   "description": "ssc api",
   "main": "index.js",
@@ -9,7 +9,7 @@
     "start": "npm run build && NODE_ENV=production PORT=8080 node lib/main.js",
     "build": "NODE_ENV=production tsc",
     "build:watch": "NODE_ENV=development tsc -w",
-    "gqlToTs": "node node_modules/@di-pdfs/api-base/lib/makeTypeDefs",
+    "gqlToTs": "node node_modules/@devinit/api-base/lib/makeTypeDefs",
     "dev": "NODE_ENV=development concurrently \"npm run build:watch\" \"node-dev lib/main.js\""
   },
   "keywords": [
@@ -20,8 +20,8 @@
   "license": "ISC",
   "dependencies": {
     "@devinit/charts": "^1.6.29",
-    "@di-pdfs/api-base": "^1.0.0",
-    "@di-pdfs/pdf-base": "1.0.3",
+    "@devinit/api-base": "^1.0.0",
+    "@devinit/pdf-base": "1.0.3",
     "ramda": "^0.25.0",
     "shortid": "^2.2.8"
   },
