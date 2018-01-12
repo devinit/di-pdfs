@@ -54,7 +54,9 @@ export default () =>
                         A Note on Estimating China’s Foreign Aid Using New Data:2015 Preliminary Figures.
                         JICA Research Institute</p>
                 </TextBlock>
-                <TextBlock>
+        </Page>
+        <Page footNote="China">
+        <TextBlock>
                 <p>
                 The data presented on this page is sourced from Aiddata’s official financing
                 from China dataset. The data shown in the charts below are estimates of ODA-like commitments.
@@ -69,9 +71,7 @@ export default () =>
                 categorised under the energy generation and supply sector.
                 </p>
                 </TextBlock>
-        </Page>
-        <Page footNote="China">
-            <Div display="flex">
+            <Div display="flex" marginTop="10px">
             <TextBlock>
             <h2>Regional distribution of ODA-like flows</h2>
             <Note>2012-2014, commitments</Note>

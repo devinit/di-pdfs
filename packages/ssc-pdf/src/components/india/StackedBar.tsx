@@ -15,7 +15,6 @@ const options = (dataKey: string, groupBy: string) => ({
             indicator: 'value',
         },
         categoryAxis: {
-            axisLabel: 'Years',
             indicator: 'year'
         }
     }
