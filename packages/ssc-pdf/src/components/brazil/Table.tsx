@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {Div} from 'glamorous';
-import {Table} from '@di-pdfs/pdf-base';
+import {Table} from '@devinit/pdf-base';
 import {splitAt} from 'ramda';
 import data from './data';
 
@@ -10,8 +10,7 @@ export default () => {
     const headings = ['Recipient country', 'Development Cooperation'];
     return (
         <Div
-            paddingLeft="50px"
-            paddingRight="50px"
+            paddingLeft="10px"
             width="100%"
             display="flex"
             justifyContent="space-between"

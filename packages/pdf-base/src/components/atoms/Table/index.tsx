@@ -11,8 +11,8 @@ const tableBorderStyle = `1px solid ${lightGrey}`;
 const StyledTable = glamorous.table({
     '& td, tboday' : {
         borderTop: tableBorderStyle,
-        borderLeft: tableBorderStyle,
-        borderRight: tableBorderStyle,
+        // borderLeft: tableBorderStyle,
+        // borderRight: tableBorderStyle,
         borderBottom: `1px solid ${red}`,
         borderCollapse: 'collapse',
     },

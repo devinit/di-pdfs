@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {Div} from 'glamorous';
-import charts from '@di-pdfs/pdf-base/lib/charts';
+import charts from '@devinit/pdf-base/lib/charts';
 import data from './data';
 
 const options = {

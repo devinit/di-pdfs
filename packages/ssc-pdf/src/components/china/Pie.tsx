@@ -1,14 +1,23 @@
 import * as React from 'react';
 import {Div} from 'glamorous';
-import charts from '@di-pdfs/pdf-base/lib/charts';
+import charts from '@devinit/pdf-base/lib/charts';
 import {getLegendData} from '../utils';
-import {sectorColors, regionColors} from '@di-pdfs/ssc-api/lib/modules/china/config';
-import {Legend} from '@di-pdfs/pdf-base';
+import {sectorColors, regionColors} from '@devinit/ssc-api/lib/modules/china/config';
+import {Legend} from '@devinit/pdf-base';
 import data from './data';
+
+// const showSomeLabels = (elm: HTMLElement) => {
+//     const svg = elm.firstChild as HTMLElement;
+//     const plot = svg.lastChild as HTMLElement;
+//     const renderArea = plot.children[1].firstChild as HTMLElement;
+//     const labeArea = renderArea.lastChild as HTMLElement;
+//     console.log(labeArea);
+// };
 
 const options = (chartData, label) => ({
     data: chartData,
     height: '200px',
+    // callback: showSomeLabels,
     config: {
         circular: {
             label,
@@ -24,7 +33,7 @@ const legendOptions = (legendData: object) => ({
 
 export default () =>
     <Div padding="5px" width="100%" display="flex" justifyContent="space-between" >
-        <Div width="50%" key="stacked" display="flex" flexDirection="column">
+        <Div width="50%" key="region" display="flex" flexDirection="column">
             <div>
                 <charts.Pie {...options(data.flowsByRegion, 'region')} />
             </div>
@@ -32,7 +41,7 @@ export default () =>
                 <Legend {...legendOptions(regionColors)} />
             </Div>
         </Div>
-        <Div width="50%" key="stacked"  display="flex" flexDirection="column">
+        <Div width="50%" key="flows"  display="flex" flexDirection="column">
             <charts.Pie {...options(data.flowsBySector, 'sector')} />
             <Div paddingTop="10px">
                 <Legend {...legendOptions(sectorColors)} />

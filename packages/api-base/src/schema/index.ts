@@ -6,8 +6,8 @@ import { getTypeDefs } from '../makeTypeDefs';
 import * as glob from 'glob-promise';
 import {precache} from '../cache';
 import db from '../db';
-import {IDB} from '../db';
 import {githubGet} from '../github';
+import {IDB} from '../db';
 
 export const getResolvers = async (globPattern) => {
     const resolverFiles: string[]  = await glob(globPattern, {realpath: true});
@@ -19,7 +19,7 @@ export const getResolvers = async (globPattern) => {
         ? mergeResolvers(resolversLoad) : resolversLoad[0];
 };
 
-interface Ischema {
+export interface Ischema {
     apiModules: Array<{[name: string]: (db: IDB, githubGet?: any) => any}>;
     gqlTypesGlobPattern?: string;
     resolverPattern: string;

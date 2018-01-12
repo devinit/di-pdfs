@@ -1,21 +1,20 @@
 import * as React from 'react';
 import {Div} from 'glamorous';
 import {getLegendData} from '../utils';
-import {regionColors} from '@di-pdfs/ssc-api/lib/modules/southAfrica/config';
-import {Legend, LegendProps} from '@di-pdfs/pdf-base';
-import charts from '@di-pdfs/pdf-base/lib/charts';
+import {regionColors, departmentColors} from '@devinit/ssc-api/lib/modules/southAfrica/config';
+import {Legend, LegendProps} from '@devinit/pdf-base';
+import charts from '@devinit/pdf-base/lib/charts';
 import data from './data';
 
 const options = (dataKey: string, groupBy: string) => ({
     data: data[dataKey],
-    height: '200px',
+    height: '180px',
     config: {
         groupBy,
         linearAxis: {
             indicator: 'value',
         },
         categoryAxis: {
-            axisLabel: 'Years',
             indicator: 'year'
         }
     }
@@ -26,29 +25,22 @@ interface Props {
     groupBy: string;
 }
 
-const techLegend = (): LegendProps =>
-    ({orientation: 'vertical', data: getLegendData(regionColors)});
-
-const legendOptions = (dataKey: string) => {
+const legendOptions = (dataKey: string): LegendProps => {
     if (dataKey === 'govmtdepartment') {
         return {
             orientation: 'vertical',
-            data: data.govmtdepartment
+            data: getLegendData(departmentColors)
         };
     }
-    return techLegend();
+    return ({orientation: 'vertical', data: getLegendData(regionColors)});
 };
 
-// console.log(legendOptions('govmtdepartment'));
-
-// console.log(techLegend());
-
 export default (props: Props) =>
-    <Div padding="5px" width="100%" display="flex" justifyContent="space-between" >
-        <Div width="70%" key="stacked">
+    <Div padding="0px" width="100%" display="flex" justifyContent="space-between" >
+        <Div width="50%" key="stacked">
             <charts.StackedBar {...options(props.dataKey, props.groupBy)} />
         </Div>
-        <Div width="28%" key="legend-stacked">
+        <Div width="38%" key="legend-stacked">
             <Legend {...legendOptions(props.dataKey)} />
         </Div>
     </Div>;

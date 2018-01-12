@@ -1,6 +1,6 @@
-import {prettyLists} from '@di-pdfs/api-base/lib/utils/test.utils';
+import {prettyLists} from '@devinit/api-base/lib/utils/test.utils';
 import {Brazil} from '.';
-import db from '@di-pdfs/api-base/lib/db';
+import db from '@devinit/api-base/lib/db';
 
 describe('Brazil', () => {
     const brazil = new Brazil(db);

@@ -6,6 +6,7 @@ export interface Props {
   config: any;
   width?: string;
   height: string;
+  callback?: (elm: HTMLElement) => void;
 }
 
 class Chart extends React.Component <Props> {
@@ -22,6 +23,7 @@ class Chart extends React.Component <Props> {
         const config = this.props.config;
         draw({ element, data, config }).then(chart => {
             this.chart = chart;
+            if (this.props.callback && element) this.props.callback(element);
         });
     }
 

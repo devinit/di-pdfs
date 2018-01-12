@@ -1,4 +1,4 @@
-import dvptColorMap from '@di-pdfs/ssc-api/lib/modules/shared/config';
+import dvptColorMap from '@devinit/ssc-api/lib/modules/shared/config';
 
 export const getLegendData = (data: object): Array<{color: string; value: string | number}> =>
     Object.keys(data)

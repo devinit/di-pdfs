@@ -3,9 +3,9 @@
 // the issue with this is that we cant compare new and old storyshots
 import * as prettyFormat from 'pretty-format';
 
-type ListWithUid = Array<{uid: string}>;
+export type ListWithUid = Array<{uid: string}>;
 
-interface IHasUid {
+export interface IHasUid {
     [field: string]: {
         data: ListWithUid;
         toolTip: any;

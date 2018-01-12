@@ -1,17 +1,17 @@
 import * as React from 'react';
 import {Div} from 'glamorous';
-import charts from '@di-pdfs/pdf-base/lib/charts';
+import charts from '@devinit/pdf-base/lib/charts';
 import data from './data';
 
 const options = {
     data: data.dvptCooperationTrend,
-    height: '200px',
+    height: '180px',
     config: {
         linearAxis: {
             indicator: 'value',
           },
           categoryAxis: {
-            indicator: 'year'
+            indicator: 'year',
           },
     }
 };

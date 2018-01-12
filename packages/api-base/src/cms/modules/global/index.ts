@@ -91,3 +91,17 @@ export const getDestinationInstitutionType = (): Promise<IEntityBasic[]> =>
     githubGet<IEntityBasic>('country-profile/destination-institution-type.csv');
 export const getCurrency = (): Promise<ICurrency[]> => githubGet<ICurrency>('global/currency.csv');
 export const getColors = (): Promise<IColor[]> => githubGet<IColor>('global/colors.csv');
+
+export const entitesFnMap = {
+    sector: getSectors,
+    channel: getChannels,
+    bundle: getBundles,
+    destination_institution_type: getDestinationInstitutionType,
+    financing_type: getFinancingType,
+    creditor_type: getCreditorType,
+    to: getEntities,
+    flow_type: getFlowType,
+    from_di_id:  getEntities,
+    to_di_id: getEntities,
+    from: getEntities,
+};

@@ -23,6 +23,7 @@ query China {
     sector
     value
     uid
+    color
     year
   }
   odaRecipients {

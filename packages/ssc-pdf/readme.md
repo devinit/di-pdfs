@@ -5,6 +5,8 @@ _______________________________________________
 
 It will create PDFs and static html pages
 
+run ``` npm run static ``` to create static html files in the out directory.
+
 
 Notes
 

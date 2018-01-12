@@ -1,15 +1,18 @@
 {
-  "name": "@di-pdfs/pdf-base",
-  "version": "1.0.3",
+  "name": "@devinit/pdf-base",
+  "version": "1.0.6",
   "description": "for creating DI print pdfs",
   "main": "lib/index.js",
   "scripts": {
     "build": "npm run build-css && cp -R static lib/ && tsc",
     "css": "lessc src/theme/less/index.less static/styles.css",
-    "chart": "cp node_modules/@devinit/charts/dist/di-charts.min.css static/",
+    "copy-chart-css": "cp node_modules/@devinit/charts/dist/di-charts.min.css static/",
     "build-css": "lessc  --clean-css='--s1 --advanced --compatibility=ie8' src/theme/less/index.less static/styles.min.css",
     "lint": "tslint -c tslint.json 'pages/**/*.tsx' 'src/**/*.tsx' 'src/**/*.ts'",
     "storybook": "start-storybook -s static -p 6006",
+    "patch": "release-it -i patch -n",
+    "feature": "release-it -i minor -n",
+    "breaking": "release-it -i major -n",
     "build-storybook": "build-storybook"
   },
   "keywords": [
@@ -17,11 +20,18 @@
   ],
   "author": "epicallan.al@gmail.com",
   "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devinit/di-pdfs.git"
+  },
   "peerDependencies": {
     "glamor": "^2.20.40"
   },
   "dependencies": {
-    "@devinit/charts": "^1.6.24",
+    "@devinit/charts": "^1.6.35",
     "glamor": "^2.20.40",
     "glamorous": "^4.11.0",
     "ramda": "^0.25.0",
@@ -40,6 +50,7 @@
     "file-loader": "^1.1.5",
     "less": "^2.7.3",
     "less-plugin-clean-css": "^1.5.1",
+    "release-it": "^5.2.0",
     "style-loader": "^0.19.0",
     "ts-loader": "^3.2.0",
     "tslint": "^5.8.0",

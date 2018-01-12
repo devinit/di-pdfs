@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {Document, Page, Header, TextBlock, Note} from '@di-pdfs/pdf-base';
+import {Document, Page, Header, TextBlock, Note} from '@devinit/pdf-base';
 import StackedBar from '../components/india/StackedBar';
 import Table from '../components/india/Table';
 

@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Em } from 'glamorous';
 import StackedBar from '../components/brazil/StackedBar';
 import Table from '../components/brazil/Table';
-import {Document, Page, Header, TextBlock, Note} from '@di-pdfs/pdf-base';
+import {Document, Page, Header, TextBlock, Note} from '@devinit/pdf-base';
 
 export default () =>
     (<Document>

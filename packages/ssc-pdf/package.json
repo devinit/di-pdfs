@@ -1,15 +1,18 @@
 {
-  "name": "@di-pdfs/ssc-pdf",
-  "version": "1.0.0",
+  "name": "@devinit/ssc-pdf",
+  "version": "1.0.1",
   "description": "for creating DI print pdfs",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "dev": "npm run prebuild && concurrently \"tsc --pretty --watch\" \"next dist\"",
-    "prebuild": "rm -rf dist && mkdir -p dist && cp -R node_modules/@di-pdfs/pdf-base/lib/static/ dist/static && tsc",
+    "prebuild": "rm -rf dist && mkdir -p dist && cp -R node_modules/@devinit/pdf-base/lib/static/ dist/static && cp next.config.js dist && tsc",
     "pull": "tsc && node dist/pullData/index.js",
     "test": "jest",
     "build": "next build dist",
-    "start": "next start dist",
+    "export": "next export dist",
+    "static": "npm run build && npm export",
+    "start": "next start dist -p 7777",
     "lint": "tslint -c tslint.json 'pages/**/*.tsx' 'src/**/*.tsx' 'src/**/*.ts'"
   },
   "keywords": [
@@ -18,9 +21,9 @@
   "author": "epicallan.al@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "@di-pdfs/api-base": "^1.0.0",
-    "@di-pdfs/pdf-base": "1.0.3",
-    "@di-pdfs/ssc-api": "^1.0.0",
+    "@devinit/api-base": "^1.0.6",
+    "@devinit/pdf-base": "1.0.3",
+    "@devinit/ssc-api": "^1.0.6",
     "glamor": "^2.20.40",
     "glamorous": "^4.11.0",
     "next": "latest",

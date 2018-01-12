@@ -7,4 +7,7 @@ export default {
         strokeWidth: 0,
         strokeColor: '#fff',
     },
+    labeling: {
+        showLabels: true
+    }
 };

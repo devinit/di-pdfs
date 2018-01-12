@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {Div} from 'glamorous';
-import {Table} from '@di-pdfs/pdf-base';
+import {Table} from '@devinit/pdf-base';
 import {splitAt} from 'ramda';
 import data from './data';
 
