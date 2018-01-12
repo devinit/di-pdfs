@@ -27,7 +27,7 @@ export default () => (
             <Note>constant 2015 prices, US$ billions</Note>
         </TextBlock>
         <StackedBar dataKey="dvptCooperation" groupBy="id" />
-        <TextBlock>
+        <TextBlock marginTop="5px">
             <h2>Technical and economic cooperation and loans and advances by recipient country, 2015</h2>
             <Note>Constant 2015 prices, US$ millions</Note>
         </TextBlock>
