@@ -1,10 +1,11 @@
 import * as R from 'ramda';
-import {IEntity, getFinancingType, getCreditorType,
-        getDestinationInstitutionType, getFlowType, ICurrency, getCurrency,
-        getSectors, getBundles, getChannels, getEntities, getEntityBySlugAsync} from '../cms/modules/global';
+import {IEntity, ICurrency, getCurrency, getEntityBySlugAsync} from '../cms/modules/global';
 import * as shortid from 'shortid';
 import {IhasDiId, Isummable} from './types';
-import {IDB} from '../db';
+import {IDatabase} from 'pg-promise';
+import {IExtensions} from '../db';
+
+export type IDB = IDatabase<IExtensions> & IExtensions;
 
 export const RECIPIENT = 'recipient';
 export const DONOR = 'donor';
@@ -18,20 +19,6 @@ export const  budgetTypesRefs = {
     approved: 'Approved',
     budget: 'Budget',
     proj: 'Projected'
-};
-
-export const entitesFnMap = {
-    sector: getSectors,
-    channel: getChannels,
-    bundle: getBundles,
-    destination_institution_type: getDestinationInstitutionType,
-    financing_type: getFinancingType,
-    creditor_type: getCreditorType,
-    to: getEntities,
-    flow_type: getFlowType,
-    from_di_id:  getEntities,
-    to_di_id: getEntities,
-    from: getEntities,
 };
 
 // makes numerical like values numbers in an object

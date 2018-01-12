@@ -56,5 +56,3 @@ process.on('SIGINT', () => {
 // If you ever need access to the library's root (pgp object), you can do it via db.$config.pgp
 // See: http://vitaly-t.github.io/pg-promise/Database.html#.$config
 export default db;
-
-export type IDB = IDatabase<IExtensions> & IExtensions;
