@@ -1,6 +1,6 @@
 {
   "name": "@devinit/api-base",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "api for di-pdfs",
   "main": "lib/index.js",
   "scripts": {
