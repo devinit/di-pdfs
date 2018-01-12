@@ -14,7 +14,6 @@ const options = {
             indicator: 'value',
         },
         categoryAxis: {
-            axisLabel: 'Years',
             indicator: 'year'
         }
     }

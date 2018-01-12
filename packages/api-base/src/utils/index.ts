@@ -45,6 +45,15 @@ export const getTotal = (data: Isummable[]): number =>
         return sum;
     }, 0, data);
 
+export const valuesIntoPercents = <T extends {value: number}>(data: T[], precision?: number): T[] => {
+    const sum = getTotal(data);
+    return data.map((obj: T) => {
+        const newValue  = (obj.value / sum) * 100;
+        const value = precision ? Number(formatNumbers(newValue, precision)) : Math.round(newValue);
+        return Object.assign(obj, {value});
+    });
+};
+
 export const getCurrencyCode = async (id: string): Promise<string>  => {
     try {
         const currencyList: ICurrency[] = await getCurrency();
@@ -134,7 +143,7 @@ const removeTrailingZero = (value: string): string => {
 };
 
 // (10 ** length) == Math.pow(10, length);
-const roundNum = (num, length): string =>
+export const roundNum = (num, length): string =>
     (Math.round(num * (10 ** length)) / (10 ** length)).toFixed(length);
 
 export const formatNumbers =
