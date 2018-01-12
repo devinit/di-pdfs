@@ -10,13 +10,13 @@ export class Shared {
         this.db = db;
     }
     public async dvptCooperation(country: string): Promise<DH.IBasicIndicator[]> {
-        const data: IDataBasic[] =
-            await getIndicatorDataSimple({query: sql[country].dvptCooperation, db: this.db});
+        const data =
+            await getIndicatorDataSimple({query: sql[country].dvptCooperation, db: this.db}) as IDataBasic[];
         return data.map(obj => ({...obj, color: dvptColorMap[country][obj.id]}));
     }
     public async topTchRecipients(country: string): Promise<DH.ITopTchRecipients[]> {
-        const  data: DH.ITopTchRecipients[] =
-            await getIndicatorDataSimple({query: sql[country].tchTopRecipts, db: this.db});
+        const  data =
+            await getIndicatorDataSimple({query: sql[country].tchTopRecipts, db: this.db}) as DH.ITopTchRecipients[];
         return data;
     }
 }

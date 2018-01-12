@@ -10,8 +10,8 @@ export class India {
         this.db = db;
     }
     public async multiCooperation(): Promise<DH.IMultialatral[]> {
-        const data: IDataMulti[] =
-            await getIndicatorDataSimple({query: sql.multiContributions, db: this.db});
+        const data =
+            await getIndicatorDataSimple({query: sql.multiContributions, db: this.db}) as IDataMulti[];
         return data.map(obj => ({...obj, color: multilateralColors[obj.multilateral]}));
     }
 }

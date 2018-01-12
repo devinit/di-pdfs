@@ -9,8 +9,8 @@ export class Brazil {
         this.db = db;
     }
     public async tchCooperationByRegion(): Promise<DH.ITchCooperationByRegion[]> {
-        const data: IDataRegion[] =
-            await getIndicatorDataSimple({query: sql.tchCooperationByRegion, db: this.db});
+        const data = await
+            getIndicatorDataSimple({query: sql.tchCooperationByRegion, db: this.db}) as  IDataRegion[];
         const withColor: DH.ITchCooperationByRegion[] =
             data.map(obj => ({...obj, color: regionColors[obj.region]}));
         return withColor;

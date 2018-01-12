@@ -53,6 +53,7 @@ process.on('SIGINT', () => {
     process.kill(process.pid);
 });
 
+export type IDB = IDatabase<IExtensions> & IExtensions; // necessary repition to make typescript happy
 // If you ever need access to the library's root (pgp object), you can do it via db.$config.pgp
 // See: http://vitaly-t.github.io/pg-promise/Database.html#.$config
 export default db;

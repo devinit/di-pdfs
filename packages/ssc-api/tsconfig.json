@@ -6,7 +6,6 @@
       "strict": true,
       "lib": ["es2017", "dom"],
       "experimentalDecorators": true,
-      "declaration": true,
       "typeRoots": ["node_modules/@types", "src/types"],
       "noImplicitAny": false,
       "noUnusedLocals": true,

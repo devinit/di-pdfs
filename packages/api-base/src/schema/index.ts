@@ -7,10 +7,7 @@ import * as glob from 'glob-promise';
 import {precache} from '../cache';
 import db from '../db';
 import {githubGet} from '../github';
-import {IDatabase} from 'pg-promise';
-import {IExtensions} from '../db';
-
-export type IDB = IDatabase<IExtensions> & IExtensions; // necessary repition to make typescript happy
+import {IDB} from '../db';
 
 export const getResolvers = async (globPattern) => {
     const resolverFiles: string[]  = await glob(globPattern, {realpath: true});
