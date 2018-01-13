@@ -29,10 +29,13 @@ const legendOptions = (dataKey: string): LegendProps => {
     if (dataKey === 'govmtdepartment') {
         return {
             orientation: 'vertical',
-            data: getLegendData(departmentColors)
+            data: getLegendData({legendData: departmentColors, data: data[dataKey], keyName: 'id'})
         };
     }
-    return ({orientation: 'vertical', data: getLegendData(regionColors)});
+    return ({
+        orientation: 'vertical',
+        data: getLegendData({legendData: regionColors, data: data[dataKey], keyName: 'region'})
+    });
 };
 
 export default (props: Props) =>

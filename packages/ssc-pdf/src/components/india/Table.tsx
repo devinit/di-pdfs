@@ -10,7 +10,7 @@ export default () => {
     const headings = ['Recipient country or region', 'Development Cooperation'];
     return (
         <Div
-            paddingLeft="50px"
+            paddingLeft="10px"
             paddingRight="50px"
             width="100%"
             display="flex"

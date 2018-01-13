@@ -5,274 +5,274 @@ export default {
   dvptCooperation: [
     {
       id: 'Interest subsidy for lines of credit',
-      uid: 'rkytwJ7XUNG',
+      uid: 'rkb9iU8EG',
       year: 2008,
       color: '#bc2629',
       value: 39.2
     },
     {
       id: 'Other',
-      uid: 'SklYDkXX8Vz',
+      uid: 'H1e-5jIINz',
       year: 2008,
       color: '#8f1b13',
       value: 5.1
     },
     {
       id: 'International organisations',
-      uid: 'ryWKPym7UNz',
+      uid: 'By--qo88Vf',
       year: 2008,
       color: '#f39b95',
       value: 233.5
     },
     {
       id: 'Loans and advances to foreign governments',
-      uid: 'HkfKvJmmINz',
+      uid: 'SkM-9oUU4G',
       year: 2008,
       color: '#fbd7cb',
       value: 160.4
     },
     {
       id: 'Technical & economic cooperation with other countries',
-      uid: 'rJmKw1XXUVf',
+      uid: 'ByQb5iUU4M',
       year: 2008,
       color: '#e8443a',
       value: 375.7
     },
     {
       id: 'Interest subsidy for lines of credit',
-      uid: 'HJ4FPyXQUVz',
+      uid: 'H14ZciUL4G',
       year: 2009,
       color: '#bc2629',
       value: 29.6
     },
-    { id: 'Other', uid: 'HJHYD1QmU4f', year: 2009, color: '#8f1b13', value: 4 },
+    { id: 'Other', uid: 'SySb9jUUEM', year: 2009, color: '#8f1b13', value: 4 },
     {
       id: 'International organisations',
-      uid: 'ryItwJQQLEz',
+      uid: 'SJUZciL84M',
       year: 2009,
       color: '#f39b95',
       value: 137.1
     },
     {
       id: 'Loans and advances to foreign governments',
-      uid: 'H1wtDyXQLEz',
+      uid: 'r1vWciULNM',
       year: 2009,
       color: '#fbd7cb',
       value: 119.1
     },
     {
       id: 'Technical & economic cooperation with other countries',
-      uid: 'HkOFD1m7UNG',
+      uid: 'B1OZcjIUNM',
       year: 2009,
       color: '#e8443a',
       value: 419.7
     },
     {
       id: 'Interest subsidy for lines of credit',
-      uid: 'SkFFDyQXIEz',
+      uid: 'S1YW9i88NG',
       year: 2010,
       color: '#bc2629',
       value: 23.5
     },
     {
       id: 'Other',
-      uid: 'BJ5tPym7LEG',
+      uid: 'SkqWcsIIVf',
       year: 2010,
       color: '#8f1b13',
       value: 4.5
     },
     {
       id: 'International organisations',
-      uid: 'BJsKD1mQIEz',
+      uid: 'HysWcjIING',
       year: 2010,
       color: '#f39b95',
       value: 116.6
     },
     {
       id: 'Loans and advances to foreign governments',
-      uid: 'Syhtw17XUVG',
+      uid: 'Bk3bcsILEG',
       year: 2010,
       color: '#fbd7cb',
       value: 87.8
     },
     {
       id: 'Technical & economic cooperation with other countries',
-      uid: 'BypYw1XmLNG',
+      uid: 'S16-cs88NM',
       year: 2010,
       color: '#e8443a',
       value: 451.9
     },
     {
       id: 'Interest subsidy for lines of credit',
-      uid: 'SyAtDJX7LEz',
+      uid: 'BJ0W5i8IEz',
       year: 2011,
       color: '#bc2629',
       value: 23.5
     },
     {
       id: 'Other',
-      uid: 'B1y9Dk7m8VM',
+      uid: 'HJJlZ9j8INf',
       year: 2011,
       color: '#8f1b13',
       value: 6.7
     },
     {
       id: 'International organisations',
-      uid: 'BJe5Dym7UVz',
+      uid: 'ByglZcj8U4M',
       year: 2011,
       color: '#f39b95',
       value: 145.2
     },
     {
       id: 'Loans and advances to foreign governments',
-      uid: 'Skb9D1QmIVf',
+      uid: 'Skbe-qoLUEG',
       year: 2011,
       color: '#fbd7cb',
       value: 153
     },
     {
       id: 'Technical & economic cooperation with other countries',
-      uid: 'ryG9PJ7QLNM',
+      uid: 'S1fxb9jII4G',
       year: 2011,
       color: '#e8443a',
       value: 424
     },
     {
       id: 'Interest subsidy for lines of credit',
-      uid: 'Sk7cPyQm84M',
+      uid: 'H1mlbqoIUVf',
       year: 2012,
       color: '#bc2629',
       value: 40.4
     },
     {
       id: 'Other',
-      uid: 'SJN5w17XING',
+      uid: 'H14xWciIUNG',
       year: 2012,
       color: '#8f1b13',
       value: 7.2
     },
     {
       id: 'International organisations',
-      uid: 'Bkrcw17mINz',
+      uid: 'BJrl-qsUUNz',
       year: 2012,
       color: '#f39b95',
       value: 134.2
     },
     {
       id: 'Loans and advances to foreign governments',
-      uid: 'BJLcwkmQUNG',
+      uid: 'SyIxW5oIUVM',
       year: 2012,
       color: '#fbd7cb',
       value: 262.8
     },
     {
       id: 'Technical & economic cooperation with other countries',
-      uid: 'B1wcDymX8VM',
+      uid: 'SyDgbqsIIEf',
       year: 2012,
       color: '#e8443a',
       value: 538.2
     },
     {
       id: 'Interest subsidy for lines of credit',
-      uid: 'Sy_cvyQQU4G',
+      uid: 'H1dxW9o8UNz',
       year: 2013,
       color: '#bc2629',
       value: 60.7
     },
     {
       id: 'Other',
-      uid: 'BJK9P1XQU4M',
+      uid: 'SkYxZqiUIEf',
       year: 2013,
       color: '#8f1b13',
       value: 8.7
     },
     {
       id: 'International organisations',
-      uid: 'H1cqv1m7IVG',
+      uid: 'Skqlbqs8I4G',
       year: 2013,
       color: '#f39b95',
       value: 157.9
     },
     {
       id: 'Loans and advances to foreign governments',
-      uid: 'r1o9vkm784M',
+      uid: 'HJjeWcoI8EG',
       year: 2013,
       color: '#fbd7cb',
       value: 270.1
     },
     {
       id: 'Technical & economic cooperation with other countries',
-      uid: 'Hkhcvym7LVf',
+      uid: 'r1ngW9o8UEf',
       year: 2013,
       color: '#e8443a',
       value: 776.7
     },
     {
       id: 'Interest subsidy for lines of credit',
-      uid: 'r1p5vk77L4f',
+      uid: 'B1TgW5sUIEG',
       year: 2014,
       color: '#bc2629',
       value: 60.5
     },
     {
       id: 'Other',
-      uid: 'HkR9DyQQL4M',
+      uid: 'HJ0xW5oIUNf',
       year: 2014,
       color: '#8f1b13',
       value: 8.4
     },
     {
       id: 'International organisations',
-      uid: 'Hk1sDkmmL4f',
+      uid: 'BJyZW9jUU4f',
       year: 2014,
       color: '#f39b95',
       value: 165.9
     },
     {
       id: 'Loans and advances to foreign governments',
-      uid: 'r1xjvJXQLNG',
+      uid: 'H1eZW9jULVG',
       year: 2014,
       color: '#fbd7cb',
       value: 297.7
     },
     {
       id: 'Technical & economic cooperation with other countries',
-      uid: 'r1WoPJmXIVM',
+      uid: 'SyW-W9sUUNM',
       year: 2014,
       color: '#e8443a',
       value: 717.6
     },
     {
       id: 'Interest subsidy for lines of credit',
-      uid: 'Syfivym7IEz',
+      uid: 'HyzbWqsIUVG',
       year: 2015,
       color: '#bc2629',
       value: 73.3
     },
     {
       id: 'Other',
-      uid: 'BkXsvJQ78NG',
+      uid: 'H1XWZqi88VG',
       year: 2015,
       color: '#8f1b13',
       value: 3.6
     },
     {
       id: 'International organisations',
-      uid: 'Hy4sPkX7INM',
+      uid: 'SkVW-5oIU4z',
       year: 2015,
       color: '#f39b95',
       value: 256.1
     },
     {
       id: 'Loans and advances to foreign governments',
-      uid: 'S1SsD17QU4G',
+      uid: 'BySZb5i88EG',
       year: 2015,
       color: '#fbd7cb',
       value: 445.7
     },
     {
       id: 'Technical & economic cooperation with other countries',
-      uid: 'B1LjvkQXIEM',
+      uid: 'Sk8--9sL8VG',
       year: 2015,
       color: '#e8443a',
       value: 733.2
@@ -284,280 +284,280 @@ export default {
       color: '#bc2629',
       value: 0.7,
       year: 2008,
-      uid: 'B1wswyXmLVG'
+      uid: 'S1wW-9oIIEz'
     },
     {
       multilateral: 'Other',
       color: '#8f1b13',
       value: 17.7,
       year: 2008,
-      uid: 'SkOsP1mQ8Ef'
+      uid: 'SkO-ZcoIUNM'
     },
     {
       multilateral: 'Southern',
       color: '#f39b95',
       value: 8.1,
       year: 2008,
-      uid: 'BktiwyQXIVz'
+      uid: 'BJFbbciLINM'
     },
     {
       multilateral: 'UN',
       color: '#e8443a',
       value: 206.4,
       year: 2008,
-      uid: 'ryqjPk7mU4z'
+      uid: 'Bk9bb5oIUEM'
     },
     {
       multilateral: 'World Bank Group',
       color: '#fbd7cb',
       value: 0.7,
       year: 2008,
-      uid: 'HJjsPk7m84f'
+      uid: 'rkj-Zqo8U4G'
     },
     {
       multilateral: 'Asian Development Bank',
       color: '#bc2629',
       value: 0.4,
       year: 2009,
-      uid: 'Bk2iwkm7LNz'
+      uid: 'rkhb-qo88Vf'
     },
     {
       multilateral: 'Other',
       color: '#8f1b13',
       value: 19.9,
       year: 2009,
-      uid: 'SJ6ivkmXINz'
+      uid: 'S1pbZ9o8UNG'
     },
     {
       multilateral: 'Southern',
       color: '#f39b95',
       value: 8.7,
       year: 2009,
-      uid: 'SyRoP1mQIEG'
+      uid: 'rJRWbqoUUNM'
     },
     {
       multilateral: 'UN',
       color: '#e8443a',
       value: 107.7,
       year: 2009,
-      uid: 'HJy3DJXXUEG'
+      uid: 'Hkkf-qsIU4z'
     },
     {
       multilateral: 'World Bank Group',
       color: '#fbd7cb',
       value: 0.4,
       year: 2009,
-      uid: 'Syx3PJmmUVM'
+      uid: 'rJgzZqjLL4z'
     },
     {
       multilateral: 'Asian Development Bank',
       color: '#bc2629',
       value: 28,
       year: 2010,
-      uid: 'Hy-nD1Q7UVz'
+      uid: 'S1WGW9sU8Ef'
     },
     {
       multilateral: 'Other',
       color: '#8f1b13',
       value: 16.2,
       year: 2010,
-      uid: 'SkG3Py77ING'
+      uid: 'ByMGb9sUUVz'
     },
     {
       multilateral: 'Southern',
       color: '#f39b95',
       value: 12.7,
       year: 2010,
-      uid: 'r172v1mXI4G'
+      uid: 'Hy7GZciU8EG'
     },
     {
       multilateral: 'UN',
       color: '#e8443a',
       value: 58.4,
       year: 2010,
-      uid: 'HJN3wJX7U4z'
+      uid: 'r1VzW5jL8EG'
     },
     {
       multilateral: 'World Bank Group',
       color: '#fbd7cb',
       value: 1.3,
       year: 2010,
-      uid: 'H1H3DkQQ8EG'
+      uid: 'B1rM-9sU8EM'
     },
     {
       multilateral: 'Asian Development Bank',
       color: '#bc2629',
       value: 35.1,
       year: 2011,
-      uid: 'ByI2v1X7LEz'
+      uid: 'HyLMb9sUI4f'
     },
     {
       multilateral: 'Other',
       color: '#8f1b13',
       value: 14.4,
       year: 2011,
-      uid: 'SJw3DkQm8VM'
+      uid: 'Bywf-5i8UNf'
     },
     {
       multilateral: 'Southern',
       color: '#f39b95',
       value: 11.1,
       year: 2011,
-      uid: 'rkO3DyQmUVM'
+      uid: 'S1OfZciULVf'
     },
     {
       multilateral: 'UN',
       color: '#e8443a',
       value: 57,
       year: 2011,
-      uid: 'HkFhP1QQUNz'
+      uid: 'B1YGW5j88EM'
     },
     {
       multilateral: 'World Bank Group',
       color: '#fbd7cb',
       value: 27.7,
       year: 2011,
-      uid: 'ryq2DJmXIVM'
+      uid: 'Sk5f-5sI8Vf'
     },
     {
       multilateral: 'Asian Development Bank',
       color: '#bc2629',
       value: 20.4,
       year: 2012,
-      uid: 'Sko3vkm7UVM'
+      uid: 'SkozZ5iLLEM'
     },
     {
       multilateral: 'Other',
       color: '#8f1b13',
       value: 15.9,
       year: 2012,
-      uid: 'rknnPyXQ8Ef'
+      uid: 'By2zZqo8UNM'
     },
     {
       multilateral: 'Southern',
       color: '#f39b95',
       value: 7.9,
       year: 2012,
-      uid: 'Byp2P1mQ8Nz'
+      uid: 'B1pMZ5sULNM'
     },
     {
       multilateral: 'UN',
       color: '#e8443a',
       value: 56.2,
       year: 2012,
-      uid: 'ByAnvJmQU4G'
+      uid: 'r1RGW5i8ING'
     },
     {
       multilateral: 'World Bank Group',
       color: '#fbd7cb',
       value: 33.8,
       year: 2012,
-      uid: 'rykaw1mmUNz'
+      uid: 'By1mW9s8LVM'
     },
     {
       multilateral: 'Asian Development Bank',
       color: '#bc2629',
       value: 18.5,
       year: 2013,
-      uid: 'Hyxavkm7U4f'
+      uid: 'Bkg7-9sILEM'
     },
     {
       multilateral: 'Other',
       color: '#8f1b13',
       value: 21.4,
       year: 2013,
-      uid: 'BJ-TD1Q7L4G'
+      uid: 'S1WQZqoIUEf'
     },
     {
       multilateral: 'Southern',
       color: '#f39b95',
       value: 6.3,
       year: 2013,
-      uid: 'SJz6vkXmUVz'
+      uid: 'H1fQ-ciL8Vf'
     },
     {
       multilateral: 'UN',
       color: '#e8443a',
       value: 59.4,
       year: 2013,
-      uid: 'B1mpwJXmLEz'
+      uid: 'Hk7Xb5oIL4f'
     },
     {
       multilateral: 'World Bank Group',
       color: '#fbd7cb',
       value: 52.3,
       year: 2013,
-      uid: 'rJETPym78Ez'
+      uid: 'HkNQbcjLUNG'
     },
     {
       multilateral: 'Asian Development Bank',
       color: '#bc2629',
       value: 33.9,
       year: 2014,
-      uid: 'HyrawJ7mLEG'
+      uid: 'rJH7bqjLUEM'
     },
     {
       multilateral: 'Other',
       color: '#8f1b13',
       value: 22,
       year: 2014,
-      uid: 'HJLTvyX78NM'
+      uid: 'B1U7bqsILVf'
     },
     {
       multilateral: 'Southern',
       color: '#f39b95',
       value: 13.7,
       year: 2014,
-      uid: 'HJPavy7XLEG'
+      uid: 'B1D7b9sL84G'
     },
     {
       multilateral: 'UN',
       color: '#e8443a',
       value: 56.4,
       year: 2014,
-      uid: 'HJdTPkQXIEf'
+      uid: 'r1dXZcsIUNG'
     },
     {
       multilateral: 'World Bank Group',
       color: '#fbd7cb',
       value: 39.9,
       year: 2014,
-      uid: 'S1YaDy7m8Vf'
+      uid: 'rkFXZciILEG'
     },
     {
       multilateral: 'Asian Development Bank',
       color: '#bc2629',
       value: 10.2,
       year: 2015,
-      uid: 'SycTDyXXLNz'
+      uid: 'S19m-cj88EM'
     },
     {
       multilateral: 'Other',
       color: '#8f1b13',
       value: 25.5,
       year: 2015,
-      uid: 'BJs6Pk77LEf'
+      uid: 'Hyimb9oUL4z'
     },
     {
       multilateral: 'Southern',
       color: '#f39b95',
       value: 122,
       year: 2015,
-      uid: 'Sy2TvkmX8EM'
+      uid: 'SJn7WqoIIEG'
     },
     {
       multilateral: 'UN',
       color: '#e8443a',
       value: 72.9,
       year: 2015,
-      uid: 'rya6vymX8Nz'
+      uid: 'H1pm-qi8LVf'
     },
     {
       multilateral: 'World Bank Group',
       color: '#fbd7cb',
       value: 25.5,
       year: 2015,
-      uid: 'ByAaPJ7QIVM'
+      uid: 'SkAQbqsLUVM'
     }
   ],
   topTchRecipients: [

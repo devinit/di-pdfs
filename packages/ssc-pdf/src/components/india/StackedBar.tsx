@@ -8,11 +8,12 @@ import data from './data';
 
 const options = (dataKey: string, groupBy: string) => ({
     data: data[dataKey],
-    height: '200px',
+    height: '195px',
     config: {
         groupBy,
         linearAxis: {
             indicator: 'value',
+            ticking: dataKey === 'dvptCooperation' ? 'all' : 'even'
         },
         categoryAxis: {
             indicator: 'year'
@@ -37,10 +38,6 @@ const legendOptions = (dataKey: string) => {
     }
     return techLegend();
 };
-
-console.log(legendOptions('dvptCooperation'));
-
-console.log(techLegend());
 
 export default (props: Props) =>
     <Div padding="5px" width="100%" display="flex" justifyContent="space-between" >
