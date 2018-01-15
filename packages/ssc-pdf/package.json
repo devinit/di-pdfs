@@ -21,7 +21,7 @@
   "author": "epicallan.al@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "@devinit/api-base": "^1.0.8",
+    "@devinit/api-base": "^1.0.9",
     "@devinit/pdf-base": "^1.0.10",
     "@devinit/ssc-api": "^1.0.8",
     "glamor": "^2.20.40",

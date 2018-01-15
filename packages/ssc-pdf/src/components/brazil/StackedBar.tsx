@@ -1,7 +1,7 @@
 import * as React from 'react';
 import {Div} from 'glamorous';
 import {dvptCoLegendData, getLegendData} from '../utils';
-import {Legend, LegendProps} from '@devinit/pdf-base';
+import {Legend} from '@devinit/pdf-base';
 import regionColors from '@devinit/ssc-api/lib/modules/brazil/config';
 import charts from '@devinit/pdf-base/lib/charts';
 import data from './data';
@@ -26,9 +26,6 @@ interface Props {
     groupBy: string;
 }
 
-const techLegend = (): LegendProps =>
-    ({orientation: 'vertical', data: getLegendData({legendData: regionColors})});
-
 const legendOptions = (dataKey: string) => {
     if (dataKey === 'dvptCooperation') {
         return {
@@ -36,7 +33,14 @@ const legendOptions = (dataKey: string) => {
             data: dvptCoLegendData('brazil')
         };
     }
-    return techLegend();
+    return {
+        orientation: 'vertical',
+        data: getLegendData({
+                legendData: regionColors,
+                data: data[dataKey],
+                keyName: 'region'
+            })
+    };
 };
 
 export default (props: Props) =>

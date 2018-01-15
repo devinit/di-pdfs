@@ -14,7 +14,7 @@ export type ICallBack<T> = (data: T) => any;
 
 const apolloFetch = (uri) => createApolloFetch({ uri });
 
-async function get<T>(uri, query: string, variables?: object): Promise<T> {
+export async function get<T>(uri: string, query: string, variables?: object): Promise<T> {
   try {
     const response: FetchResult = variables
       ? await apolloFetch(uri)({ query, variables })
@@ -47,6 +47,7 @@ export async function getAndWrite<T>(uri: string, opts: IGetAndWriteDataOpts<T>)
     const content: string = jsonToJs(JSON.stringify(response));
     return await writeToFile(filePath, content);
   } catch (error) {
+    console.error(error);
     throw error;
   }
 }
