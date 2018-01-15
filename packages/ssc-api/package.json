@@ -1,6 +1,6 @@
 {
   "name": "@devinit/ssc-api",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "ssc api",
   "main": "index.js",
   "scripts": {
@@ -26,7 +26,7 @@
   "author": "epicallan.al@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "@devinit/api-base": "^1.0.9",
+    "@devinit/api-base": "^1.0.10",
     "@devinit/pdf-base": "1.0.4",
     "ramda": "^0.25.0",
     "shortid": "^2.2.8"
