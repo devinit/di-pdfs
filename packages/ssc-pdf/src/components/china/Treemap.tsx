@@ -18,7 +18,7 @@ const options = () => ({
 });
 const legendOptions = () => ({
     orientation: 'horizontal',
-    data: getLegendData(odaRegionColors)
+    data: getLegendData({legendData: odaRegionColors})
 });
 
 export default () =>

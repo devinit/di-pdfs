@@ -23,12 +23,16 @@ const options = (chartData, label) => ({
             label,
             value: 'value'
         },
+        labeling: {
+            showLabeL: true,
+            suffix: '%'
+        }
     }
 });
 
 const legendOptions = (legendData: object) => ({
     orientation: 'horizontal',
-    data: getLegendData(legendData)
+    data: getLegendData({legendData})
 });
 
 export default () =>

@@ -4,7 +4,7 @@ export interface IAxis {
 }
 
 export interface ILabeling {
-    showLabel: boolean;
+    showLabel?: boolean;
     prefix?: string;
     suffix?: string;
 }

@@ -27,7 +27,7 @@ interface Props {
 }
 
 const techLegend = (): LegendProps =>
-    ({orientation: 'vertical', data: getLegendData(regionColors)});
+    ({orientation: 'vertical', data: getLegendData({legendData: regionColors})});
 
 const legendOptions = (dataKey: string) => {
     if (dataKey === 'dvptCooperation') {
