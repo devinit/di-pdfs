@@ -22,7 +22,7 @@
   "license": "ISC",
   "dependencies": {
     "@devinit/api-base": "^1.0.7",
-    "@devinit/pdf-base": "1.0.8",
+    "@devinit/pdf-base": "1.0.9",
     "@devinit/ssc-api": "^1.0.7",
     "glamor": "^2.20.40",
     "glamorous": "^4.11.0",

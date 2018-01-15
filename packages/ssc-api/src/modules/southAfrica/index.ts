@@ -34,7 +34,7 @@ export class SouthAfrica {
     public async aricfExpBySector(): Promise<DH.ISectorSimple[]> {
         const data =
             await getIndicatorDataSimple({query: sql.aricfExpBySector, db: this.db}) as IDataSector[];
-        const results = data.filter(obj => obj.value > 0)
+        const results = data.filter(obj => obj.value > 0 && obj.sector !== 'ARICF expenditures (total)')
             .map(obj => ({...obj, color: sectorColors[obj.sector]}));
         return valuesIntoPercents(results);
     }

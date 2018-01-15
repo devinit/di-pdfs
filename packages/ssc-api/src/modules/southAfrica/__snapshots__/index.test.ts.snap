@@ -57,46 +57,40 @@ exports[`SouthAfrica getting aricfExpByRegion 1`] = `
 exports[`SouthAfrica getting aricfExpBySector 1`] = `
 "Array [
   Object {
-    \\"color\\": \\"#E03997\\",
-    \\"sector\\": \\"ARICF expenditures (total)\\",
-    \\"uid\\": \\"unique_id_stub\\",
-    \\"value\\": 50.1,
-  },
-  Object {
     \\"color\\": \\"#8f1b13\\",
     \\"sector\\": \\"Coopertion between South Africa and other states\\",
     \\"uid\\": \\"unique_id_stub\\",
-    \\"value\\": 15.3,
+    \\"value\\": 31,
   },
   Object {
     \\"color\\": \\"#FF8EDF\\",
     \\"sector\\": \\"Prevention and resolution of conflicts\\",
     \\"uid\\": \\"unique_id_stub\\",
-    \\"value\\": 2.5,
+    \\"value\\": 5,
   },
   Object {
     \\"color\\": \\"#e8443a\\",
     \\"sector\\": \\"Socio-economic  development and integration\\",
     \\"uid\\": \\"unique_id_stub\\",
-    \\"value\\": 2.8,
+    \\"value\\": 6,
   },
   Object {
     \\"color\\": \\"#f39b95\\",
     \\"sector\\": \\"Promotion of democracy and good governance\\",
     \\"uid\\": \\"unique_id_stub\\",
-    \\"value\\": 4.7,
+    \\"value\\": 9,
   },
   Object {
     \\"color\\": \\"#bc2629\\",
     \\"sector\\": \\"Humanitarian assistance\\",
     \\"uid\\": \\"unique_id_stub\\",
-    \\"value\\": 24.3,
+    \\"value\\": 49,
   },
   Object {
     \\"color\\": \\"#fbd7cb\\",
     \\"sector\\": \\"Human resources development\\",
     \\"uid\\": \\"unique_id_stub\\",
-    \\"value\\": 0.3,
+    \\"value\\": 1,
   },
 ]"
 `;

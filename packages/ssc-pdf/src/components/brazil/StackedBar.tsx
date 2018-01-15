@@ -13,9 +13,9 @@ const options = (dataKey: string, groupBy: string) => ({
         groupBy,
         linearAxis: {
             indicator: 'value',
+            ticking: 'even'
         },
         categoryAxis: {
-            axisLabel: 'Years',
             indicator: 'year'
         }
     }

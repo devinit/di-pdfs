@@ -174,45 +174,39 @@ export default {
   ],
   aricfExpBySector: [
     {
-      sector: 'ARICF expenditures (total)',
-      color: '#E03997',
-      value: 50,
-      uid: 'HJfap4BVING'
-    },
-    {
       sector: 'Coopertion between South Africa and other states',
       color: '#8f1b13',
-      value: 15,
+      value: 31,
       uid: 'rk7apNH48EG'
     },
     {
       sector: 'Prevention and resolution of conflicts',
       color: '#FF8EDF',
-      value: 2,
+      value: 5,
       uid: 'rJV6pEBVUEG'
     },
     {
       sector: 'Socio-economic  development and integration',
       color: '#e8443a',
-      value: 3,
+      value: 6,
       uid: 'BJBpTVBV8Nf'
     },
     {
       sector: 'Promotion of democracy and good governance',
       color: '#f39b95',
-      value: 5,
+      value: 9,
       uid: 'SJU6aNrNIEG'
     },
     {
       sector: 'Humanitarian assistance',
       color: '#bc2629',
-      value: 24,
+      value: 49,
       uid: 'r1vT6NS4U4f'
     },
     {
       sector: 'Human resources development',
       color: '#fbd7cb',
-      value: 0,
+      value: 1,
       uid: 'rJupTEBN8Ef'
     }
   ]

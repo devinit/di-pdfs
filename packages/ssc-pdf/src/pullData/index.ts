@@ -9,7 +9,7 @@ const getWrite = getAndWriteData('http://localhost:8080/graphql');
 const getGql = (fileName: string): string => fs.readFileSync(`src/pullData/${fileName}.gql`, 'utf8');
 
 export const gqlFileContent = (): Array<{country: string, query: string}> =>
-  ['brazil', 'china', 'southAfrica', 'india'].map((country) => ({country, query: getGql(country)}));
+  ['china'].map((country) => ({country, query: getGql(country)}));
 
 export const getCountriesData = async () => {
     try {

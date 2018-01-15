@@ -6,8 +6,13 @@ import charts from '@devinit/pdf-base/lib/charts';
 import {Legend} from '@devinit/pdf-base';
 import data from './data';
 
+const transformName = (name: string) => {
+    if (name.includes('(')) return name.split('(')[0];
+    return name;
+};
+
 const options = () => ({
-    data: data.odaRecipients.map(obj => ({...obj, name: obj.recipient})),
+    data: data.odaRecipients.map(obj => ({...obj, name: transformName(obj.recipient)})),
     height: '250px',
     config: {
         labeling: {

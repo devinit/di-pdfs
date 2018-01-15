@@ -14,6 +14,9 @@ const options = (chartData, label) => ({
             label,
             value: 'value'
         },
+        labeling: {
+            suffix: '%'
+        }
     }
 });
 
