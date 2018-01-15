@@ -5,9 +5,9 @@ install:
 - npm install
 - npm install -g lerna
 script:
-- lerna bootstrap
-- lerna run lint
 - lerna run build
+- lerna run lint
+- lerna bootstrap
 cache:
 - node_modules
 sudo: false
