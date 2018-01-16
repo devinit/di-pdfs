@@ -5,7 +5,7 @@
 	},
 	"devDependencies": {
 		"git-pre-hooks": "^1.2.0",
-		"lerna": "^2.5.1"
+		"lerna": "^2.7.1"
 	},
 	"git-pre-hooks": {
 		"pre-push": [
