@@ -14,7 +14,6 @@ export const regionColors = {
 
 export const sectorColors = {
     'Human resources development': colors.lighterRed,
-    'ARICF expenditures (total)': colors.pink,
     'Coopertion between South Africa and other states': colors.darkerRed,
     'Promotion of democracy and good governance': colors.lightRed,
     'Prevention and resolution of conflicts': colors.lightPink,

@@ -1,4 +1,4 @@
-import {toId, getTotal, formatNumbers, normalizeKeyName, isDonor} from '.';
+import {toId, getTotal, formatNumbers, normalizeKeyName, isDonor, groupedValuesIntoPercents} from '.';
 import * as prettyFormat from 'pretty-format';
 
 const dataA = [
@@ -21,6 +21,16 @@ describe('Utility functions test', () => {
     it('should normalize colum name ie remove _ where necessry', () => {
         const ageBand = normalizeKeyName('value_0_14');
         expect(ageBand).toBe('0-14');
+    });
+    it('should turn values into percents for grouped data', () => {
+        const data = [
+            {sector: 'a', value: 2},
+            {sector: 'b', value: 3},
+            {sector: 'a', value: 4},
+            {sector: 'b', value: 7}
+        ];
+        const result =  groupedValuesIntoPercents(data, 'sector');
+        expect(prettyFormat({result})).toMatchSnapshot();
     });
     it('should return whether country is donor or not', async () => {
         const isDonorCountryA = await isDonor('uganda');

@@ -10,3 +10,26 @@ exports[`Utility functions test should create human friendly numbers i.e 1.5k fo
   ],
 }"
 `;
+
+exports[`Utility functions test should turn values into percents for grouped data 1`] = `
+"Object {
+  \\"result\\": Array [
+    Object {
+      \\"sector\\": \\"a\\",
+      \\"value\\": 33,
+    },
+    Object {
+      \\"sector\\": \\"a\\",
+      \\"value\\": 67,
+    },
+    Object {
+      \\"sector\\": \\"b\\",
+      \\"value\\": 30,
+    },
+    Object {
+      \\"sector\\": \\"b\\",
+      \\"value\\": 70,
+    },
+  ],
+}"
+`;

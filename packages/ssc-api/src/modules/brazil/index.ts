@@ -1,5 +1,5 @@
 import {IDB} from '@devinit/api-base/lib/db';
-import {getIndicatorDataSimple,  valuesIntoPercents} from '@devinit/api-base/lib/utils';
+import {getIndicatorDataSimple,  groupedValuesIntoPercents} from '@devinit/api-base/lib/utils';
 import sql from './sql';
 import regionColors from './config';
 import {IDataRegion} from '../../types';
@@ -13,7 +13,7 @@ export class Brazil {
             getIndicatorDataSimple({query: sql.tchCooperationByRegion, db: this.db}) as  IDataRegion[];
         const withColor: DH.ITchCooperationByRegion[] =
             data.map(obj => ({...obj, color: regionColors[obj.region]}));
-        return valuesIntoPercents(withColor);
+        return groupedValuesIntoPercents(withColor, 'year', 1);
     }
 }
 

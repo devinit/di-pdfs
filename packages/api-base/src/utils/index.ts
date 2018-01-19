@@ -54,6 +54,14 @@ export const valuesIntoPercents = <T extends {value: number}>(data: T[], precisi
     });
 };
 
+export const groupedValuesIntoPercents =
+    <T extends {value: number}>(data: T[], groupName: string, precision?: number): T[] => {
+    const groups = R.groupBy(R.prop(groupName), data);
+    const groupAsPers: any[][] = R.keys(groups).map(key =>
+        valuesIntoPercents(groups[key], precision));
+    return R.flatten(groupAsPers);
+};
+
 export const getCurrencyCode = async (id: string): Promise<string>  => {
     try {
         const currencyList: ICurrency[] = await getCurrency();
