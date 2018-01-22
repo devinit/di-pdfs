@@ -13,7 +13,11 @@ const options = (dataKey: string, groupBy: string) => ({
         groupBy,
         linearAxis: {
             indicator: 'value',
-            ticking: 'even'
+            ticking: dataKey === 'dvptCooperation' ? 'even' : 'all',
+            axisMaximum: dataKey === 'dvptCooperation' ? 450 : 100
+        },
+        labeling: {
+            drawStackedBarSum: dataKey === 'dvptCooperation',
         },
         categoryAxis: {
             indicator: 'year'

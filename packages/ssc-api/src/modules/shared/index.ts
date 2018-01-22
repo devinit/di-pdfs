@@ -12,7 +12,12 @@ export class Shared {
     public async dvptCooperation(country: string): Promise<DH.IBasicIndicator[]> {
         const data =
             await getIndicatorDataSimple({query: sql[country].dvptCooperation, db: this.db}) as IDataBasic[];
-        return data.map(obj => ({...obj, color: dvptColorMap[country][obj.id]}));
+        return data
+            .map(obj => ({
+                ...obj,
+                value: country === 'india' ? obj.value * 10e3 : obj.value,
+                color: dvptColorMap[country][obj.id]})
+            );
     }
     public async topTchRecipients(country: string): Promise<DH.ITopTchRecipients[]> {
         const  data =

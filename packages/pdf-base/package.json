@@ -31,7 +31,7 @@
     "glamor": "^2.20.40"
   },
   "dependencies": {
-    "@devinit/charts": "^1.6.45",
+    "@devinit/charts": "^1.6.46",
     "glamor": "^2.20.40",
     "glamorous": "^4.11.0",
     "ramda": "^0.25.0",
