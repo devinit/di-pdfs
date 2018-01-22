@@ -1,6 +1,6 @@
 {
   "name": "@devinit/ssc-pdf",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "for creating DI print pdfs",
   "main": "index.js",
   "private": true,
@@ -22,8 +22,8 @@
   "license": "ISC",
   "dependencies": {
     "@devinit/api-base": "^1.0.11",
-    "@devinit/pdf-base": "^1.0.11",
-    "@devinit/ssc-api": "^1.0.10",
+    "@devinit/pdf-base": "^1.0.12",
+    "@devinit/ssc-api": "^1.0.11",
     "glamor": "^2.20.40",
     "glamorous": "^4.11.0",
     "next": "latest",
