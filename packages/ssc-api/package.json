@@ -34,7 +34,7 @@
   "devDependencies": {
     "@types/jest": "21.1.10",
     "@types/node": "7.0.28",
-    "@types/ramda": "0.24.18",
+    "@types/ramda": "0.25.16",
     "@types/shortid": "0.0.29",
     "concurrently": "3.5.1",
     "jest": "21.2.1",

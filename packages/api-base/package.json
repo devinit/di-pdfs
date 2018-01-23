@@ -58,7 +58,7 @@
     "@types/lru-cache": "4.1.0",
     "@types/morgan": "1.7.35",
     "@types/node": "7.0.28",
-    "@types/ramda": "0.24.18",
+    "@types/ramda": "0.25.16",
     "@types/shortid": "0.0.29",
     "@types/zen-observable": "0.5.3",
     "apollo-link": "1.0.7",

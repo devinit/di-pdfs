@@ -140,9 +140,9 @@
   version "7.0.28"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-7.0.28.tgz#3a8c62b718a73bbb89ede4aba5ab12c8f822c36e"
 
-"@types/ramda@0.24.18":
-  version "0.24.18"
-  resolved "https://registry.yarnpkg.com/@types/ramda/-/ramda-0.24.18.tgz#2513efcccf47ca13d388d503f309df4b64ba52fc"
+"@types/ramda@0.25.16":
+  version "0.25.16"
+  resolved "https://registry.yarnpkg.com/@types/ramda/-/ramda-0.25.16.tgz#1d4eeb78d3247d1ceef971b458dd8469646cd1b4"
 
 "@types/serve-static@*":
   version "1.13.1"
