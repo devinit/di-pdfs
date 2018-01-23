@@ -108,9 +108,9 @@
   dependencies:
     "@types/node" "*"
 
-"@types/graphql@0.9.4":
-  version "0.9.4"
-  resolved "https://registry.yarnpkg.com/@types/graphql/-/graphql-0.9.4.tgz#cdeb6bcbef9b6c584374b81aa7f48ecf3da404fa"
+"@types/graphql@0.12.1":
+  version "0.12.1"
+  resolved "https://registry.yarnpkg.com/@types/graphql/-/graphql-0.12.1.tgz#2c2f9a0da3cd23ee1ce7a6e6c9135ceeb9131c05"
 
 "@types/helmet@0.0.35":
   version "0.0.35"
