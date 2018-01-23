@@ -69,7 +69,7 @@
     "prettier": "1.10.2",
     "pretty-format": "21.2.1",
     "release-it": "5.2.0",
-    "ts-jest": "21.2.4",
+    "ts-jest": "22.0.1",
     "tslint": "5.9.1",
     "typescript": "2.6.2"
   },
