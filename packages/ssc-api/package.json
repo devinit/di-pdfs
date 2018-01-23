@@ -1,6 +1,6 @@
 {
   "name": "@devinit/ssc-api",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "ssc api",
   "main": "index.js",
   "scripts": {
