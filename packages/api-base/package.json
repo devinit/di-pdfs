@@ -39,7 +39,7 @@
     "helmet": "^3.6.0",
     "lru-cache": "^4.1.1",
     "morgan": "^1.8.1",
-    "pg-promise": "7.3.2",
+    "pg-promise": "7.4.0",
     "ramda": "^0.25.0",
     "shortid": "^2.2.8"
   },
