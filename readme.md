@@ -1,6 +1,4 @@
 ### DI pdf creation app
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/devinit/di-pdfs.svg)](https://greenkeeper.io/)
 _____________________________
 
 [![Build Status](https://travis-ci.org/devinit/di-pdfs.svg?branch=master)](https://travis-ci.org/devinit/di-pdfs)
