@@ -3,7 +3,7 @@ node_js:
 - v8
 install:
 - npm install
-- npm install -g lerna
+- npm install -g lerna yarn
 script:
 - lerna run build
 - lerna run lint
