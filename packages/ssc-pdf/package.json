@@ -8,6 +8,7 @@
     "dev": "npm run prebuild && concurrently \"tsc --pretty --watch\" \"next dist\"",
     "prebuild": "rm -rf dist && mkdir -p dist && cp -R node_modules/@devinit/pdf-base/lib/static/ dist/static && cp next.config.js dist && tsc",
     "pull": "tsc && node dist/pullData/index.js",
+    "tsc": "tsc",
     "test": "jest",
     "build": "next build dist",
     "export": "next export dist",

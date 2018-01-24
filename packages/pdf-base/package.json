@@ -5,6 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "NODE_ENV=production npm run build-css && cp -R static lib/ && tsc",
+    "tsc": "tsc",
     "css": "lessc src/theme/less/index.less static/styles.css",
     "copy-chart-css": "cp node_modules/@devinit/charts/dist/di-charts.min.css static/",
     "build-css": "lessc  --clean-css='--s1 --advanced --compatibility=ie8' src/theme/less/index.less static/styles.min.css",

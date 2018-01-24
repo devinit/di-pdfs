@@ -6,7 +6,7 @@ install:
 - npm install -g lerna yarn
 script:
 - lerna bootstrap
-- lerna run build
+- lerna run tsc
 - lerna run lint
 cache:
 - node_modules
