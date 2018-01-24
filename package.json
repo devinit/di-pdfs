@@ -9,7 +9,8 @@
 	},
 	"git-pre-hooks": {
 		"pre-push": [
-			"lerna run lint && lerna run build"
+			"lerna run lint",
+			"lerna run tsc"
 		]
 	}
 }
