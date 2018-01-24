@@ -5,42 +5,42 @@ export default {
   dvptCooperation: [
     {
       id: 'Other development cooperation',
-      uid: 'BJdd-sr8mHz',
+      uid: 'HyFz9GmIrz',
       year: 2011,
       color: '#0095CB',
       value: 81
     },
     {
       id: 'Development cooperation estimated to be ODA eligible',
-      uid: 'SyYd-jHLQBG',
+      uid: 'SJ5z5G78rz',
       year: 2011,
       color: '#e8443a',
       value: 318.3
     },
     {
       id: 'Other development cooperation',
-      uid: 'BJ5_Zir8QBz',
+      uid: 'SyiGqzXISG',
       year: 2012,
       color: '#0095CB',
       value: 75.4
     },
     {
       id: 'Development cooperation estimated to be ODA eligible',
-      uid: 'B1iO-oHIXHG',
+      uid: 'rJnGqzQ8SG',
       year: 2012,
       color: '#e8443a',
       value: 301.6
     },
     {
       id: 'Other development cooperation',
-      uid: 'HJnuZsH8mSG',
+      uid: 'S1TMcz7IHG',
       year: 2013,
       color: '#0095CB',
       value: 60.9
     },
     {
       id: 'Development cooperation estimated to be ODA eligible',
-      uid: 'HyTuZiB8XBG',
+      uid: 'BJCf9fQLBM',
       year: 2013,
       color: '#e8443a',
       value: 238.1
@@ -52,126 +52,126 @@ export default {
       color: '#e8443a',
       year: 2011,
       value: 43,
-      uid: 'HJuSborIQrz'
+      uid: 'ByNcfQIrG'
     },
     {
       region: 'Latin America and the Caribbean',
       color: '#0095CB',
       year: 2011,
       value: 48.9,
-      uid: 'HkFrWirUXrM'
+      uid: 'B1g4qM7UrG'
     },
     {
       region: 'Oceania',
       color: '#EA7600',
       year: 2011,
       value: 4.3,
-      uid: 'r19S-sS87Bz'
+      uid: 'HJZVcG7UrM'
     },
     {
       region: 'Europe',
       color: '#93328E',
       year: 2011,
       value: 2.3,
-      uid: 'ByjSZsrL7BG'
+      uid: 'HkG49MXIHf'
     },
     {
       region: 'Asia and the Middle East',
       color: '#FECB2F',
       year: 2011,
       value: 1,
-      uid: 'HJnS-jS8mBM'
+      uid: 'By7Ncz7ISG'
     },
     {
       region: 'North America',
       color: '#0095CB',
       year: 2011,
       value: 0.5,
-      uid: 'BJaBWsrImHf'
+      uid: 'S1EN5fQ8rG'
     },
     {
       region: 'Africa',
       color: '#e8443a',
       year: 2012,
       value: 44.3,
-      uid: 'HkRHZjHLQHf'
+      uid: 'HySE9G78BG'
     },
     {
       region: 'Latin America and the Caribbean',
       color: '#0095CB',
       year: 2012,
       value: 46.9,
-      uid: 'HJ18bsrLmSG'
+      uid: 'HJU4qfX8BM'
     },
     {
       region: 'Oceania',
       color: '#EA7600',
       year: 2012,
       value: 3.9,
-      uid: 'rJeIWiH8mBM'
+      uid: 'r1PNczQIHf'
     },
     {
       region: 'Europe',
       color: '#93328E',
       year: 2012,
       value: 2.6,
-      uid: 'r1ZUZoSL7Hf'
+      uid: 'r1dVqMXLHM'
     },
     {
       region: 'Asia and the Middle East',
       color: '#FECB2F',
       year: 2012,
       value: 1.7,
-      uid: 'B1MIbjB8XHM'
+      uid: 'BktVcMQLrM'
     },
     {
       region: 'North America',
       color: '#0095CB',
       year: 2012,
       value: 0.6,
-      uid: 'ry7IWiB8Qrz'
+      uid: 'r194cM7LBG'
     },
     {
       region: 'Africa',
       color: '#e8443a',
       year: 2013,
       value: 53.3,
-      uid: 'BJEUZiH8XBz'
+      uid: 'BJsN5z7LSM'
     },
     {
       region: 'Latin America and the Caribbean',
       color: '#0095CB',
       year: 2013,
       value: 39.4,
-      uid: 'SkB8boS87Hf'
+      uid: 'SJnNcM7LSf'
     },
     {
       region: 'Oceania',
       color: '#EA7600',
       year: 2013,
       value: 2.9,
-      uid: 'BJILZjHImBM'
+      uid: 'Hyp4qMQLrf'
     },
     {
       region: 'Europe',
       color: '#93328E',
       year: 2013,
       value: 3.3,
-      uid: 'SJvUbjBUXBM'
+      uid: 'BJA49fQLHG'
     },
     {
       region: 'Asia and the Middle East',
       color: '#FECB2F',
       year: 2013,
       value: 0.9,
-      uid: 'B1dIWir8QBM'
+      uid: 'HJkxEcMmUSM'
     },
     {
       region: 'North America',
       color: '#0095CB',
       year: 2013,
       value: 0.3,
-      uid: 'BJKUWorUXBz'
+      uid: 'SyggNcfXIHG'
     }
   ],
   topTchRecipients: [

@@ -15,7 +15,7 @@ export class Shared {
         return data
             .map(obj => ({
                 ...obj,
-                value: country === 'india' ? obj.value * 10e3 : obj.value,
+                value: country === 'india' ? obj.value * 10e5 : obj.value,
                 color: dvptColorMap[country][obj.id]})
             );
     }
