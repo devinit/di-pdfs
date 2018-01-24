@@ -8,9 +8,9 @@
        "**/.next": true,
        "**/dist": true,
        "**/.dist": true,
-       "**/lib": false,
+       "**/lib": true,
        "**/.out": true,
-       "**/coverage": false,
+       "**/coverage": true,
        "**/node_modules": true
    }
 }
