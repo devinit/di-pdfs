@@ -22,7 +22,7 @@
   },
   "peerDependencies": {
     "@types/zen-observable": "0.5.3",
-    "apollo-link": "0.8.0"
+    "apollo-link": "1.0.7"
   },
   "dependencies": {
     "apollo-fetch": "^0.7.0",
