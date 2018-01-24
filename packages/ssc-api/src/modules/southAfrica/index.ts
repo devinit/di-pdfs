@@ -1,5 +1,5 @@
-import {IDB} from '@devinit/api-base/lib/db';
-import {getIndicatorDataSimple, getTotal, valuesIntoPercents} from '@devinit/api-base/lib/utils';
+import {IDB} from '@devinit/graphql-next/lib/db';
+import {getIndicatorDataSimple, getTotal, valuesIntoPercents} from '@devinit/graphql-next/lib/utils';
 import {departmentColors, regionColors, sectorColors} from './config';
 import sql from './sql';
 import * as R from 'ramda';

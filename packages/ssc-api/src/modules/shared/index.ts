@@ -1,5 +1,5 @@
-import {IDB} from '@devinit/api-base/lib/db';
-import {getIndicatorDataSimple} from '@devinit/api-base/lib/utils';
+import {IDB} from '@devinit/graphql-next/lib/db';
+import {getIndicatorDataSimple} from '@devinit/graphql-next/lib/utils';
 import sql from './sql';
 import dvptColorMap from './config';
 import {IDataBasic} from '../../types';

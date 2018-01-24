@@ -1,5 +1,5 @@
-import {IDB} from '@devinit/api-base/lib/db';
-import {getIndicatorDataSimple,  groupedValuesIntoPercents} from '@devinit/api-base/lib/utils';
+import {IDB} from '@devinit/graphql-next/lib/db';
+import {getIndicatorDataSimple,  groupedValuesIntoPercents} from '@devinit/graphql-next/lib/utils';
 import sql from './sql';
 import regionColors from './config';
 import {IDataRegion} from '../../types';
