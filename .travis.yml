@@ -1,9 +1,9 @@
 language: node_js
 node_js:
-- v8
+- v9
 install:
 - npm install
-- npm install -g lerna yarn
+- npm install -g lerna
 script:
 - cd packages/pdf-base && npm run build
 - cd packages/ssc-api && npm run build
