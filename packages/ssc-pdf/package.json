@@ -26,7 +26,7 @@
     "@devinit/ssc-api": "^1.0.11",
     "glamor": "2.20.40",
     "glamorous": "4.11.4",
-    "next": "latest",
+    "next": "4.2.3",
     "ramda": "0.25.0",
     "react": "16.2.0",
     "react-dom": "16.2.0"
@@ -35,7 +35,7 @@
     "@types/jest": "21.1.10",
     "@types/next": "2.4.7",
     "@types/node": "8.5.9",
-    "@types/react": "16.0.27",
+    "@types/react": "16.0.34",
     "concurrently": "3.5.1",
     "jest": "21.2.1",
     "jest-cli": "21.2.1",
