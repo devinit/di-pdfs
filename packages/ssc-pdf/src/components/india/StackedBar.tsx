@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {Div} from 'glamorous';
+import glamorous, {Div} from 'glamorous';
 import {dvptCoLegendData, getLegendData} from '../utils';
 import {Legend, LegendProps} from '@devinit/pdf-base';
 import regionColors from '@devinit/ssc-api/lib/modules/india/config';
@@ -38,13 +38,18 @@ const legendOptions = (dataKey: string) => {
     }
     return techLegend();
 };
-
+const StackedChartDiv = glamorous.div({
+    'width': '72%',
+    '& .plottable .custom-label': {
+        width: '45%'
+    }
+});
 export default (props: Props) =>
     <Div padding="5px" width="100%" display="flex" justifyContent="space-between" >
-        <Div width="70%" key="stacked">
+        <StackedChartDiv key="stacked">
             <charts.StackedBar {...options(props.dataKey, props.groupBy)} />
-        </Div>
-        <Div width="28%" key="legend-stacked">
+        </StackedChartDiv>
+        <Div width="26%" key="legend-stacked">
             <Legend {...legendOptions(props.dataKey)} />
         </Div>
     </Div>;
