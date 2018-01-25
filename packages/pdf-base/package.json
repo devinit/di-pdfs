@@ -1,6 +1,6 @@
 {
   "name": "@devinit/pdf-base",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "for creating DI print pdfs",
   "main": "lib/index.js",
   "scripts": {
@@ -32,7 +32,7 @@
     "glamor": "^2.20.40"
   },
   "dependencies": {
-    "@devinit/charts": "^1.6.46",
+    "@devinit/charts": "^1.6.47",
     "glamor": "^2.20.40",
     "glamorous": "^4.11.0",
     "ramda": "^0.25.0",
