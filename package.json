@@ -1,7 +1,6 @@
 {
 	"scripts": {
 		"bootstrap": "lerna bootstrap --hoist",
-		"prepublish": "lerna run lint && lerna run build",
 		"publish": "lerna publish"
 	},
 	"devDependencies": {
