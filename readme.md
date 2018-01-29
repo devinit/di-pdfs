@@ -41,3 +41,9 @@ lerna run dev # runs packages in dev mode
 lerna run build --scope @devinit/pdf-base # running a command in say one package
 
 ```
+
+TODO
+
+-----
+
+- Move devDependencies to root
