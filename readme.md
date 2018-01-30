@@ -28,12 +28,15 @@ _________
 
 Installations & setup
 
-see [lerna repo readme](https://github.com/lerna/lerna) for more.
+```
+npm i -g lerna yarn && lerna bootstrap
+```
 
+
+Useful commands
 ______________
 
 ```
-npm i -g lerna
 lerna bootstrap # installs all package dependencies
 lerna run lint # lints all packages
 lerna run build && lerna run start # starts api & pdf front end
@@ -42,8 +45,4 @@ lerna run build --scope @devinit/pdf-base # running a command in say one package
 
 ```
 
-TODO
-
------
-
-- Move devDependencies to root
+see [lerna repo readme](https://github.com/lerna/lerna) for more.
