@@ -5,7 +5,8 @@
   "main": "lib/index.js",
   "private": true,
   "scripts": {
-    "test": "jest",
+    "test": "npm run canary && jest",
+    "canary": "canary --remote-debugging-port=9222 --disable-gpu --headless",
     "build": "tsc",
     "lint": "tslint -c tslint.json 'src/**/*.ts'"
   },

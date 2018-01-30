@@ -7,7 +7,7 @@ export interface IPrintOpts {
 
 export async function print(opts: IPrintOpts): Promise<string[] | void> {
     try {
-        const chromeless = new Chromeless();
+        const chromeless = new Chromeless({launchChrome: false});
         const screenshotsX: Array<Promise<string>> = 
             opts.urls.map(async (url) => {
                 const screenshot = await chromeless
