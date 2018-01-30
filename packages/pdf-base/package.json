@@ -1,10 +1,11 @@
 {
   "name": "@devinit/pdf-base",
-  "version": "1.0.6",
+  "version": "1.0.17",
   "description": "for creating DI print pdfs",
   "main": "lib/index.js",
   "scripts": {
-    "build": "npm run build-css && cp -R static lib/ && tsc",
+    "build": "NODE_ENV=production npm run build-css && cp -R static lib/ && tsc",
+    "tsc": "tsc",
     "css": "lessc src/theme/less/index.less static/styles.css",
     "copy-chart-css": "cp node_modules/@devinit/charts/dist/di-charts.min.css static/",
     "build-css": "lessc  --clean-css='--s1 --advanced --compatibility=ie8' src/theme/less/index.less static/styles.min.css",
@@ -31,7 +32,7 @@
     "glamor": "^2.20.40"
   },
   "dependencies": {
-    "@devinit/charts": "^1.6.35",
+    "@devinit/charts": "^1.6.47",
     "glamor": "^2.20.40",
     "glamorous": "^4.11.0",
     "ramda": "^0.25.0",
@@ -39,22 +40,22 @@
     "react-dom": "^16.2.0"
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^3.2.17",
-    "@storybook/addon-links": "^3.2.17",
-    "@storybook/react": "^3.2.17",
-    "@types/node": "^8.0.55",
+    "@storybook/addon-actions": "3.3.11",
+    "@storybook/addon-links": "3.3.11",
+    "@storybook/react": "3.3.11",
+    "@types/node": "9.3.0",
     "@types/react": "16.0.28",
-    "@types/storybook__react": "^3.0.5",
-    "concurrently": "^3.5.0",
-    "css-loader": "^0.28.7",
-    "file-loader": "^1.1.5",
-    "less": "^2.7.3",
-    "less-plugin-clean-css": "^1.5.1",
-    "release-it": "^5.2.0",
-    "style-loader": "^0.19.0",
-    "ts-loader": "^3.2.0",
-    "tslint": "^5.8.0",
-    "tslint-react": "^3.2.0",
-    "typescript": "^2.6.1"
+    "@types/storybook__react": "3.0.6",
+    "concurrently": "3.5.1",
+    "css-loader": "0.28.9",
+    "file-loader": "1.1.6",
+    "less": "2.7.3",
+    "less-plugin-clean-css": "1.5.1",
+    "release-it": "6.1.1",
+    "style-loader": "0.20.1",
+    "ts-loader": "3.3.1",
+    "tslint": "5.9.1",
+    "tslint-react": "3.4.0",
+    "typescript": "2.6.2"
   }
 }

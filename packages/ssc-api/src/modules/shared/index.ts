@@ -1,5 +1,5 @@
-import {IDB} from '@devinit/api-base/lib/db';
-import {getIndicatorDataSimple} from '@devinit/api-base/lib/utils';
+import {IDB} from '@devinit/graphql-next/lib/db';
+import {getIndicatorDataSimple} from '@devinit/graphql-next/lib/utils';
 import sql from './sql';
 import dvptColorMap from './config';
 import {IDataBasic} from '../../types';
@@ -12,7 +12,12 @@ export class Shared {
     public async dvptCooperation(country: string): Promise<DH.IBasicIndicator[]> {
         const data =
             await getIndicatorDataSimple({query: sql[country].dvptCooperation, db: this.db}) as IDataBasic[];
-        return data.map(obj => ({...obj, color: dvptColorMap[country][obj.id]}));
+        return data
+            .map(obj => ({
+                ...obj,
+                value: country === 'india' ? obj.value * 10e5 : obj.value,
+                color: dvptColorMap[country][obj.id]})
+            );
     }
     public async topTchRecipients(country: string): Promise<DH.ITopTchRecipients[]> {
         const  data =

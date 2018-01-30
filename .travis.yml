@@ -1,13 +1,13 @@
 language: node_js
 node_js:
-- v8
+- v9
 install:
 - npm install
-- npm install -g lerna
+- npm install -g lerna yarn
 script:
 - lerna bootstrap
+- lerna run tsc
 - lerna run lint
-- lerna run build
 cache:
 - node_modules
 sudo: false

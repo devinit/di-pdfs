@@ -14,12 +14,15 @@ const options = (chartData, label) => ({
             label,
             value: 'value'
         },
+        labeling: {
+            suffix: '%'
+        }
     }
 });
 
 const legendOptions = (legendData: object) => ({
     orientation: 'vertical',
-    data: getLegendData(legendData)
+    data: getLegendData({legendData, data: data.aricfExpBySector, keyName: 'sector'})
 });
 // console.log(legendOptions(sectorColors));
 

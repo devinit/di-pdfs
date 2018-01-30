@@ -1,6 +1,7 @@
-import {IDB} from '@devinit/api-base/lib/db';
-import {getIndicatorDataSimple} from '@devinit/api-base/lib/utils';
+import {IDB} from '@devinit/graphql-next/lib/db';
+import {getIndicatorDataSimple, valuesIntoPercents, getTotal} from '@devinit/graphql-next/lib/utils';
 import sql from './sql';
+import {groupBy, keys} from 'ramda';
 import * as colors from '@devinit/pdf-base/lib/theme/colors';
 import {IDataBasic, IDataRegion, IDataRegionAndRecipient, IDataSector} from '../../types';
 import {regionColors, sectorColors, odaRegionColors} from './config';
@@ -17,12 +18,19 @@ export class China {
     }
     public async flowsByRegion(): Promise<DH.IRegionValue[]> {
         const data = await getIndicatorDataSimple({query: sql.odaLikeFlowsByRegion, db: this.db}) as  IDataRegion[];
-        return data.map(obj => ({...obj, color: regionColors[obj.region]}));
+        return valuesIntoPercents(data.map(obj => ({...obj, color: regionColors[obj.region]})));
     }
     public async flowsBySector(): Promise<DH.ISectorValue[]> {
         const data =
             await getIndicatorDataSimple({query: sql.odaLikeFlowsBySector, db: this.db}) as  IDataSector[];
-        return data.map(obj => ({...obj, color: sectorColors[obj.sector]}));
+        // combining similar keys
+        const grouped = groupBy((obj) => obj.sector, data);
+        const reduced: IDataSector[] = keys(grouped).map((key: string) => {
+            const group: IDataSector[] = grouped[key];
+            const total = getTotal(group);
+            return {...group[0], value: total};
+        });
+        return valuesIntoPercents(reduced.map(obj => ({...obj, color: sectorColors[obj.sector]})));
     }
     public async odaRecipients(): Promise<DH.IRegionAndRecipient[]> {
         const data =

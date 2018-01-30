@@ -1,6 +1,6 @@
-import {prettyLists} from '@devinit/api-base/lib/utils/test.utils';
+import {prettyLists} from '@devinit/graphql-next/lib/utils/test.utils';
 import {SouthAfrica} from '.';
-import db from '@devinit/api-base/lib/db';
+import db from '@devinit/graphql-next/lib/db';
 
 describe('SouthAfrica', () => {
     const southAfrica = new SouthAfrica(db);

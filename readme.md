@@ -1,11 +1,8 @@
 ### DI pdf creation app
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/devinit/di-pdfs.svg)](https://greenkeeper.io/)
 _____________________________
 
 [![Build Status](https://travis-ci.org/devinit/di-pdfs.svg?branch=master)](https://travis-ci.org/devinit/di-pdfs)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/e501f77141774b74979c60d5cfd219ac)](https://www.codacy.com/app/epicallan/di-pdfs?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=devinit/di-pdfs&amp;utm_campaign=Badge_Grade)
-[![Dependency Status](https://gemnasium.com/badges/github.com/devinit/di-pdfs.svg)](https://gemnasium.com/github.com/devinit/di-pdfs)
 
 For creating DI (ITEP) pdfs
 
@@ -44,3 +41,9 @@ lerna run dev # runs packages in dev mode
 lerna run build --scope @devinit/pdf-base # running a command in say one package
 
 ```
+
+TODO
+
+-----
+
+- Move devDependencies to root

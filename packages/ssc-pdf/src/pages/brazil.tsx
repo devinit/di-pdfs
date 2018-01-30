@@ -41,7 +41,7 @@ export default () =>
                         and Development</Em>
                 </TextBlock>
             <TextBlock>
-                <h2>Technical cooerpation by region, 2011 - 2013</h2>
+                <h2>Technical cooperation by region, 2011 - 2013</h2>
                 <Note>Percent</Note>
             </TextBlock>
             <StackedBar dataKey="tchCooperationByRegion" groupBy="region" />

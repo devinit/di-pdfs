@@ -1,5 +1,5 @@
-import {IDB} from '@devinit/api-base/lib/db';
-import {getIndicatorDataSimple, getTotal} from '@devinit/api-base/lib/utils';
+import {IDB} from '@devinit/graphql-next/lib/db';
+import {getIndicatorDataSimple, getTotal, valuesIntoPercents} from '@devinit/graphql-next/lib/utils';
 import {departmentColors, regionColors, sectorColors} from './config';
 import sql from './sql';
 import * as R from 'ramda';
@@ -34,7 +34,9 @@ export class SouthAfrica {
     public async aricfExpBySector(): Promise<DH.ISectorSimple[]> {
         const data =
             await getIndicatorDataSimple({query: sql.aricfExpBySector, db: this.db}) as IDataSector[];
-        return data.map(obj => ({...obj, color: sectorColors[obj.sector]}));
+        const results = data.filter(obj => obj.value > 0 && obj.sector !== 'ARICF expenditures (total)')
+            .map(obj => ({...obj, color: sectorColors[obj.sector]}));
+        return valuesIntoPercents(results);
     }
 }
 

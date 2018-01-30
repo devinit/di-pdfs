@@ -1,12 +1,15 @@
 export interface IAxis {
     axisLabel?: string;
+    axisMaximum?: number;
+    axisMinimum?: number;
     indicator: string;
 }
 
 export interface ILabeling {
-    showLabel: boolean;
+    showLabels?: boolean;
     prefix?: string;
     suffix?: string;
+    drawStackedBarSum?: boolean;
 }
 
 export interface IBaseConfig {

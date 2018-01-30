@@ -24,3 +24,6 @@ test/**/out
 
 #editors
 .idea
+
+# source files
+src

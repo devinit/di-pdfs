@@ -4,6 +4,7 @@ export default {
   type: 'stacked-bar',
     ...base,
     labeling: {
-      custom: true
+      custom: true,
+      drawStackedBarSum: true
     }
 };

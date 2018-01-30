@@ -18,7 +18,7 @@ export default () => (
                 <h3><a href="/india" target="_blank" style={{color: colors.red}}>India</a></h3>
             </TextBlock>
             <TextBlock>
-                <h3><a href="/south-africa" target="_blank" style={{color: colors.red}}>South Afica</a></h3>
+                <h3><a href="/south-africa" target="_blank" style={{color: colors.red}}>South Africa</a></h3>
             </TextBlock>
             <TextBlock>
                 <h3><a href="/brazil" target="_blank" style={{color: colors.red}}>Brazil</a></h3>

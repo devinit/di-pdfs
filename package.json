@@ -4,12 +4,13 @@
 		"publish": "lerna publish"
 	},
 	"devDependencies": {
-		"git-pre-hooks": "^1.2.0",
-		"lerna": "^2.5.1"
+		"git-pre-hooks": "1.2.0",
+		"lerna": "2.8.0"
 	},
 	"git-pre-hooks": {
 		"pre-push": [
-			"lerna run lint && lerna run build"
+			"lerna run lint",
+			"lerna run tsc"
 		]
 	},
 	"dependencies": {

@@ -1,1 +1,0 @@
-simple gql querying interface

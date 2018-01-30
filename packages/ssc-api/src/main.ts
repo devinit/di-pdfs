@@ -1,4 +1,4 @@
-import {main} from '@devinit/api-base';
+import {main} from '@devinit/graphql-next';
 import brazil from './modules/brazil';
 import china from './modules/china';
 import india from './modules/india';

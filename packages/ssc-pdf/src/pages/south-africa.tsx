@@ -44,7 +44,7 @@ export default () =>
                 <Note>percentage of total expenditure</Note>
             </TextBlock>
             <StackedBar dataKey="govmtdepartment" groupBy="id" />
-            <TextBlock>
+            <TextBlock marginTop="10px">
                 <h2>African Renaissance and International Cooperation Fund, expenditure</h2>
             </TextBlock>
             <Div display="flex">
