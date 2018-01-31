@@ -1,0 +1,20 @@
+{
+  "extends": ["tslint:recommended", "tslint-react"],
+    "rules": {
+      "no-console": [false],
+      "quotemark": [true, "single"],
+      "trailing-comma": [false],
+      "no-var-requires": false,
+      "curly": false,
+      "interface-name":false,
+      "jsx-no-multiline-js": false,
+      "jsx-boolean-value": false,
+      "jsx-wrap-multiline": false,
+      "object-literal-sort-keys": false,
+      "arrow-parens":false,
+      "variable-name":false,
+      "no-unused-variable": true,
+      "ordered-imports": [false]
+    }
+  }
+  

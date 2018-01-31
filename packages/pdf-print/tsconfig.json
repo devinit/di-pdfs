@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "jsx": "react",
+      "sourceMap": false,
+      "strict": true,
+      "lib": ["es2017", "dom"],
+      "declaration": true,
+      "declarationDir": "lib",
+      "experimentalDecorators": true,
+      "typeRoots": ["node_modules/@types", "src/types"],
+      "noImplicitAny": false,
+      "rootDir": "src",
+      "noUnusedLocals": true,
+      "outDir": "lib",
+      "removeComments": true
+    },
+    "exclude": [
+      "node_modules",
+      "lib"
+    ]
+  }
