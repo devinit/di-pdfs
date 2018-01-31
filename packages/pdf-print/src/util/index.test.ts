@@ -7,5 +7,4 @@ describe('pdf print tests', () => {
         const destinationUrls = await print({urls: ['https://wwww.google.com']});
         expect(prettyFormat(destinationUrls)).toMatchSnapshot();
     }, 50000);
-    
 });

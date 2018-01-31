@@ -1,18 +1,17 @@
-import { Chromeless } from 'chromeless'
+import { Chromeless } from 'chromeless';
 
 export interface IPrintOpts {
      urls: string[];
  }
 
-
 export async function print(opts: IPrintOpts): Promise<string[] | void> {
     try {
         const chromeless = new Chromeless({launchChrome: false});
-        const screenshotsX: Array<Promise<string>> = 
+        const screenshotsX: Array<Promise<string>> =
             opts.urls.map(async (url) => {
                 const screenshot = await chromeless
                     .goto(url)
-                    .pdf({landscape:true})
+                    .pdf({landscape: true});
                 return screenshot;
             });
         const screenshots = Promise.all(screenshotsX);
@@ -22,4 +21,3 @@ export async function print(opts: IPrintOpts): Promise<string[] | void> {
         console.error(error);
     }
 }
-

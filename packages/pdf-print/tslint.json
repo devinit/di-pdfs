@@ -1,5 +1,5 @@
 {
-  "extends": ["tslint:recommended", "tslint-react"],
+  "extends": ["tslint:recommended"],
     "rules": {
       "no-console": [false],
       "quotemark": [true, "single"],
@@ -13,7 +13,6 @@
       "object-literal-sort-keys": false,
       "arrow-parens":false,
       "variable-name":false,
-      "no-unused-variable": true,
       "ordered-imports": [false]
     }
   }
