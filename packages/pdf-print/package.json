@@ -28,7 +28,7 @@
     "pretty-format": "21.2.1",
     "ts-jest": "21.2.4",
     "tslint": "5.9.1",
-    "typescript": "2.6.2"
+    "typescript": "2.7.1"
   },
   "jest": {
     "transform": {
