@@ -33,9 +33,13 @@
     "@types/node" "*"
     "@types/react" "*"
 
-"@types/node@*", "@types/node@8.5.9":
+"@types/node@*":
   version "8.5.9"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-8.5.9.tgz#7155cfb4ae405bca4dd8df1a214c339e939109bf"
+
+"@types/node@8.9.0":
+  version "8.9.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.9.0.tgz#99449266e9f023cc3ad5de304d759de787d18ea4"
 
 "@types/node@^9.3.0":
   version "9.4.0"
