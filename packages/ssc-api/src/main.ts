@@ -6,7 +6,7 @@ import shared from './modules/shared';
 import southAfrica from './modules/southAfrica';
 
 const apiModules = [brazil, china, india, southAfrica, shared];
-
+declare var process;
 // starts app
 main({
     resolverPattern: '**/lib/modules/**/resolver.js',

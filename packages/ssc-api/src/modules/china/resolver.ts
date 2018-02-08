@@ -1,4 +1,4 @@
-module.exports = {
+export default {
     Query: {
         async overallMultiExpenditure(_root, _args, ctx) {
             return ctx.modules.china.overallMultiExpenditure();

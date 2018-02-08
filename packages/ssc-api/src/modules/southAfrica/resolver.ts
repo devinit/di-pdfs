@@ -1,4 +1,4 @@
-module.exports = {
+export default {
     Query: {
         async dvptCooperationTrend(_root, _args, ctx) {
             return ctx.modules.southAfrica.dvptCooperationTrend();

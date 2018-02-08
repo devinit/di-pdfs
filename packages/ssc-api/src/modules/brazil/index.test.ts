@@ -1,3 +1,4 @@
+import 'jest';
 import {prettyLists} from '@devinit/graphql-next/lib/utils/test.utils';
 import {Brazil} from '.';
 import db from '@devinit/graphql-next/lib/db';
