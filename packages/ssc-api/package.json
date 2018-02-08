@@ -29,7 +29,7 @@
   "dependencies": {
     "@devinit/graphql-next": "^0.1.11",
     "@devinit/pdf-base": "1.0.4",
-    "graphql": "0.9.0",
+    "graphql": "0.13.0",
     "ramda": "^0.25.0",
     "shortid": "^2.2.8"
   },
