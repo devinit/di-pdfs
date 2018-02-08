@@ -10,11 +10,11 @@
     esutils "^2.0.2"
     js-tokens "^3.0.0"
 
-"@devinit/graphql-next@0.1.5":
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/@devinit/graphql-next/-/graphql-next-0.1.5.tgz#65288ef23116f06f266f8e65ca42a3580c8d0dea"
+"@devinit/graphql-next@0.1.11":
+  version "0.1.11"
+  resolved "https://registry.yarnpkg.com/@devinit/graphql-next/-/graphql-next-0.1.11.tgz#35e87540ad91f17cb43ee7fccce159b2d5211671"
   dependencies:
-    "@gql2ts/from-schema" "1.4.0"
+    "@gql2ts/from-schema" "1.4.1"
     apollo-fetch "0.7.0"
     apollo-link "1.0.7"
     apollo-server-express "1.3.2"
@@ -26,7 +26,7 @@
     express "4.16.2"
     fs-extra "5.0.0"
     glob-promise "3.3.0"
-    graphql-tools "2.19.0"
+    graphql-tools "2.20.1"
     helmet "3.10.0"
     lru-cache "4.1.1"
     merge-graphql-schemas "1.4.0"
@@ -36,21 +36,21 @@
     ramda "0.25.0"
     shortid "2.2.8"
 
-"@gql2ts/from-schema@1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@gql2ts/from-schema/-/from-schema-1.4.0.tgz#e40beefed451000af9148453a085a686c4b5f218"
+"@gql2ts/from-schema@1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@gql2ts/from-schema/-/from-schema-1.4.1.tgz#c275517dc1207e4ca372f2122d588634582a3bb8"
   dependencies:
-    "@gql2ts/language-typescript" "^1.3.0"
+    "@gql2ts/language-typescript" "^1.4.1"
     "@gql2ts/util" "^1.3.0"
     graphql ">= 0.10 <0.12"
 
-"@gql2ts/language-typescript@^1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@gql2ts/language-typescript/-/language-typescript-1.3.0.tgz#79e9c6a281de0c92cc03e694ec2856a90a413985"
+"@gql2ts/language-typescript@^1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@gql2ts/language-typescript/-/language-typescript-1.4.1.tgz#a493d085d13d643b1802a191edf2b6de8ee3531e"
   dependencies:
     "@gql2ts/util" "^1.3.0"
     humps "^2.0.0"
-    typescript "^2.2.2"
+    typescript "^2.2.2 < 2.7.0"
 
 "@gql2ts/util@^1.3.0":
   version "1.3.0"
@@ -2058,7 +2058,7 @@ es6-map@^0.1.3:
     es6-symbol "~3.1.1"
     event-emitter "~0.3.5"
 
-es6-promise@^4.0.3, es6-promise@^4.1.1:
+es6-promise@^4.0.3:
   version "4.2.4"
   resolved "https://registry.yarnpkg.com/es6-promise/-/es6-promise-4.2.4.tgz#dc4221c2b16518760bd8c39a52d8f356fc00ed29"
 
@@ -2728,21 +2728,13 @@ graphql-extensions@^0.0.x:
     core-js "^2.5.3"
     source-map-support "^0.5.1"
 
-graphql-subscriptions@^0.5.6:
-  version "0.5.6"
-  resolved "https://registry.yarnpkg.com/graphql-subscriptions/-/graphql-subscriptions-0.5.6.tgz#0d8e960fbaaf9ecbe7900366e86da2fc143fc5b2"
-  dependencies:
-    es6-promise "^4.1.1"
-    iterall "^1.1.3"
-
-graphql-tools@2.19.0:
-  version "2.19.0"
-  resolved "https://registry.yarnpkg.com/graphql-tools/-/graphql-tools-2.19.0.tgz#04e1065532ab877aff3ad1883530fb56804ce9bf"
+graphql-tools@2.20.1:
+  version "2.20.1"
+  resolved "https://registry.yarnpkg.com/graphql-tools/-/graphql-tools-2.20.1.tgz#28bec66658c768c00867847408e873a06e6e11c7"
   dependencies:
     apollo-link "^1.0.0"
     apollo-utilities "^1.0.1"
     deprecated-decorator "^0.1.6"
-    graphql-subscriptions "^0.5.6"
     uuid "^3.1.0"
 
 graphql@0.9.0:
@@ -3351,7 +3343,7 @@ iterall@1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/iterall/-/iterall-1.0.3.tgz#e0b31958f835013c323ff0b10943829ac69aa4b7"
 
-iterall@1.1.3, iterall@^1.1.3:
+iterall@1.1.3:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/iterall/-/iterall-1.1.3.tgz#1cbbff96204056dde6656e2ed2e2226d0e6d72c9"
 
@@ -5789,7 +5781,7 @@ typescript@2.7.1:
   version "2.7.1"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.7.1.tgz#bb3682c2c791ac90e7c6210b26478a8da085c359"
 
-typescript@^2.2.2:
+"typescript@^2.2.2 < 2.7.0":
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.6.2.tgz#3c5b6fd7f6de0914269027f03c0946758f7673a4"
 
