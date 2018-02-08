@@ -17,7 +17,7 @@
   "license": "ISC",
   "dependencies": {
     "chromeless": "latest",
-    "ramda": "^0.25.0"
+    "ramda": "0.25.0"
   },
   "jest": {
     "transform": {
