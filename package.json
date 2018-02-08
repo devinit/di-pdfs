@@ -20,7 +20,7 @@
 		"less-plugin-clean-css": "1.5.1",
 		"release-it": "6.1.1",
 		"style-loader": "0.20.1",
-		"ts-loader": "3.3.1",
+		"ts-loader": "3.5.0",
 		"jest": "22.1.4",
 		"jest-cli": "22.1.4",
 		"pretty-format": "22.1.0",
