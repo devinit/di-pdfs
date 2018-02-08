@@ -7164,9 +7164,9 @@ relateurl@0.2.x:
   version "0.2.7"
   resolved "https://registry.yarnpkg.com/relateurl/-/relateurl-0.2.7.tgz#54dbf377e51440aca90a4cd274600d3ff2d888a9"
 
-release-it@6.1.1:
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/release-it/-/release-it-6.1.1.tgz#5004644b20e1fc9b6946ba6e084d3358d9a7b1ee"
+release-it@6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/release-it/-/release-it-6.2.0.tgz#055c9847672a8e88d366af3079b8644c59a26364"
   dependencies:
     async-retry "1.1.4"
     babel-preset-env "1.6.1"
