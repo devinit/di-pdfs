@@ -14,7 +14,6 @@
 		"@storybook/addon-actions": "3.3.11",
 		"@storybook/addon-links": "3.3.11",
 		"@storybook/react": "3.3.11",
-		"@types/storybook__react": "3.0.6",
 		"css-loader": "0.28.9",
 		"file-loader": "1.1.6",
 		"less": "2.7.3",
