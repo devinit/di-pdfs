@@ -1,6 +1,6 @@
 {
   "name": "@devinit/print",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "pdf print utilities",
   "main": "lib/index.js",
   "private": true,
@@ -11,7 +11,9 @@
     "lint": "tslint -c tslint.json 'src/**/*.ts'"
   },
   "keywords": [
-    "pdfs", "chromeless", "poppler"
+    "pdfs",
+    "chromeless",
+    "poppler"
   ],
   "author": "epicallan.al@gmail.com",
   "license": "ISC",

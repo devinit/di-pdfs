@@ -1,6 +1,6 @@
 {
   "name": "@devinit/ssc-api",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "ssc api",
   "main": "index.js",
   "scripts": {
@@ -34,8 +34,8 @@
     "shortid": "^2.2.8"
   },
   "devDependencies": {
-    "concurrently": "3.5.1",
-    "@types/node": "9.3.0"
+    "@types/node": "9.3.0",
+    "concurrently": "3.5.1"
   },
   "publishConfig": {
     "access": "public"
