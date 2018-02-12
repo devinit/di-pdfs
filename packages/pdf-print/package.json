@@ -18,7 +18,6 @@
   "author": "epicallan.al@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "chromeless": "latest",
     "puppeteer": "^1.0.0",
     "ramda": "0.25.0"
   },

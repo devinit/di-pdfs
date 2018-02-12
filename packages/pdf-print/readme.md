@@ -1,8 +1,10 @@
 ## PDF Print
 
-Depends on poppler for pdf manipulation. Make sure you have poppler in your system path.
+Depends on poppler for pdf manipulation (splitting & combining pdf pages).
 
-You can install poppler using home brew in macs or apt-get on Ubuntu.
+Make sure you have poppler utils in your system path.
+
+You can install poppler using home brew on macs or apt-get on Ubuntu.
 
 ```
 brew install poppler
@@ -10,5 +12,5 @@ brew install poppler
 
 Goals
 --------
-- Automatically prints PDFs using puppeteer
+- Automatically prints PDFs using [puppeteer](https://github.com/GoogleChrome/puppeteer)
 - Merge Pdfs with poppler

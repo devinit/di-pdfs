@@ -12,18 +12,26 @@ export interface IPrintOpts {
     destDir?: string; // destination directory
 }
 
-export const print = async (opts: IPrintOpts) => {
+export const print = async (opts: IPrintOpts): Promise<any> => {
     const {urls, format = 'A4', destDir = './'} = opts;
-    const browser = await puppeteer.launch();
-    const page = await browser.newPage();
-    urls.forEach(async (url) => {
+    return urls.map(async (url) => {
+        const browser = await puppeteer.launch();
         const _url = new URL (url);
-        const pathname: string | undefined = R.last(_url.pathname.split('/'));
-        const name = pathname ? `${_url.hostname}-${pathname}` : _url.hostname;
+        const pathname: string | undefined = R.last(url.split('/'));
+        let name = _url.hostname; // default
+        if (pathname) {
+            // caters for urls with query tags eg  http://localhost:5000/#!/country/china?print
+            const parsed = pathname.match(/[^?]*/);
+            const base = `${_url.hostname}-${_url.port}`;
+            name = parsed ? `${base}-${parsed[0]}` : `${IDBCursorWithValue}-${pathname}`;
+        }
+        console.log('Url to Print: ', url);
+        const page = await browser.newPage();
         await page.goto(url, {waitUntil: 'networkidle2'});
-        await page.pdf({path: `${destDir}/${name}`, format});
+        await page.pdf({path: `${destDir}/${name}.pdf`, format, printBackground: true});
+        console.log('printed: ', `${destDir}/${name}.pdf`);
+        await browser.close();
     });
-    await browser.close();
 };
 
 /**

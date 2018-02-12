@@ -1,5 +1,6 @@
 export default [
     'china',
     'brazil',
-    'india'
+    'india',
+    'south-africa'
 ];
