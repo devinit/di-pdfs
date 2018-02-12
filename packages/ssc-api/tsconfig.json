@@ -9,6 +9,7 @@
       "typeRoots": ["node_modules/@types", "src/types"],
       "noImplicitAny": false,
       "noUnusedLocals": true,
+      "baseUrl": ".",
       "paths": {
         "react": ["node_modules/@types/react"]
       },

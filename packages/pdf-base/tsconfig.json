@@ -10,6 +10,7 @@
       "typeRoots": ["node_modules/@types", "src/types"],
       "noImplicitAny": false,
       "rootDir": "src",
+      "baseUrl": ".",
       "noUnusedLocals": true,
       "paths": {
         "react": ["node_modules/@types/react"]

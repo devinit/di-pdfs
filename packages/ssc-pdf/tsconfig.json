@@ -8,6 +8,7 @@
       "lib": ["es2017", "dom"],
       "experimentalDecorators": true,
       "typeRoots": ["node_modules/@types", "src/types"],
+      "baseUrl": ".",
       "path": {
         "react": "node_modules/@types/react"
       },
