@@ -9,34 +9,50 @@ const spawnx = util.promisify(spawn);
 export interface IPrintOpts {
     urls: string[];
     format?: 'A4' | 'A3' | 'A2';
-    dest?: string; // destination directory
+    destDir?: string; // destination directory
 }
 
 export const print = async (opts: IPrintOpts) => {
-    const {urls, format = 'A4', dest = './'} = opts;
+    const {urls, format = 'A4', destDir = './'} = opts;
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
     urls.forEach(async (url) => {
         const _url = new URL (url);
         const pathname: string | undefined = R.last(_url.pathname.split('/'));
-        const name = `${_url.hostname}-${pathname || ''}`;
+        const name = pathname ? `${_url.hostname}-${pathname}` : _url.hostname;
         await page.goto(url, {waitUntil: 'networkidle2'});
-        await page.pdf({path: `${dest}/${name}`, format});
+        await page.pdf({path: `${destDir}/${name}`, format});
     });
     await browser.close();
 };
 
-export interface IMergeOptions {
-    pageNumberToMergeAt: number;
-    pdfToMerge: string;
-    originalPdf: string;
-}
-export const splitPdf = async (pdfPath: string): Promise<any> => {
-    const {stdout} = await spawn('pdfseparate', [pdfPath, 'page_%02d.pdf']);
-    console.log(stdout);
-    return stdout;
+/**
+ *
+ * @param outDir should be a full path
+ * @param pdfPath should be a full path
+ */
+export const splitPdfs = async (outDir: string, pdfPath: string): Promise<any> => {
+    try {
+        const fileName: string | undefined = R.last(pdfPath.split('/'));
+        if (!fileName) throw new Error('invalid file path');
+        const name = fileName.split('.')[0];
+        return spawnx('pdfseparate', [pdfPath, `${outDir}/${name}-%02d.pdf`], {});
+    } catch (err) {
+        console.error(err);
+        throw new Error('err');
+    }
 };
 
-export const mergePdfs = async (opts: IMergeOptions) => {
-
+/**
+ *
+ * @param destfile should be a full path to destination file
+ * @param pdfs should be an array of full paths to pdfs
+ */
+export const mergePdfs = async (destFile: string, pdfs: string[]): Promise<any> => {
+    try {
+        return spawnx('pdfunite', [...pdfs, destFile], {});
+    } catch (err) {
+        console.error(err);
+        throw new Error('err');
+    }
 };

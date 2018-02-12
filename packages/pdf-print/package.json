@@ -7,7 +7,7 @@
   "scripts": {
     "test": "jest",
     "build": "tsc",
-    "start": "npm run build && node lib/util/index.js",
+    "start": "npm run build && node lib/ssc/index.js",
     "lint": "tslint -c tslint.json 'src/**/*.ts'"
   },
   "keywords": [
