@@ -13,6 +13,7 @@
 		"@types/shortid": "0.0.29",
 		"@storybook/addon-actions": "3.3.11",
 		"@storybook/addon-links": "3.3.11",
+		"@types/storybook__react": "3.0.6",
 		"@storybook/react": "3.3.11",
 		"css-loader": "0.28.9",
 		"file-loader": "1.1.6",
