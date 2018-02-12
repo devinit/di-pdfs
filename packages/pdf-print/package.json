@@ -5,9 +5,9 @@
   "main": "lib/index.js",
   "private": true,
   "scripts": {
-    "test": "npm run canary && jest",
-    "canary": "canary --remote-debugging-port=9222 --disable-gpu --headless",
+    "test": "jest",
     "build": "tsc",
+    "start": "npm run build && node lib/util/index.js",
     "lint": "tslint -c tslint.json 'src/**/*.ts'"
   },
   "keywords": [
@@ -19,7 +19,11 @@
   "license": "ISC",
   "dependencies": {
     "chromeless": "latest",
+    "puppeteer": "^1.0.0",
     "ramda": "0.25.0"
+  },
+  "devDependencies": {
+    "ts-jest": "22.0.1"
   },
   "jest": {
     "transform": {
