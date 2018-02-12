@@ -9,6 +9,9 @@
       "typeRoots": ["node_modules/@types", "src/types"],
       "noImplicitAny": false,
       "noUnusedLocals": true,
+      "path": {
+        "react": "node_modules/@types/react"
+      },
       "outDir": "lib",
       "removeComments": true
     },

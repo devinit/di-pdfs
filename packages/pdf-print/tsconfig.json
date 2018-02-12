@@ -11,6 +11,9 @@
       "noImplicitAny": false,
       "rootDir": "src",
       "noUnusedLocals": true,
+      "path": {
+        "react": "node_modules/@types/react"
+      },
       "outDir": "lib",
       "removeComments": true
     },
