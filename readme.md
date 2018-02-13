@@ -5,6 +5,7 @@ _____________________________
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/e501f77141774b74979c60d5cfd219ac)](https://www.codacy.com/app/epicallan/di-pdfs?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=devinit/di-pdfs&amp;utm_campaign=Badge_Grade)
 
 For creating DI (ITEP) pdfs
+______________________________
 
 This project structure is based on [lerna](https://github.com/lerna/lerna). The APIs & frontends of different pdf projects are different packages with in the same repo.
 
@@ -13,23 +14,23 @@ The pdf-base package contains components that will get re-used by current & futu
 The thought process behind this project structure is to have re-usable atomic packages / components to re-use for all future and current pdf jobs
 
 Goals
-
 ___________________
 
-- To have ready to go pdf / web templates i.e have re-usable components
-- Auto generate pdfs from web page equivalents using chromeless
-- Create static html versions of pdf / web pages for easy insertion into other webapps
-- Have a modular extensible platform for future re-use
+- [x] To have ready to go pdf / web templates i.e have re-usable components
+- [x] Auto generate pdfs from web page equivalents using chromeless
+- [ ] Create static html versions of pdf / web pages for easy insertion into other webapps
+- [x]Have a modular extensible platform for future re-use
 
 Tools
-
 _________
 
 
 Installations & setup
 
 ```
-npm i -g lerna yarn && lerna bootstrap
+npm i -g lerna yarn 
+npm install # from root
+lerna bootstrap # installs externa dependencies
 ```
 
 
