@@ -12,5 +12,5 @@ brew install poppler
 
 Goals
 --------
-- Automatically prints PDFs using [puppeteer](https://github.com/GoogleChrome/puppeteer)
-- Merge Pdfs with poppler
+- [x] Automatically prints PDFs using [puppeteer](https://github.com/GoogleChrome/puppeteer)
+- [x] Merge Pdfs with poppler
