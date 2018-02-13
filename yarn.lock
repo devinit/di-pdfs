@@ -218,9 +218,13 @@
   version "0.24.18"
   resolved "https://registry.yarnpkg.com/@types/ramda/-/ramda-0.24.18.tgz#2513efcccf47ca13d388d503f309df4b64ba52fc"
 
-"@types/react@*", "@types/react@16.0.36", "@types/react@^16.0.18":
+"@types/react@*", "@types/react@^16.0.18":
   version "16.0.36"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.0.36.tgz#ceb5639013bdb92a94147883052e69bb2c22c69b"
+
+"@types/react@16.0.37":
+  version "16.0.37"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.0.37.tgz#1f62a33034d558ecc7955b3d5bc5270aefa33e11"
 
 "@types/shortid@0.0.29":
   version "0.0.29"
