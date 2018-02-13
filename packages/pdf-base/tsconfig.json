@@ -11,11 +11,10 @@
       "noImplicitAny": false,
       "rootDir": "src",
       "baseUrl": ".",
-      "strictPropertyInitialization": false,
-      "noUnusedLocals": true,
       "paths": {
         "react": ["node_modules/@types/react"]
       },
+      "noUnusedLocals": true,
       "outDir": "lib",
       "removeComments": true
     },

@@ -10,7 +10,7 @@ export interface Props {
 }
 
 class Chart extends React.Component <Props> {
-    public element: HTMLElement | null;
+    public element: HTMLElement | undefined | null;
     public chart: any;
 
     constructor(props: Props) {
