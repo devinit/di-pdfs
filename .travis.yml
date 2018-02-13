@@ -8,7 +8,6 @@ install:
 script:
 - lerna bootstrap
 - lerna run tsc
-- lerna run build --scope @devinit/ssc-pdf
 - lerna run lint
 cache:
 - node_modules
