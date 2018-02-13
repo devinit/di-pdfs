@@ -75,20 +75,18 @@ body {
   margin: 0;
   padding: 0;
 }
-body {
-  -webkit-print-color-adjust: exact;
-  print-color-adjust: exact;
-}
 h1,
 h2 {
   color: #e8443a;
 }
 @page {
-  size: auto;
+  size: 'A4 portrait';
   margin: 0mm;
   box-shadow: none;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
 }
 table,
 blockquote,
