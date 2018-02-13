@@ -19,7 +19,7 @@ ___________________
 - [x] To have ready to go pdf / web templates i.e have re-usable components
 - [x] Auto generate pdfs from web page equivalents using chromeless
 - [ ] Create static html versions of pdf / web pages for easy insertion into other webapps
-- [x]Have a modular extensible platform for future re-use
+- [x] Have a modular extensible platform for future re-use
 
 Tools
 _________
