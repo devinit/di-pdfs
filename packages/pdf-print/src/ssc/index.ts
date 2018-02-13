@@ -6,7 +6,7 @@ import countries from './data';
 import * as os from 'os';
 import {URL} from 'url';
 import * as R from 'ramda';
-import {splitPdfs, print, mergePdfs} from '../util';
+import {splitPdfs, print, mergePdfs} from '../';
 
 const sscBaseUrl = 'http://localhost:7777';
 
