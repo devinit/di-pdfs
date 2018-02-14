@@ -17,8 +17,8 @@ Goals
 ___________________
 
 - [x] To have ready to go pdf / web templates i.e have re-usable components
-- [x] Auto generate pdfs from web page equivalents using chromeless
-- [ ] Create static html versions of pdf / web pages for easy insertion into other webapps
+- [x] Auto generate pdfs from web page equivalents using [puppeteer](https://github.com/GoogleChrome/puppeteer)
+- [ ] Create static html versions of pdf / web pages for easy insertion into other webapps (workes -- ish)
 - [x] Have a modular extensible platform for future re-use
 
 Tools
