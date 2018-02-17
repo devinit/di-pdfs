@@ -24,7 +24,7 @@
     tooltip "^1.6.1"
     tooltip.js "^1.1.4"
 
-"@devinit/graphql-next@^0.1.11":
+"@devinit/graphql-next@^0.1.17":
   version "0.1.17"
   resolved "https://registry.yarnpkg.com/@devinit/graphql-next/-/graphql-next-0.1.17.tgz#c4efd55a84077d57d66a74a38ea4fbeacb595883"
   dependencies:
