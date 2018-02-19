@@ -225,9 +225,9 @@
   version "9.4.5"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-9.4.5.tgz#d2a90c634208173d1b1a0a6ba9f1df3de62edcf5"
 
-"@types/ramda@0.25.17":
-  version "0.25.17"
-  resolved "https://registry.yarnpkg.com/@types/ramda/-/ramda-0.25.17.tgz#2879779be272ba265415baf4cc3299a1f00e1955"
+"@types/ramda@0.25.18":
+  version "0.25.18"
+  resolved "https://registry.yarnpkg.com/@types/ramda/-/ramda-0.25.18.tgz#a026777d780226a08a50a50a353ce901490f0b92"
 
 "@types/react@*", "@types/react@16.0.36", "@types/react@^16.0.18":
   version "16.0.36"
