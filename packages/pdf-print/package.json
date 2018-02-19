@@ -22,7 +22,7 @@
     "ramda": "0.25.0"
   },
   "devDependencies": {
-    "ts-jest": "22.0.1"
+    "ts-jest": "22.0.4"
   },
   "jest": {
     "transform": {
