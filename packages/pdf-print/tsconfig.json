@@ -11,10 +11,6 @@
       "noImplicitAny": false,
       "rootDir": "src",
       "noUnusedLocals": true,
-      "baseUrl": ".",
-      "paths": {
-        "react": ["node_modules/@types/react"]
-      },
       "outDir": "lib",
       "removeComments": true
     },

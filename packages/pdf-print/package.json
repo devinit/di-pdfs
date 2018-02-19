@@ -3,7 +3,9 @@
   "version": "1.0.1",
   "description": "pdf print utilities",
   "main": "lib/index.js",
-  "private": true,
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "jest",
     "build": "tsc",
@@ -22,7 +24,8 @@
     "ramda": "0.25.0"
   },
   "devDependencies": {
-    "ts-jest": "22.0.4"
+    "ts-jest": "22.0.4",
+    "@types/node": "9.4.6"
   },
   "jest": {
     "transform": {
