@@ -34,9 +34,9 @@
     "shortid": "^2.2.8"
   },
   "devDependencies": {
-    "@types/node": "9.3.0",
+    "@types/node": "9.4.6",
     "concurrently": "3.5.1",
-    "ts-jest": "22.0.1"
+    "ts-jest": "22.0.4"
   },
   "publishConfig": {
     "access": "public"
