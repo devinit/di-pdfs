@@ -5216,9 +5216,9 @@ less-plugin-clean-css@1.5.1:
   dependencies:
     clean-css "^3.0.1"
 
-less@3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/less/-/less-3.0.0.tgz#d942ff9fe9f2c53b8b4e6b5c5f1ac434681f7aa5"
+less@3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/less/-/less-3.0.1.tgz#ba2fea24a5632ccb8c84230d6043c0bf91855e37"
   optionalDependencies:
     errno "^0.1.1"
     graceful-fs "^4.1.2"
