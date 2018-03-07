@@ -3,7 +3,7 @@
 		"publish": "lerna publish"
 	},
 	"devDependencies": {
-		"@storybook/react": "3.3.13",
+		"@storybook/react": "3.3.15",
 		"@types/jest": "21.1.10",
 		"@types/next": "2.4.7",
 		"@types/node": "9.4.6",
