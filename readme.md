@@ -47,3 +47,9 @@ lerna run build --scope @devinit/pdf-base # running a command in say one package
 ```
 
 see [lerna repo readme](https://github.com/lerna/lerna) for more.
+
+TODO
+
+------
+
+- [ ] add storybook snapshot testing
