@@ -27,7 +27,7 @@
   "author": "epicallan.al@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "@devinit/graphql-next": "^0.1.17",
+    "@devinit/graphql-next": "^0.3.0",
     "@devinit/pdf-base": "1.0.4",
     "graphql": "0.9.0",
     "ramda": "^0.25.0",
