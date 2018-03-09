@@ -11,8 +11,12 @@ const options = (dataKey: string, groupBy: string) => ({
     height: '180px',
     config: {
         groupBy,
+        labeling: {
+            drawStackedBarSum: dataKey !== 'govmtdepartment',
+        },
         linearAxis: {
             indicator: 'value',
+            axisMaximum: 100
         },
         categoryAxis: {
             indicator: 'year'
