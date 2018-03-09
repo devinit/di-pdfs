@@ -2,11 +2,10 @@ language: node_js
 node_js:
 - v9
 install:
-- npm install
-- npm install -g lerna yarn
+- npm install -g lerna
 - yarn
 script:
-- lerna bootstrap
+- lerna bootstrap --ignore-scripts
 - lerna run tsc
 - lerna run lint
 cache:
