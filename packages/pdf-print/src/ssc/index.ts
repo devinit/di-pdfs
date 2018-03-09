@@ -46,18 +46,17 @@ export const splitOldPdfs = (): Array<Promise<any>> => {
 };
 
 export const combinePdfs = () => {
-    console.log('start combining pdf pages ...');
     countries.forEach(country => {
         const baseOld = baseFileName(oldurl);
         const baseSSC = baseFileName(sscUrl);
-        const pages = R.range(1, 4).map(index =>
+        const pages = R.range(1, 5).map(index =>
             `${outDir}/${baseOld}-${country}-0${index}.pdf`
         );
-        const destFile = `${outDir}/merged-${country}.pdf`;
+        const destFile = `${outDir}/${country}.pdf`;
         const sscFile = `${outDir}/${baseSSC}-${country}.pdf`;
         const firstPages = R.take(2, pages);
-        const lastPages = R.takeLast(2, pages);
-        const pdfs = [...firstPages, sscFile, ...lastPages];
+        // const lastPages = R.take(2, pages);
+        const pdfs = [...firstPages, sscFile, pages[2], pages[3]];
         mergePdfs(destFile, pdfs);
      });
 };

@@ -9,7 +9,7 @@
   "scripts": {
     "test": "jest",
     "build": "tsc",
-    "start": "npm run build && node lib/ssc/index.js",
+    "start": "ts-node src/ssc/index.ts",
     "lint": "tslint -c tslint.json 'src/**/*.ts'"
   },
   "keywords": [
