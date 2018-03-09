@@ -5,7 +5,7 @@ install:
 - npm install -g lerna
 - yarn
 script:
-- lerna bootstrap --ignore-scripts
+- lerna bootstrap
 - lerna run tsc
 - lerna run lint
 cache:
