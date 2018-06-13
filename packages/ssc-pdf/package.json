@@ -41,7 +41,7 @@
     "concurrently": "3.5.1",
     "pretty-format": "22.1.0",
     "ts-jest": "22.4.1",
-    "typescript": "2.7.2"
+    "typescript": "2.9.2"
   },
   "jest": {
     "transform": {
