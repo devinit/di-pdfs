@@ -110,9 +110,9 @@
   version "21.1.10"
   resolved "https://registry.yarnpkg.com/@types/jest/-/jest-21.1.10.tgz#dcacb5217ddf997a090cc822bba219b4b2fd7984"
 
-"@types/next@2.4.8":
-  version "2.4.8"
-  resolved "https://registry.yarnpkg.com/@types/next/-/next-2.4.8.tgz#a8105cb67bd0871d241ab987d275e90fb1061327"
+"@types/next@2.4.12":
+  version "2.4.12"
+  resolved "https://registry.yarnpkg.com/@types/next/-/next-2.4.12.tgz#fb85497ca7d5be9a3f603c6642b77dca5de2cb6e"
   dependencies:
     "@types/node" "*"
     "@types/react" "*"
