@@ -31,7 +31,7 @@
     "next": "4.2.3",
     "ramda": "0.25.0",
     "react": "16.2.0",
-    "react-dom": "16.2.0"
+    "react-dom": "16.2.1"
   },
   "devDependencies": {
     "@types/jest": "21.1.10",
