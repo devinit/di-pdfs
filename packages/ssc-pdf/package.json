@@ -30,8 +30,8 @@
     "graphql": "0.13.1",
     "next": "4.2.3",
     "ramda": "0.25.0",
-    "react": "16.2.0",
-    "react-dom": "16.2.0"
+    "react": "16.14.0",
+    "react-dom": "16.14.0"
   },
   "devDependencies": {
     "@types/jest": "21.1.10",
