@@ -8,7 +8,7 @@
 		"@types/next": "2.4.7",
 		"@types/ramda": "0.25.19",
 		"@types/node": "9.4.7",
-		"@types/react": "16.0.36",
+		"@types/react": "16.14.34",
 		"@types/shortid": "0.0.29",
 		"@types/storybook__react": "3.0.7",
 		"css-loader": "0.28.10",
