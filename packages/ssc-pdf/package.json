@@ -30,14 +30,14 @@
     "graphql": "0.13.1",
     "next": "4.2.3",
     "ramda": "0.25.0",
-    "react": "16.2.0",
-    "react-dom": "16.2.0"
+    "react": "16.14.0",
+    "react-dom": "16.14.0"
   },
   "devDependencies": {
     "@types/jest": "21.1.10",
     "@types/next": "2.4.8",
     "@types/node": "9.4.7",
-    "@types/react": "16.0.34",
+    "@types/react": "16.14.60",
     "concurrently": "3.5.1",
     "pretty-format": "22.1.0",
     "ts-jest": "22.4.1",
