@@ -20,7 +20,7 @@
   "author": "epicallan.al@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "puppeteer": "1.1.1",
+    "puppeteer": "1.13.0",
     "ramda": "0.25.0"
   },
   "devDependencies": {
