@@ -34,7 +34,7 @@
     "shortid": "^2.2.8"
   },
   "devDependencies": {
-    "@types/node": "9.4.7",
+    "@types/node": "9.6.61",
     "concurrently": "3.5.1",
     "ts-jest": "22.4.1"
   },
